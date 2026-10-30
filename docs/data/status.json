@@ -1,9 +1,56 @@
 {
- "run_at": "2026-10-30T10:51:15Z",
+ "run_at": "2026-10-30T12:10:26Z",
  "price_date": "2026-10-29",
  "latest_video": "2026-10-28",
- "new_videos": [],
- "new_calls": [],
+ "new_videos": [
+  {
+   "title": "The Fed Meeting",
+   "video_id": "823JkHQLcEQ",
+   "calls": 10
+  }
+ ],
+ "new_calls": [
+  {
+   "ticker": "META",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "QQQ",
+   "stance": "Bought"
+  },
+  {
+   "ticker": "MRVL",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "BE",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "AMD",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CRWV",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "TSLA",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "MRNA",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "TEM",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "ORCL",
+   "stance": "Neutral"
+  }
+ ],
  "big_moves": [
   {
    "ticker": "MRVL",
@@ -69,7 +116,10 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini failed for 823JkHQLcEQ: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For mor",
+  "Gemini gemini-3.7-flash took 78s",
+  "Gemini transcript OK for 823JkHQLcEQ: 41743 chars",
+  "read 823JkHQLcEQ: 10 calls",
+  "Gemini failed for kvPpxubs0EE: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually tempo",
   "Gemini daily/minute limit reached; remaining videos wait for the next run"
  ]
 }
