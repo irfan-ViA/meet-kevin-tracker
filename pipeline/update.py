@@ -86,7 +86,8 @@ def page_videos():
             pub = re.search(pat, w)
             if pub:
                 break
-        title = re.search(r'<meta name="title" content="([^"]*)"', w) or re.search(r'"title":"((?:[^"\\]|\\.)*)"', w)
+        title = (re.search(r'<meta name="title" content="([^"]+)"', w) or re.search(r'<meta property="og:title" content="([^"]+)"', w)
+                 or re.search(r'<title>(.+?) - YouTube</title>', w))
         if not pub:
             i = w.find("ublish")
             log(f"watch page {vid}: no date ({len(w)} chars) near: {w[max(0, i - 40):i + 80]!r}")
@@ -138,7 +139,11 @@ def pacific_date(iso):
 def transcript(video_id):
     from youtube_transcript_api import YouTubeTranscriptApi
     proxies = None
-    if os.environ.get("TRANSCRIPT_PROXY_URL"):
+    if os.environ.get("WEBSHARE_PROXY_USERNAME") and os.environ.get("WEBSHARE_PROXY_PASSWORD"):
+        from youtube_transcript_api.proxies import WebshareProxyConfig
+        proxies = WebshareProxyConfig(proxy_username=os.environ["WEBSHARE_PROXY_USERNAME"],
+                                      proxy_password=os.environ["WEBSHARE_PROXY_PASSWORD"])
+    elif os.environ.get("TRANSCRIPT_PROXY_URL"):
         from youtube_transcript_api.proxies import GenericProxyConfig
         proxies = GenericProxyConfig(http_url=os.environ["TRANSCRIPT_PROXY_URL"], https_url=os.environ["TRANSCRIPT_PROXY_URL"])
     api = YouTubeTranscriptApi(proxy_config=proxies) if proxies else YouTubeTranscriptApi()
