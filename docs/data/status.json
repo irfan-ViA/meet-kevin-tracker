@@ -1,127 +1,122 @@
 {
- "run_at": "2026-10-30T17:59:59Z",
+ "run_at": "2026-10-30T22:18:09Z",
  "price_date": "2026-10-30",
  "latest_video": "2026-10-28",
  "new_videos": [],
  "new_calls": [],
  "big_moves": [
   {
-   "ticker": "NVDA",
-   "day_pct": -0.05157727230178799,
-   "since_pct": -0.04509683803779285
-  },
-  {
    "ticker": "AVGO",
-   "day_pct": -0.06681159420289862,
-   "since_pct": -0.00399084271748551
+   "day_pct": -0.054840579710145,
+   "since_pct": 0.00878604133151839
   },
   {
    "ticker": "MRVL",
-   "day_pct": -0.12109553906750936,
-   "since_pct": -0.1412717590728062
+   "day_pct": -0.10048548135934776,
+   "since_pct": -0.12113482794111063
   },
   {
    "ticker": "BE",
-   "day_pct": -0.1127080521817364,
-   "since_pct": -0.09425081508013045
+   "day_pct": -0.08605488079172297,
+   "since_pct": -0.06704321072691377
   },
   {
    "ticker": "WDC",
-   "day_pct": -0.07974001669153541,
-   "since_pct": 0.027358197577571408
+   "day_pct": -0.07410030095344078,
+   "since_pct": 0.03365425336683714
+  },
+  {
+   "ticker": "RKT",
+   "day_pct": 0.0738255033557047,
+   "since_pct": 0.09028960817717202
   },
   {
    "ticker": "AMD",
-   "day_pct": -0.11903711027152986,
-   "since_pct": -0.034433715822674515
+   "day_pct": -0.10878853147840817,
+   "since_pct": -0.023200913330366224
   },
   {
    "ticker": "SOFI",
-   "day_pct": -0.05820556501987495,
-   "since_pct": 0.14695712309820186
+   "day_pct": -0.048268029528676815,
+   "since_pct": 0.1590594744121716
   },
   {
    "ticker": "CRWV",
-   "day_pct": -0.11063549555482377,
-   "since_pct": -0.021199492661713948
+   "day_pct": -0.09664142245637153,
+   "since_pct": -0.005798151839101262
   },
   {
    "ticker": "NBIS",
-   "day_pct": -0.11635792778649934,
-   "since_pct": -0.00843217850851452
+   "day_pct": -0.10378510378510386,
+   "since_pct": 0.005676257584654287
   },
   {
    "ticker": "HOOD",
-   "day_pct": -0.09531608254176227,
-   "since_pct": -0.10749676863420943
+   "day_pct": -0.07206026858827397,
+   "since_pct": -0.08455407152089622
   },
   {
    "ticker": "GOOGL",
-   "day_pct": -0.017757733774927842,
-   "since_pct": -0.1419249592169658
+   "day_pct": -0.01402297230639149,
+   "since_pct": -0.13866231647634586
   },
   {
    "ticker": "LITE",
-   "day_pct": -0.10533065805357078,
-   "since_pct": -0.0998683735434105
-  },
-  {
-   "ticker": "GLW",
-   "day_pct": -0.05074487895716939,
-   "since_pct": -0.06753048780487791
+   "day_pct": -0.08572857873043827,
+   "since_pct": -0.08014661633568576
   },
   {
    "ticker": "DELL",
-   "day_pct": -0.12405627641900274,
-   "since_pct": -0.15648352538528532
+   "day_pct": -0.10769489600639315,
+   "since_pct": -0.14072783976994274
   },
   {
    "ticker": "NOW",
-   "day_pct": -0.05069754718701558,
-   "since_pct": -0.306534336908013
+   "day_pct": -0.04148810066563324,
+   "since_pct": -0.29980683407713316
   },
   {
    "ticker": "VRT",
-   "day_pct": -0.06575309043591404,
-   "since_pct": -0.05429324112949696
+   "day_pct": -0.05457059206245929,
+   "since_pct": -0.04297357372190669
   },
   {
    "ticker": "CMG",
-   "day_pct": 0.026681585677749364,
-   "since_pct": 0.11780717020536025
+   "day_pct": 0.019501278772378505,
+   "since_pct": 0.10998955795335896
   },
   {
    "ticker": "TMUS",
-   "day_pct": 0.07196686808337294,
-   "since_pct": 0.06624797406807104
+   "day_pct": 0.062122343675741876,
+   "since_pct": 0.056455969746083134
   },
   {
    "ticker": "TEM",
-   "day_pct": -0.07547533401849948,
-   "since_pct": -0.06063177130922848
+   "day_pct": -0.0721993833504625,
+   "since_pct": -0.057303224122177254
   },
   {
    "ticker": "ORCL",
-   "day_pct": -0.06387933505302368,
-   "since_pct": -0.09613255846132551
+   "day_pct": -0.06370020063055326,
+   "since_pct": -0.09595959595959602
   },
   {
    "ticker": "PLTR",
-   "day_pct": -0.058955299867630484,
+   "day_pct": -0.0626718256796659,
    "since_pct": null
   }
  ],
  "watchlist": [
   {
    "ticker": "SOFI",
-   "price": 16.585,
-   "day_pct": -0.05820556501987495,
+   "price": 16.76,
+   "day_pct": -0.048268029528676815,
    "stance": "Bullish"
   },
   {
    "ticker": "PLTR",
-   "price": 184.84,
-   "day_pct": -0.058955299867630484,
+   "price": 184.11,
+   "day_pct": -0.0626718256796659,
    "stance": "Not mentioned"
   }
  ],
@@ -134,7 +129,7 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini failed for kvPpxubs0EE: gemini-3.8-flash ConnectionError after 262s; gemini-3.7-flash ConnectionError after 263s; interactions HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded for model gemini-3.8-flash (limit: 20 requests per day on Free Tier). Please retry in 12h51m13s or upgrade your tier at https://ai.dev/rate-limit.",
+  "Gemini failed for kvPpxubs0EE: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://a",
   "Gemini daily/minute limit reached; remaining videos wait for the next run"
  ]
 }
