@@ -1,1 +1,59 @@
-{"skipped_ids": ["PlQk8tOSHWw"]}
+{
+ "run_at": "2026-10-30T02:25:31Z",
+ "price_date": "2026-10-29",
+ "latest_video": "2026-10-28",
+ "new_videos": [],
+ "new_calls": [],
+ "big_moves": [
+  {
+   "ticker": "MRVL",
+   "day_pct": -0.1323663818795947,
+   "since_pct": -0.02295610149013283
+  },
+  {
+   "ticker": "WDC",
+   "day_pct": -0.002547802835376589,
+   "since_pct": 0.1163782150823005
+  },
+  {
+   "ticker": "SOFI",
+   "day_pct": 0.02742123687281217,
+   "since_pct": 0.21784232365145217
+  },
+  {
+   "ticker": "CRWV",
+   "day_pct": -0.0498983262943844,
+   "since_pct": 0.10056169595941311
+  },
+  {
+   "ticker": "NBIS",
+   "day_pct": -0.05676209279368205,
+   "since_pct": 0.12213740458015265
+  },
+  {
+   "ticker": "GOOGL",
+   "day_pct": -0.12641201637477295,
+   "since_pct": -0.12641201637477295
+  }
+ ],
+ "watchlist": [
+  {
+   "ticker": "SOFI",
+   "price": 17.61,
+   "day_pct": 0.02742123687281217,
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "PLTR",
+   "price": 196.42,
+   "day_pct": -0.0019816066256796994,
+   "stance": "Not mentioned"
+  }
+ ],
+ "errors": [
+  "Couldn't check YouTube: HTTPError"
+ ],
+ "skipped_ids": [
+  "PlQk8tOSHWw"
+ ]
+}
