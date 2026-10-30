@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Meet Kevin Tracker</title>
+<meta name="theme-color" content="#f6f5f1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16181b" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&family=Newsreader:opsz,wght@6..72,500&display=swap" rel="stylesheet">
+<style>
+/* Layout: one column, phone first; watchlist, alerts, stocks, comments. */
+:root{
+  --bg:#f6f5f1;--panel:#ffffff;--fg:#1d2024;--muted:#6a6f76;--line:#e3e1db;
+  --ok:#17824f;--bad:#c2372f;--warn:#a86200;--accent:#2b5bd7;--chip:#efede7;
+  --sans:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace;--serif:"Newsreader",Georgia,serif;
+}
+@media (prefers-color-scheme:dark){:root{--bg:#16181b;--panel:#1f2226;--fg:#eceae4;--muted:#9aa0a7;--line:#30343a;--ok:#4cc38a;--bad:#ff7a70;--warn:#f0a845;--accent:#8aa9ff;--chip:#2a2e33;color-scheme:dark}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 var(--sans);-webkit-text-size-adjust:100%}
+.wrap{max-width:760px;margin:0 auto;padding:max(12px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) 40px max(16px,env(safe-area-inset-left));display:flex;flex-direction:column;gap:18px}
+header h1{font:500 1.7rem/1.15 var(--serif);margin:8px 0 2px}
+.meta{font-size:.82rem;color:var(--muted)}
+.meta b{color:var(--fg);font-weight:500}
+.issues{font-size:.82rem;color:var(--warn);margin-top:4px}
+h2{font-size:1rem;font-weight:600;margin:0 0 8px}
+.note{font-size:.8rem;color:var(--muted);margin:-4px 0 10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+.grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,15rem),1fr))}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:6px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.tile:focus-visible,.row:focus-visible,.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.tk{font:500 1rem var(--mono)}
+.name{font-size:.78rem;color:var(--muted)}
+.big{font:500 1.5rem var(--serif);font-variant-numeric:tabular-nums}
+.num{font-variant-numeric:tabular-nums}
+.up{color:var(--ok)}.down{color:var(--bad)}
+.pill{display:inline-block;font-size:.72rem;padding:1px 8px;border-radius:99px;border:1px solid var(--line);white-space:nowrap}
+.Bullish,.Bought{color:var(--ok);border-color:var(--ok)}.Bought{font-weight:600}
+.Bearish{color:var(--bad);border-color:var(--bad)}
+.Neutral,.none{color:var(--muted)}
+.new{color:var(--accent);border-color:var(--accent)}.move{color:var(--warn);border-color:var(--warn)}
+.say{font-size:.84rem;margin:0}
+.say small{color:var(--muted)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.chip{font:inherit;font-size:.8rem;border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:99px;padding:4px 12px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.list{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:4.2rem 1fr auto;gap:4px 10px;align-items:center;padding:10px 4px;border-top:1px solid var(--line);cursor:pointer;background:none;border-left:0;border-right:0;border-bottom:0;font:inherit;color:inherit;text-align:left;width:100%}
+.row:first-child{border-top:0}
+.row .r{text-align:right}
+.row .sub{grid-column:2/4;font-size:.76rem;color:var(--muted)}
+.sel{background:var(--chip);border-radius:8px}
+#detail[hidden]{display:none}
+svg{display:block;width:100%;height:auto;overflow:visible}
+.cm{border-top:1px solid var(--line);padding:10px 0}
+.cm:first-child{border-top:0}
+.cm .h{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:.78rem;color:var(--muted)}
+.cm p{margin:4px 0}
+a{color:var(--accent)}
+.close{float:right;font:inherit;font-size:.8rem;background:none;border:1px solid var(--line);border-radius:99px;padding:2px 10px;color:var(--fg);cursor:pointer}
+.empty{color:var(--muted);font-size:.85rem}
+footer{font-size:.75rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Meet Kevin tracker</h1>
+    <div class="meta" id="meta">Loading…</div>
+    <div class="issues" id="issues"></div>
+  </header>
+
+  <section>
+    <h2>My watchlist</h2>
+    <div class="grid" id="watch"></div>
+  </section>
+
+  <section>
+    <h2>Alerts</h2>
+    <p class="note">New call: he talked about it on his latest video day. Big move: 5%+ in a day, or 10%+ since his first mention.</p>
+    <div class="grid" id="alerts"></div>
+  </section>
+
+  <section class="card" id="detail" hidden>
+    <button class="close" id="closeDetail" type="button">Close</button>
+    <h2 id="dTitle"></h2>
+    <div id="chart"></div>
+    <div id="dCalls"></div>
+  </section>
+
+  <section class="card">
+    <h2>Every stock he mentioned</h2>
+    <div class="chips" id="chips"></div>
+    <div class="list" id="stocks"></div>
+  </section>
+
+  <section class="card">
+    <h2>Latest comments</h2>
+    <div id="feed"></div>
+  </section>
+
+  <footer>Calls are Claude's reading of the video transcripts. "Kevin owns" is only what he said on camera. Prices from Yahoo Finance. Information only, not financial advice.</footer>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const pct = (v) => v == null || isNaN(v) ? '—' : (v > 0 ? '+' : '') + (v * 100).toFixed(1) + '%';
+const sign = (v) => v == null ? '' : v > 0 ? 'up' : v < 0 ? 'down' : '';
+const usd = (v) => v == null ? '—' : '$' + (v < 5 ? v.toFixed(3) : v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+const day = (s) => s ? new Date(s + 'T00:00:00Z').toLocaleDateString('en-SG', { day: 'numeric', month: 'short', timeZone: 'UTC' }) : '—';
+const sgt = (iso) => iso ? new Date(iso).toLocaleString('en-SG', { day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit', timeZone: 'Asia/Singapore' }) + ' SGT' : '—';
+let D = {}, stanceFilter = 'All', picked = null;
+
+async function load() {
+  const bust = '?t=' + Date.now();
+  const get = (n) => fetch('data/' + n + '.json' + bust).then((r) => r.json());
+  const [calls, prices, videos, watchlist, status] = await Promise.all(['calls', 'prices', 'videos', 'watchlist', 'status'].map(get));
+  D = { calls, prices, videos, watchlist, status };
+  D.rows = build();
+  draw();
+}
+
+function build() {
+  const { calls, prices, watchlist } = D;
+  const latestDay = calls.reduce((m, c) => c.video_date > m ? c.video_date : m, '');
+  const tickers = [...new Set(calls.map((c) => c.ticker).concat(watchlist.map((w) => w.ticker)))];
+  return tickers.map((t) => {
+    const cs = calls.filter((c) => c.ticker === t);
+    const ps = prices.filter((p) => p.ticker === t).sort((a, b) => a.date < b.date ? -1 : 1);
+    const last = ps[ps.length - 1], prev = ps[ps.length - 2];
+    const first = cs[0] && ps.find((p) => p.date === cs[0].video_date);
+    const dayp = last && prev ? last.close / prev.close - 1 : null;
+    const since = last && first ? last.close / first.close - 1 : null;
+    const stance = cs.length ? (cs.slice().reverse().find((c) => c.stance !== 'Neutral') || cs[cs.length - 1]).stance : 'Not mentioned';
+    const owns = cs.slice().reverse().map((c) => c.owns).find((o) => o !== 'Not stated') || 'Not stated';
+    const isNew = cs.length && cs[cs.length - 1].video_date === latestDay;
+    const big = (dayp != null && Math.abs(dayp) >= .05) || (since != null && Math.abs(since) >= .1);
+    return { t, name: last ? last.name : t, cs, ps, price: last && last.close, dayp, since, stance, owns, isNew, big, watch: watchlist.some((w) => w.ticker === t) };
+  });
+}
+
+function pills(r) {
+  const s = el('span'); s.style.display = 'flex'; s.style.gap = '4px';
+  if (r.isNew) s.append(el('span', 'pill new', 'New call'));
+  if (r.big) s.append(el('span', 'pill move', 'Big move'));
+  return s;
+}
+
+function tile(r, withSay) {
+  const b = el('button', 'tile'); b.type = 'button';
+  b.onclick = () => open(r.t);
+  const top = el('div', 'top'); const nm = el('div'); nm.append(el('div', 'tk', r.t), el('div', 'name', r.name)); top.append(nm, pills(r));
+  const pr = el('div', 'top'); pr.append(el('span', 'big', usd(r.price)), el('span', 'num ' + sign(r.dayp), pct(r.dayp) + ' 1d'));
+  const st = el('div', 'top'); st.append(el('span', 'pill ' + (r.cs.length ? r.stance : 'none'), r.cs.length ? 'Kevin: ' + r.stance : 'Not mentioned yet'), el('span', 'num name ' + sign(r.since), r.since == null ? '' : pct(r.since) + ' since 1st mention'));
+  b.append(top, pr, st);
+  if (withSay) {
+    const c = r.cs[r.cs.length - 1];
+    const p = el('p', 'say'); p.append(c ? c.what_he_said + ' ' : 'Not mentioned in the videos tracked so far.', el('small', '', c ? '(' + day(c.video_date) + ')' : ''));
+    b.append(p);
+  }
+  return b;
+}
+
+function draw() {
+  const s = D.status || {};
+  $('meta').replaceChildren('Last updated ', el('b', '', sgt(s.run_at)), ' · prices to ', el('b', '', day(s.price_date)), ' close · latest video ', el('b', '', day(s.latest_video)), ' · ' + D.videos.length + ' videos read');
+  $('issues').textContent = (s.errors || []).join(' · ');
+  $('watch').replaceChildren(...D.rows.filter((r) => r.watch).map((r) => tile(r, true)));
+  const al = D.rows.filter((r) => r.isNew || r.big).sort((a, b) => (b.big - a.big) || (b.cs.length - a.cs.length));
+  $('alerts').replaceChildren(...(al.length ? al.map((r) => tile(r, false)) : [el('p', 'empty', 'No alerts right now.')]));
+  const chips = ['All', 'Bullish', 'Bought', 'Bearish', 'Neutral'];
+  $('chips').replaceChildren(...chips.map((c) => { const b = el('button', 'chip', c); b.type = 'button'; b.setAttribute('aria-pressed', c === stanceFilter); b.onclick = () => { stanceFilter = c; draw(); }; return b; }));
+  const list = D.rows.filter((r) => r.cs.length && (stanceFilter === 'All' || r.stance === stanceFilter))
+    .sort((a, b) => ((b.isNew || b.big) - (a.isNew || a.big)) || (b.cs.length - a.cs.length) || (a.t < b.t ? -1 : 1));
+  $('stocks').replaceChildren(...list.map((r) => {
+    const b = el('button', 'row' + (r.t === picked ? ' sel' : '')); b.type = 'button'; b.onclick = () => open(r.t);
+    const left = el('div'); left.append(el('div', 'tk', r.t));
+    const mid = el('div'); mid.append(el('span', 'pill ' + r.stance, r.stance));
+    const right = el('div', 'r'); right.append(el('div', 'num', usd(r.price)), el('div', 'num name ' + sign(r.dayp), pct(r.dayp)));
+    const sub = el('div', 'sub', r.cs.length + ' mention' + (r.cs.length > 1 ? 's' : '') + ' · last ' + day(r.cs[r.cs.length - 1].video_date) + ' · Kevin owns: ' + r.owns + (r.since != null ? ' · ' + pct(r.since) + ' since 1st' : ''));
+    b.append(left, mid, right, sub); return b;
+  }));
+  const recent = D.calls.slice().sort((a, b) => (a.video_date < b.video_date ? 1 : a.video_date > b.video_date ? -1 : 0)).slice(0, 25);
+  $('feed').replaceChildren(...recent.map(comment));
+}
+
+function comment(c) {
+  const d = el('div', 'cm'); const h = el('div', 'h');
+  h.append(el('span', 'tk', c.ticker), el('span', 'pill ' + c.stance, c.stance), el('span', '', day(c.video_date)));
+  const a = el('a', '', 'Watch at ' + c.at); a.href = c.link; a.target = '_blank'; a.rel = 'noopener';
+  const p = el('p', '', c.what_he_said);
+  const v = el('div', 'name'); v.append(a, ' · ' + c.video_title);
+  d.append(h, p, v); return d;
+}
+
+function open(t) {
+  picked = t; const r = D.rows.find((x) => x.t === t); if (!r) return;
+  $('detail').hidden = false;
+  $('dTitle').textContent = r.t + ' · ' + r.name;
+  chart(r);
+  const cs = r.cs.slice().reverse();
+  $('dCalls').replaceChildren(...(cs.length ? cs.map(comment) : [el('p', 'empty', 'Kevin has not mentioned this stock in the videos tracked so far.')]));
+  draw();
+  $('detail').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+$('closeDetail').onclick = () => { $('detail').hidden = true; picked = null; draw(); };
+
+function chart(r) {
+  const ps = r.ps; const box = $('chart');
+  if (ps.length < 2) { box.replaceChildren(el('p', 'empty', 'Not enough price data.')); return; }
+  const W = 600, H = 200, L = 52, R = 10, T = 10, B = 24;
+  const lo = Math.min(...ps.map((p) => p.close)), hi = Math.max(...ps.map((p) => p.close)), pad = (hi - lo) * .12 || hi * .03;
+  const y = (v) => T + (1 - (v - (lo - pad)) / ((hi + pad) - (lo - pad))) * (H - T - B);
+  const x = (i) => L + i * (W - L - R) / (ps.length - 1);
+  const css = getComputedStyle(document.documentElement); const c = (n) => css.getPropertyValue(n).trim();
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Daily closes of ${r.t}">`;
+  for (const v of [lo, (lo + hi) / 2, hi]) s += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="${c('--line')}"/><text x="${L - 6}" y="${y(v)}" dy=".32em" text-anchor="end" font-size="11" fill="${c('--muted')}">${usd(v)}</text>`;
+  ps.forEach((p, i) => { if (i % 2 === 0 || i === ps.length - 1) s += `<text x="${x(i)}" y="${H - 6}" text-anchor="middle" font-size="11" fill="${c('--muted')}">${day(p.date)}</text>`; });
+  s += `<polyline fill="none" stroke="${c('--accent')}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" points="${ps.map((p, i) => x(i) + ',' + y(p.close)).join(' ')}"/>`;
+  ps.forEach((p, i) => { const m = r.cs.filter((cc) => cc.video_date === p.date); if (m.length) { const st = m[m.length - 1].stance; const col = st === 'Bearish' ? c('--bad') : st === 'Neutral' ? c('--muted') : c('--ok'); s += `<circle cx="${x(i)}" cy="${y(p.close)}" r="5" fill="${col}" stroke="${c('--panel')}" stroke-width="2"/>`; } });
+  box.innerHTML = s + '</svg><p class="note" style="margin:6px 0 0">Dots mark days Kevin talked about it.</p>';
+}
+
+load().catch((e) => { $('meta').textContent = "Couldn't load the data. Check your connection and pull to refresh."; console.error(e); });
+document.addEventListener('visibilitychange', () => { if (!document.hidden) load().catch(() => {}); });
+</script>
+</body>
+</html>
