@@ -92,6 +92,9 @@ def page_videos():
             log(f"watch page {vid}: no date ({len(w)} chars) near: {w[max(0, i - 40):i + 80]!r}")
             continue
         p = pub.group(1)
+        m = re.search(r"([A-Z][a-z]{2}) (\d{1,2}), (\d{4})", p)
+        if m:  # e.g. "Oct 29, 2026"
+            p = dt.datetime.strptime(" ".join(m.groups()), "%b %d %Y").date().isoformat()
         if len(p) == 10:
             p += "T12:00:00-07:00"
         import html as _h
