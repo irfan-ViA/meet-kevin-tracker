@@ -23,7 +23,7 @@ import requests
 DATA = Path(__file__).resolve().parent.parent / "docs" / "data"
 CHANNEL_HANDLE = "meetkevin"
 CHANNEL_ID_FALLBACK = "UCUvvj5lwue7PspotMDjk5UA"
-MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5")
+MODEL = os.environ.get("CLAUDE_MODEL", "claude-haiku-5-5")
 MAX_NEW_VIDEOS = int(os.environ.get("MAX_NEW_VIDEOS", "6"))
 MAX_VIDEO_SECONDS = 60 * 60  # skip long livestreams
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
