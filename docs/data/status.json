@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-30T02:31:51Z",
+ "run_at": "2026-10-30T02:33:56Z",
  "price_date": "2026-10-29",
  "latest_video": "2026-10-28",
  "new_videos": [],
@@ -51,15 +51,17 @@
   }
  ],
  "errors": [
-  "Couldn't check YouTube: ValueError: Invalid isoformat string: 'Oct 29, 2026'"
+  "No transcript yet: ",
+  "No transcript yet: "
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
  ],
  "log": [
   "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
-  "videos page: HTTP 200, 1336606 chars",
+  "videos page: HTTP 200, 1333235 chars",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "video step failed: Invalid isoformat string: 'Oct 29, 2026'"
+  "transcript not ready for pmqaaMHfcm8 (RequestBlocked); will retry",
+  "transcript not ready for sP9bfi2Tbvg (RequestBlocked); will retry"
  ]
 }
