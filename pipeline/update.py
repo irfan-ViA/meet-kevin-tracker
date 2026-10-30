@@ -137,6 +137,52 @@ def pacific_date(iso):
 
 # ---------- 2. transcripts ----------
 def transcript(video_id):
+    """Captions via youtube-transcript-api; if YouTube blocks it, try yt-dlp (the method the /watch skills use)."""
+    try:
+        return transcript_api(video_id)
+    except Exception as e:  # noqa: BLE001
+        log(f"transcript-api failed for {video_id}: {type(e).__name__}; trying yt-dlp")
+        return transcript_ytdlp(video_id)
+
+
+def transcript_ytdlp(video_id):
+    import glob
+    import subprocess
+    import tempfile
+    d = tempfile.mkdtemp()
+    cmd = ["yt-dlp", "--skip-download", "--write-auto-subs", "--write-subs", "--sub-langs", "en.*,en",
+           "--sub-format", "json3", "-o", f"{d}/%(id)s.%(ext)s", f"https://www.youtube.com/watch?v={video_id}"]
+    proxy = os.environ.get("TRANSCRIPT_PROXY_URL")
+    if proxy:
+        cmd[1:1] = ["--proxy", proxy]
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
+    files = glob.glob(f"{d}/*.json3")
+    if not files:
+        msg = (r.stderr or r.stdout).strip().splitlines()
+        log(f"yt-dlp failed for {video_id}: {msg[-1][:200] if msg else r.returncode}")
+        raise RuntimeError("yt-dlp got no captions")
+    events = json.load(open(files[0])).get("events", [])
+    parts, last, end = [], -99, 0
+    for ev in events:
+        segs = ev.get("segs")
+        if not segs:
+            continue
+        start = ev.get("tStartMs", 0) / 1000
+        end = max(end, start + ev.get("dDurationMs", 0) / 1000)
+        text = "".join(x.get("utf8", "") for x in segs).replace("\n", " ").strip()
+        if not text:
+            continue
+        if start - last >= 20:
+            parts.append(f"[{mmss(start)}]")
+            last = start
+        parts.append(text)
+    if not parts:
+        raise RuntimeError("yt-dlp captions empty")
+    log(f"yt-dlp OK for {video_id}")
+    return " ".join(parts), end
+
+
+def transcript_api(video_id):
     from youtube_transcript_api import YouTubeTranscriptApi
     proxies = None
     if os.environ.get("WEBSHARE_PROXY_USERNAME") and os.environ.get("WEBSHARE_PROXY_PASSWORD"):
