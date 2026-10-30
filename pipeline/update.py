@@ -136,10 +136,10 @@ def pacific_date(iso):
 
 
 # ---------- 2. transcripts ----------
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.7-flash")
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 # Try the newest model first, then steadier ones when Google reports high demand.
-GEMINI_MODELS = [GEMINI_MODEL] + [m for m in ("gemini-2.5-flash", "gemini-2.5-pro") if m != GEMINI_MODEL]
-GEMINI_TIMEOUT = int(os.environ.get("GEMINI_TIMEOUT", "240"))
+GEMINI_MODELS = [GEMINI_MODEL] + [m for m in ("gemini-3.7-flash",) if m != GEMINI_MODEL]
+GEMINI_TIMEOUT = int(os.environ.get("GEMINI_TIMEOUT", "360"))
 DEADLINE = time.time() + int(os.environ.get("VIDEO_TIME_BUDGET", "1800"))  # stop starting new videos after 20 min
 GEMINI_PROMPT = ("Transcribe everything spoken in this video as accurately as you can, in order. "
                  "Put a timestamp marker like [12:34] (or [1:02:03]) before the text roughly every 20 seconds. "
@@ -322,14 +322,19 @@ def extract(title, text):
     for attempt in range(3):
         try:
             msg = client.messages.create(
-                model=MODEL, max_tokens=4000, tools=[TOOL],
-                tool_choice={"type": "tool", "name": "record_calls"},
-                messages=[{"role": "user", "content": PROMPT.format(title=title, text=text[:120000])}],
+                model=MODEL, max_tokens=6000, tools=[TOOL], tool_choice={"type": "auto"},
+                messages=[{"role": "user", "content": PROMPT.format(title=title, text=text[:120000])
+                           + "\n\nCall the record_calls tool exactly once with your list (an empty list is fine)."}],
             )
             for block in msg.content:
                 if block.type == "tool_use":
                     return block.input.get("calls", [])
-            return []
+            # No tool call: accept a JSON object in the text as a fallback.
+            raw = "".join(getattr(b, "text", "") for b in msg.content)
+            m = re.search(r"\{.*\}", raw, re.S)
+            if m:
+                return json.loads(m.group(0)).get("calls", [])
+            raise RuntimeError("no tool call in reply")
         except Exception as e:  # noqa: BLE001
             log(f"Claude call failed ({attempt + 1}/3): {e}")
             time.sleep(5 * (attempt + 1))
@@ -450,7 +455,12 @@ def main():
                 log(f"skip long stream {v['video_id']}")
                 skipped.add(v["video_id"])
                 continue
-            found = extract(v["title"], text)
+            try:
+                found = extract(v["title"], text)
+            except Exception as e:  # noqa: BLE001
+                log(f"reading calls failed for {v['video_id']}: {e}; will retry")
+                errors.append(f"Couldn't read calls yet: {v['title']}")
+                continue
             date = pacific_date(v["published_at"])
             n = max([int(c["id"][1:]) for c in calls if c["id"][1:].isdigit()], default=0)
             for c in found:
