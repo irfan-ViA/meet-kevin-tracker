@@ -205,6 +205,10 @@ def transcript_gemini(video_id):
     return text, end
 
 
+class QuotaHit(Exception):
+    pass
+
+
 def transcript(video_id):
     """Gemini first (works from cloud servers), then captions via youtube-transcript-api, then yt-dlp."""
     if os.environ.get("GEMINI_API_KEY"):
@@ -212,6 +216,8 @@ def transcript(video_id):
             return transcript_gemini(video_id)
         except Exception as e:  # noqa: BLE001
             log(f"Gemini failed for {video_id}: {str(e)[:300]}")
+            if "HTTP 429" in str(e):
+                raise QuotaHit(str(e)[:200]) from None
     try:
         return transcript_api(video_id)
     except Exception as e:  # noqa: BLE001
@@ -305,7 +311,8 @@ List every individual stock or ETF he gives a view on. Be conservative and never
 - Bullish: he expresses a positive view or says it's cheap / a buy.
 - Bought: he says he, or his membership, bought it, added to it, or sent a buy alert.
 - Bearish: he expresses a negative view, avoids it, or says it's expensive / a sell.
-- Neutral: only mentioned in passing, as news, or as an upcoming catalyst.
+- Neutral: he comments on the stock or its news without a clear positive or negative view.
+Do NOT list stocks that are only named in a list of upcoming earnings reports or catalysts with no comment about the company.
 "owns" is Yes/No only if he states it on camera, otherwise "Not stated".
 One entry per stock per distinct view (usually one per stock). Skip sponsors, indexes he only references (S&P 500), private companies (OpenAI, Anthropic, SpaceX) and crypto.
 If he names a company, convert it to its US ticker (Marvell -> MRVL, Google -> GOOGL, Berkshire -> BRK-B).
@@ -443,12 +450,16 @@ def main():
                 break
             try:
                 text, dur = transcript(v["video_id"])
+            except QuotaHit:
+                log("Gemini daily/minute limit reached; remaining videos wait for the next run")
+                errors.append("Gemini limit reached; more videos will be read on the next runs")
+                break
             except Exception as e:  # noqa: BLE001
                 age_h = (NOW - dt.datetime.fromisoformat(v["published_at"].replace("Z", "+00:00"))).total_seconds() / 3600
                 log(f"transcript not ready for {v['video_id']} ({type(e).__name__}); will retry")
                 write_status_partial()
                 errors.append(f"No transcript yet: {v['title']}")
-                if age_h > 48:
+                if age_h > 120:
                     skipped.add(v["video_id"])
                 continue
             if dur > MAX_VIDEO_SECONDS:
