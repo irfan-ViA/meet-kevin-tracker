@@ -1,109 +1,127 @@
 {
- "run_at": "2026-10-30T12:10:26Z",
- "price_date": "2026-10-29",
+ "run_at": "2026-10-30T17:59:59Z",
+ "price_date": "2026-10-30",
  "latest_video": "2026-10-28",
- "new_videos": [
+ "new_videos": [],
+ "new_calls": [],
+ "big_moves": [
   {
-   "title": "The Fed Meeting",
-   "video_id": "823JkHQLcEQ",
-   "calls": 10
-  }
- ],
- "new_calls": [
-  {
-   "ticker": "META",
-   "stance": "Neutral"
+   "ticker": "NVDA",
+   "day_pct": -0.05157727230178799,
+   "since_pct": -0.04509683803779285
   },
   {
-   "ticker": "QQQ",
-   "stance": "Bought"
+   "ticker": "AVGO",
+   "day_pct": -0.06681159420289862,
+   "since_pct": -0.00399084271748551
   },
   {
    "ticker": "MRVL",
-   "stance": "Neutral"
+   "day_pct": -0.12109553906750936,
+   "since_pct": -0.1412717590728062
   },
   {
    "ticker": "BE",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AMD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CRWV",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "TSLA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MRNA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "TEM",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "ORCL",
-   "stance": "Neutral"
-  }
- ],
- "big_moves": [
-  {
-   "ticker": "MRVL",
-   "day_pct": -0.1323663818795947,
-   "since_pct": -0.02295610149013283
+   "day_pct": -0.1127080521817364,
+   "since_pct": -0.09425081508013045
   },
   {
    "ticker": "WDC",
-   "day_pct": -0.002547802835376589,
-   "since_pct": 0.1163782150823005
+   "day_pct": -0.07974001669153541,
+   "since_pct": 0.027358197577571408
+  },
+  {
+   "ticker": "AMD",
+   "day_pct": -0.11903711027152986,
+   "since_pct": -0.034433715822674515
   },
   {
    "ticker": "SOFI",
-   "day_pct": 0.02742123687281217,
-   "since_pct": 0.21784232365145217
+   "day_pct": -0.05820556501987495,
+   "since_pct": 0.14695712309820186
   },
   {
    "ticker": "CRWV",
-   "day_pct": -0.0498983262943844,
-   "since_pct": 0.10056169595941311
+   "day_pct": -0.11063549555482377,
+   "since_pct": -0.021199492661713948
   },
   {
    "ticker": "NBIS",
-   "day_pct": -0.05676209279368205,
-   "since_pct": 0.12213740458015265
+   "day_pct": -0.11635792778649934,
+   "since_pct": -0.00843217850851452
+  },
+  {
+   "ticker": "HOOD",
+   "day_pct": -0.09531608254176227,
+   "since_pct": -0.10749676863420943
   },
   {
    "ticker": "GOOGL",
-   "day_pct": -0.12641201637477295,
-   "since_pct": -0.12641201637477295
+   "day_pct": -0.017757733774927842,
+   "since_pct": -0.1419249592169658
+  },
+  {
+   "ticker": "LITE",
+   "day_pct": -0.10533065805357078,
+   "since_pct": -0.0998683735434105
+  },
+  {
+   "ticker": "GLW",
+   "day_pct": -0.05074487895716939,
+   "since_pct": -0.06753048780487791
+  },
+  {
+   "ticker": "DELL",
+   "day_pct": -0.12405627641900274,
+   "since_pct": -0.15648352538528532
   },
   {
    "ticker": "NOW",
-   "day_pct": -0.2694997668687138,
-   "since_pct": -0.2694997668687138
+   "day_pct": -0.05069754718701558,
+   "since_pct": -0.306534336908013
+  },
+  {
+   "ticker": "VRT",
+   "day_pct": -0.06575309043591404,
+   "since_pct": -0.05429324112949696
   },
   {
    "ticker": "CMG",
-   "day_pct": 0.08875739644970415,
-   "since_pct": 0.08875739644970415
+   "day_pct": 0.026681585677749364,
+   "since_pct": 0.11780717020536025
+  },
+  {
+   "ticker": "TMUS",
+   "day_pct": 0.07196686808337294,
+   "since_pct": 0.06624797406807104
+  },
+  {
+   "ticker": "TEM",
+   "day_pct": -0.07547533401849948,
+   "since_pct": -0.06063177130922848
+  },
+  {
+   "ticker": "ORCL",
+   "day_pct": -0.06387933505302368,
+   "since_pct": -0.09613255846132551
+  },
+  {
+   "ticker": "PLTR",
+   "day_pct": -0.058955299867630484,
+   "since_pct": null
   }
  ],
  "watchlist": [
   {
    "ticker": "SOFI",
-   "price": 17.61,
-   "day_pct": 0.02742123687281217,
+   "price": 16.585,
+   "day_pct": -0.05820556501987495,
    "stance": "Bullish"
   },
   {
    "ticker": "PLTR",
-   "price": 196.42,
-   "day_pct": -0.0019816066256796994,
+   "price": 184.84,
+   "day_pct": -0.058955299867630484,
    "stance": "Not mentioned"
   }
  ],
@@ -116,10 +134,7 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.7-flash took 78s",
-  "Gemini transcript OK for 823JkHQLcEQ: 41743 chars",
-  "read 823JkHQLcEQ: 10 calls",
-  "Gemini failed for kvPpxubs0EE: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually tempo",
+  "Gemini failed for kvPpxubs0EE: gemini-3.8-flash ConnectionError after 262s; gemini-3.7-flash ConnectionError after 263s; interactions HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded for model gemini-3.8-flash (limit: 20 requests per day on Free Tier). Please retry in 12h51m13s or upgrade your tier at https://ai.dev/rate-limit.",
   "Gemini daily/minute limit reached; remaining videos wait for the next run"
  ]
 }
