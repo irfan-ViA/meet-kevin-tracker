@@ -68,9 +68,34 @@ def channel_id():
     return CHANNEL_ID_FALLBACK
 
 
+def page_videos():
+    """Backup: read the channel's Videos tab when the RSS feed is unavailable."""
+    html = requests.get(f"https://www.youtube.com/@{CHANNEL_HANDLE}/videos", headers=UA, timeout=30)
+    log(f"videos page: HTTP {html.status_code}, {len(html.text)} chars")
+    html.raise_for_status()
+    ids = list(dict.fromkeys(re.findall(r'"videoId":"([\w-]{11})"', html.text)))[:15]
+    out = []
+    for vid in ids:
+        w = requests.get(f"https://www.youtube.com/watch?v={vid}", headers=UA, timeout=30).text
+        pub = re.search(r'"(?:publishDate|uploadDate)":"([^"]+)"', w)
+        title = re.search(r'<meta name="title" content="([^"]*)"', w) or re.search(r'"title":"((?:[^"\\]|\\.)*)"', w)
+        if not pub:
+            continue
+        p = pub.group(1)
+        if len(p) == 10:
+            p += "T12:00:00-07:00"
+        import html as _h
+        out.append({"video_id": vid, "title": _h.unescape(title.group(1)) if title else vid,
+                    "published_at": p, "short": False})
+        time.sleep(0.5)
+    return out
+
+
 def feed_videos(cid):
     r = requests.get(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}", headers=UA, timeout=30)
-    r.raise_for_status()
+    log(f"feed: HTTP {r.status_code} for channel {cid}")
+    if r.status_code != 200:
+        return page_videos()
     ns = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
     out = []
     for e in ET.fromstring(r.content).findall("a:entry", ns):
@@ -295,7 +320,7 @@ def main():
             save("videos", videos)
     except Exception as e:  # noqa: BLE001
         log(f"video step failed: {e}")
-        errors.append(f"Couldn't check YouTube: {type(e).__name__}")
+        errors.append(f"Couldn't check YouTube: {type(e).__name__}: {str(e)[:120]}")
 
     # 4. prices
     tickers = list(dict.fromkeys([c["ticker"] for c in calls] + [w["ticker"] for w in watchlist]))
@@ -326,6 +351,7 @@ def main():
         "watchlist": [{"ticker": r["ticker"], "price": r["price"], "day_pct": r["day_pct"], "stance": r["stance"]} for r in rows if r["on_watchlist"]],
         "errors": errors,
         "skipped_ids": sorted(skipped),
+        "log": log_lines[-40:],
     })
     log(f"done: {len(new_videos)} new videos, {len(new_call_ids)} new calls, {len(errors)} issues")
     return 0
