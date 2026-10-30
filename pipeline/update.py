@@ -24,7 +24,7 @@ DATA = Path(__file__).resolve().parent.parent / "docs" / "data"
 CHANNEL_HANDLE = "meetkevin"
 CHANNEL_ID_FALLBACK = "UCUvvj5lwue7PspotMDjk5UA"
 MODEL = os.environ.get("CLAUDE_MODEL", "claude-sonnet-5-5")
-MAX_NEW_VIDEOS = int(os.environ.get("MAX_NEW_VIDEOS", "12"))
+MAX_NEW_VIDEOS = int(os.environ.get("MAX_NEW_VIDEOS", "6"))
 MAX_VIDEO_SECONDS = 60 * 60  # skip long livestreams
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
       "Accept-Language": "en-US,en;q=0.9"}
@@ -137,6 +137,8 @@ def pacific_date(iso):
 
 # ---------- 2. transcripts ----------
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.7-flash")
+GEMINI_TIMEOUT = int(os.environ.get("GEMINI_TIMEOUT", "300"))
+DEADLINE = time.time() + int(os.environ.get("VIDEO_TIME_BUDGET", "1200"))  # stop starting new videos after 20 min
 GEMINI_PROMPT = ("Transcribe everything spoken in this video as accurately as you can, in order. "
                  "Put a timestamp marker like [12:34] (or [1:02:03]) before the text roughly every 20 seconds. "
                  "Output only the transcript text with the markers, nothing else.")
@@ -149,26 +151,37 @@ def transcript_gemini(video_id):
     url = f"https://www.youtube.com/watch?v={video_id}"
     headers = {"x-goog-api-key": key, "Content-Type": "application/json"}
     base = "https://generativelanguage.googleapis.com/v1beta"
-    text, err = None, None
-    try:  # Interactions API (what claude-video uses)
-        r = requests.post(f"{base}/interactions", headers=headers, timeout=900, json={
-            "model": GEMINI_MODEL,
-            "input": [{"type": "video", "uri": url, "processing": "agentic"}, {"type": "text", "text": GEMINI_PROMPT}]})
+    text, errs = None, []
+    t0 = time.time()
+    try:  # classic generateContent with the YouTube link as file_uri
+        r = requests.post(f"{base}/models/{GEMINI_MODEL}:generateContent", headers=headers, timeout=GEMINI_TIMEOUT, json={
+            "contents": [{"parts": [{"file_data": {"file_uri": url}}, {"text": GEMINI_PROMPT}]}],
+            "generationConfig": {"mediaResolution": "MEDIA_RESOLUTION_LOW", "maxOutputTokens": 32000}})
         if r.ok:
             d = r.json()
-            text = "\n".join(p["text"] for st in d.get("steps", []) if st.get("type") == "model_output"
-                             for p in st.get("content", []) if p.get("type") == "text" and p.get("text"))
+            text = "\n".join(p.get("text", "") for c in d.get("candidates", []) for p in c.get("content", {}).get("parts", []))
+            if not text:
+                errs.append(f"generateContent empty: {json.dumps(d)[:200]}")
         else:
-            err = f"interactions HTTP {r.status_code}: {r.text[:200]}"
+            errs.append(f"generateContent HTTP {r.status_code}: {r.text[:250]}")
     except Exception as e:  # noqa: BLE001
-        err = f"interactions {type(e).__name__}"
-    if not text:  # classic generateContent with a YouTube file_uri
-        r = requests.post(f"{base}/models/{GEMINI_MODEL}:generateContent", headers=headers, timeout=900, json={
-            "contents": [{"parts": [{"file_data": {"file_uri": url}}, {"text": GEMINI_PROMPT}]}]})
-        if not r.ok:
-            raise RuntimeError(f"Gemini failed ({err}; generateContent HTTP {r.status_code}: {r.text[:200]})")
-        d = r.json()
-        text = "\n".join(p.get("text", "") for c in d.get("candidates", []) for p in c.get("content", {}).get("parts", []))
+        errs.append(f"generateContent {type(e).__name__} after {int(time.time() - t0)}s")
+    if not text and time.time() < DEADLINE:  # Interactions API (what claude-video uses)
+        t0 = time.time()
+        try:
+            r = requests.post(f"{base}/interactions", headers=headers, timeout=GEMINI_TIMEOUT, json={
+                "model": GEMINI_MODEL,
+                "input": [{"type": "video", "uri": url, "processing": "agentic"}, {"type": "text", "text": GEMINI_PROMPT}]})
+            if r.ok:
+                d = r.json()
+                text = "\n".join(p["text"] for st in d.get("steps", []) if st.get("type") == "model_output"
+                                 for p in st.get("content", []) if p.get("type") == "text" and p.get("text"))
+            else:
+                errs.append(f"interactions HTTP {r.status_code}: {r.text[:250]}")
+        except Exception as e:  # noqa: BLE001
+            errs.append(f"interactions {type(e).__name__} after {int(time.time() - t0)}s")
+    if not text:
+        raise RuntimeError("; ".join(errs).replace(key, "[key]"))
     text = text.replace(key, "")
     if len(text) < 200:
         raise RuntimeError("Gemini transcript too short")
@@ -365,6 +378,14 @@ def tracker_rows(calls, prices, watchlist, new_ids):
     return rows
 
 
+def write_status_partial():
+    """Save the log as we go, so a cancelled run still shows what happened."""
+    st = load("status", {})
+    st["log"] = log_lines[-40:]
+    st["log_at"] = dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    save("status", st)
+
+
 def main():
     calls = load("calls", [])
     videos = load("videos", [])
@@ -398,11 +419,15 @@ def main():
             errors.append("ANTHROPIC_API_KEY not set yet, so new videos weren't read")
             todo = []
         for v in todo[:MAX_NEW_VIDEOS]:
+            if time.time() > DEADLINE:
+                log("time budget used; remaining videos wait for the next run")
+                break
             try:
                 text, dur = transcript(v["video_id"])
             except Exception as e:  # noqa: BLE001
                 age_h = (NOW - dt.datetime.fromisoformat(v["published_at"].replace("Z", "+00:00"))).total_seconds() / 3600
                 log(f"transcript not ready for {v['video_id']} ({type(e).__name__}); will retry")
+                write_status_partial()
                 errors.append(f"No transcript yet: {v['title']}")
                 if age_h > 48:
                     skipped.add(v["video_id"])
@@ -431,6 +456,7 @@ def main():
                            "url": f"https://www.youtube.com/watch?v={v['video_id']}"})
             new_videos.append({"title": v["title"], "video_id": v["video_id"], "calls": len(found)})
             log(f"read {v['video_id']}: {len(found)} calls")
+            write_status_partial()
             save("calls", calls)
             save("videos", videos)
     except Exception as e:  # noqa: BLE001
