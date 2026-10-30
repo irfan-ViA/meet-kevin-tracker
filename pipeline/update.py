@@ -137,8 +137,10 @@ def pacific_date(iso):
 
 # ---------- 2. transcripts ----------
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.7-flash")
-GEMINI_TIMEOUT = int(os.environ.get("GEMINI_TIMEOUT", "300"))
-DEADLINE = time.time() + int(os.environ.get("VIDEO_TIME_BUDGET", "1200"))  # stop starting new videos after 20 min
+# Try the newest model first, then steadier ones when Google reports high demand.
+GEMINI_MODELS = [GEMINI_MODEL] + [m for m in ("gemini-2.5-flash", "gemini-2.5-pro") if m != GEMINI_MODEL]
+GEMINI_TIMEOUT = int(os.environ.get("GEMINI_TIMEOUT", "240"))
+DEADLINE = time.time() + int(os.environ.get("VIDEO_TIME_BUDGET", "1800"))  # stop starting new videos after 20 min
 GEMINI_PROMPT = ("Transcribe everything spoken in this video as accurately as you can, in order. "
                  "Put a timestamp marker like [12:34] (or [1:02:03]) before the text roughly every 20 seconds. "
                  "Output only the transcript text with the markers, nothing else.")
@@ -152,20 +154,32 @@ def transcript_gemini(video_id):
     headers = {"x-goog-api-key": key, "Content-Type": "application/json"}
     base = "https://generativelanguage.googleapis.com/v1beta"
     text, errs = None, []
-    t0 = time.time()
-    try:  # classic generateContent with the YouTube link as file_uri
-        r = requests.post(f"{base}/models/{GEMINI_MODEL}:generateContent", headers=headers, timeout=GEMINI_TIMEOUT, json={
-            "contents": [{"parts": [{"file_data": {"file_uri": url}}, {"text": GEMINI_PROMPT}]}],
-            "generationConfig": {"mediaResolution": "MEDIA_RESOLUTION_LOW", "maxOutputTokens": 32000}})
-        if r.ok:
-            d = r.json()
-            text = "\n".join(p.get("text", "") for c in d.get("candidates", []) for p in c.get("content", {}).get("parts", []))
-            if not text:
-                errs.append(f"generateContent empty: {json.dumps(d)[:200]}")
-        else:
-            errs.append(f"generateContent HTTP {r.status_code}: {r.text[:250]}")
-    except Exception as e:  # noqa: BLE001
-        errs.append(f"generateContent {type(e).__name__} after {int(time.time() - t0)}s")
+    for model in GEMINI_MODELS:
+        if text or time.time() > DEADLINE:
+            break
+        t0 = time.time()
+        try:  # generateContent with the YouTube link as file_uri; few frames, since only speech matters
+            r = requests.post(f"{base}/models/{model}:generateContent", headers=headers, timeout=GEMINI_TIMEOUT, json={
+                "contents": [{"parts": [
+                    {"file_data": {"file_uri": url}, "videoMetadata": {"fps": 0.05, "endOffset": "2700s"}},
+                    {"text": GEMINI_PROMPT}]}],
+                "generationConfig": {"mediaResolution": "MEDIA_RESOLUTION_LOW", "maxOutputTokens": 32000}})
+            if r.ok:
+                d = r.json()
+                text = "\n".join(p.get("text", "") for c in d.get("candidates", []) for p in c.get("content", {}).get("parts", []))
+                if text:
+                    log(f"Gemini {model} took {int(time.time() - t0)}s")
+                else:
+                    errs.append(f"{model} empty: {json.dumps(d)[:150]}")
+            else:
+                msg = r.text
+                try:
+                    msg = r.json()["error"]["message"]
+                except Exception:  # noqa: BLE001
+                    pass
+                errs.append(f"{model} HTTP {r.status_code}: {msg[:160]}")
+        except Exception as e:  # noqa: BLE001
+            errs.append(f"{model} {type(e).__name__} after {int(time.time() - t0)}s")
     if not text and time.time() < DEADLINE:  # Interactions API (what claude-video uses)
         t0 = time.time()
         try:
