@@ -1,9 +1,76 @@
 {
- "run_at": "2026-10-30T09:19:16Z",
+ "run_at": "2026-10-30T09:40:43Z",
  "price_date": "2026-10-29",
  "latest_video": "2026-10-28",
- "new_videos": [],
- "new_calls": [],
+ "new_videos": [
+  {
+   "title": "Prepare for the Fed Meeting (and War???)",
+   "video_id": "se0B_kkt7kw",
+   "calls": 15
+  }
+ ],
+ "new_calls": [
+  {
+   "ticker": "META",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "AAPL",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "QQQ",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "AVGO",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "GEV",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CRWV",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "MSFT",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "GOOGL",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "NOW",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "VRT",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CMG",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "TMUS",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "FDX",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "EBAY",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "F",
+   "stance": "Neutral"
+  }
+ ],
  "big_moves": [
   {
    "ticker": "MRVL",
@@ -34,6 +101,16 @@
    "ticker": "GOOGL",
    "day_pct": -0.12641201637477295,
    "since_pct": -0.12641201637477295
+  },
+  {
+   "ticker": "NOW",
+   "day_pct": -0.2694997668687138,
+   "since_pct": -0.2694997668687138
+  },
+  {
+   "ticker": "CMG",
+   "day_pct": 0.08875739644970415,
+   "since_pct": 0.08875739644970415
   }
  ],
  "watchlist": [
@@ -51,10 +128,11 @@
   }
  ],
  "errors": [
-  "No transcript yet: Prepare for the Fed Meeting (and War???)",
   "No transcript yet: The Fed Meeting",
   "No transcript yet: Microsoft Stock & Google Earnings & Bessent",
-  "Couldn't check YouTube: RuntimeError: Claude extraction failed"
+  "No transcript yet: We need to Talk.",
+  "No transcript yet: Negative One Trillion Dollars.",
+  "No transcript yet: Now What. The Morning After the Fed & Google Disasters."
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
@@ -62,22 +140,28 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini failed for se0B_kkt7kw: gemini-3.7-flash ReadTimeout after 240s; gemini-2.5-flash HTTP 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and impro; gemini-2.5-pro HTTP 404: This model models/gemini-2.5-pro is no longer",
-  "transcript-api failed for se0B_kkt7kw: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for se0B_kkt7kw: ERROR: [youtube] se0B_kkt7kw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for se0B_kkt7kw (RuntimeError); will retry",
-  "Gemini failed for 823JkHQLcEQ: gemini-3.7-flash ReadTimeout after 240s; gemini-2.5-flash HTTP 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and impro; gemini-2.5-pro HTTP 404: This model models/gemini-2.5-pro is no longer",
+  "Gemini gemini-3.7-flash took 227s",
+  "Gemini transcript OK for se0B_kkt7kw: 36525 chars",
+  "read se0B_kkt7kw: 15 calls",
+  "Gemini failed for 823JkHQLcEQ: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For mor",
   "transcript-api failed for 823JkHQLcEQ: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for 823JkHQLcEQ: ERROR: [youtube] 823JkHQLcEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for 823JkHQLcEQ (RuntimeError); will retry",
-  "Gemini failed for kvPpxubs0EE: gemini-3.7-flash ReadTimeout after 240s; gemini-2.5-flash HTTP 404: This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and impro; gemini-2.5-pro HTTP 404: This model models/gemini-2.5-pro is no longer",
+  "Gemini failed for kvPpxubs0EE: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For mor",
   "transcript-api failed for kvPpxubs0EE: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for kvPpxubs0EE: ERROR: [youtube] kvPpxubs0EE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for kvPpxubs0EE (RuntimeError); will retry",
-  "Gemini transcript OK for sP9bfi2Tbvg: 20605 chars",
-  "Claude call failed (1/3): Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'tool_choice: type \"tool\" and \"any\" are not supported for this model.'}, 'request_id': 'req_011CgYCTeTyffrjYqEjDmnE3'}",
-  "Claude call failed (2/3): Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'tool_choice: type \"tool\" and \"any\" are not supported for this model.'}, 'request_id': 'req_011CgYCU38Ef3CdXGKDnGujW'}",
-  "Claude call failed (3/3): Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'tool_choice: type \"tool\" and \"any\" are not supported for this model.'}, 'request_id': 'req_011CgYCUnYfc9xqtFDf3CkRa'}",
-  "video step failed: Claude extraction failed"
+  "Gemini failed for sP9bfi2Tbvg: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For mor",
+  "transcript-api failed for sP9bfi2Tbvg: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for sP9bfi2Tbvg: ERROR: [youtube] sP9bfi2Tbvg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for sP9bfi2Tbvg (RuntimeError); will retry",
+  "Gemini failed for pmqaaMHfcm8: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For mor",
+  "transcript-api failed for pmqaaMHfcm8: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for pmqaaMHfcm8: ERROR: [youtube] pmqaaMHfcm8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for pmqaaMHfcm8 (RuntimeError); will retry",
+  "Gemini failed for AvcKvg264Ws: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For mor",
+  "transcript-api failed for AvcKvg264Ws: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for AvcKvg264Ws: ERROR: [youtube] AvcKvg264Ws: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for AvcKvg264Ws (RuntimeError); will retry"
  ]
 }
