@@ -136,8 +136,55 @@ def pacific_date(iso):
 
 
 # ---------- 2. transcripts ----------
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.7-flash")
+GEMINI_PROMPT = ("Transcribe everything spoken in this video as accurately as you can, in order. "
+                 "Put a timestamp marker like [12:34] (or [1:02:03]) before the text roughly every 20 seconds. "
+                 "Output only the transcript text with the markers, nothing else.")
+
+
+def transcript_gemini(video_id):
+    """Google fetches the YouTube video itself, so YouTube's block on cloud servers doesn't apply.
+    Request shape follows bradautomates/claude-video's Gemini engine."""
+    key = os.environ["GEMINI_API_KEY"]
+    url = f"https://www.youtube.com/watch?v={video_id}"
+    headers = {"x-goog-api-key": key, "Content-Type": "application/json"}
+    base = "https://generativelanguage.googleapis.com/v1beta"
+    text, err = None, None
+    try:  # Interactions API (what claude-video uses)
+        r = requests.post(f"{base}/interactions", headers=headers, timeout=900, json={
+            "model": GEMINI_MODEL,
+            "input": [{"type": "video", "uri": url, "processing": "agentic"}, {"type": "text", "text": GEMINI_PROMPT}]})
+        if r.ok:
+            d = r.json()
+            text = "\n".join(p["text"] for st in d.get("steps", []) if st.get("type") == "model_output"
+                             for p in st.get("content", []) if p.get("type") == "text" and p.get("text"))
+        else:
+            err = f"interactions HTTP {r.status_code}: {r.text[:200]}"
+    except Exception as e:  # noqa: BLE001
+        err = f"interactions {type(e).__name__}"
+    if not text:  # classic generateContent with a YouTube file_uri
+        r = requests.post(f"{base}/models/{GEMINI_MODEL}:generateContent", headers=headers, timeout=900, json={
+            "contents": [{"parts": [{"file_data": {"file_uri": url}}, {"text": GEMINI_PROMPT}]}]})
+        if not r.ok:
+            raise RuntimeError(f"Gemini failed ({err}; generateContent HTTP {r.status_code}: {r.text[:200]})")
+        d = r.json()
+        text = "\n".join(p.get("text", "") for c in d.get("candidates", []) for p in c.get("content", {}).get("parts", []))
+    text = text.replace(key, "")
+    if len(text) < 200:
+        raise RuntimeError("Gemini transcript too short")
+    stamps = re.findall(r"\[(\d+(?::\d{2}){1,2})\]", text)
+    end = to_seconds(stamps[-1]) + 30 if stamps else 0
+    log(f"Gemini transcript OK for {video_id}: {len(text)} chars")
+    return text, end
+
+
 def transcript(video_id):
-    """Captions via youtube-transcript-api; if YouTube blocks it, try yt-dlp (the method the /watch skills use)."""
+    """Gemini first (works from cloud servers), then captions via youtube-transcript-api, then yt-dlp."""
+    if os.environ.get("GEMINI_API_KEY"):
+        try:
+            return transcript_gemini(video_id)
+        except Exception as e:  # noqa: BLE001
+            log(f"Gemini failed for {video_id}: {str(e)[:300]}")
     try:
         return transcript_api(video_id)
     except Exception as e:  # noqa: BLE001

@@ -11,6 +11,7 @@ Tracks the stocks Meet Kevin talks about on YouTube, his stance on each, recent 
 
 ## Secrets (Settings → Secrets and variables → Actions)
 - `ANTHROPIC_API_KEY` (required): reads the transcripts.
+- `GEMINI_API_KEY` (recommended): Google fetches each YouTube video itself and transcribes it, which avoids YouTube blocking GitHub. Method from bradautomates/claude-video.
 - `WEBSHARE_PROXY_USERNAME` and `WEBSHARE_PROXY_PASSWORD`: a Webshare residential proxy, needed because YouTube blocks caption downloads from GitHub servers.
 - `TRANSCRIPT_PROXY_URL` (optional): any other proxy, as `http://user:pass@host:port`.
 
