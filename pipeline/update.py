@@ -60,7 +60,9 @@ def mmss(sec):
 def channel_id():
     try:
         html = requests.get(f"https://www.youtube.com/@{CHANNEL_HANDLE}", headers=UA, timeout=30).text
-        m = re.search(r'"(?:externalId|channelId)":"(UC[\w-]{22})"', html)
+        m = (re.search(r'<link rel="canonical" href="https://www\.youtube\.com/channel/(UC[\w-]{22})"', html)
+             or re.search(r'"externalId":"(UC[\w-]{22})"', html)
+             or re.search(r'"channelId":"(UC[\w-]{22})"', html))
         if m:
             return m.group(1)
     except Exception as e:  # noqa: BLE001
@@ -80,6 +82,8 @@ def page_videos():
         pub = re.search(r'"(?:publishDate|uploadDate)":"([^"]+)"', w)
         title = re.search(r'<meta name="title" content="([^"]*)"', w) or re.search(r'"title":"((?:[^"\\]|\\.)*)"', w)
         if not pub:
+            hint = "bot check" if "confirm you" in w and "bot" in w else ("consent" if "consent.youtube" in w else "no date")
+            log(f"watch page {vid}: {hint} ({len(w)} chars)")
             continue
         p = pub.group(1)
         if len(p) == 10:
