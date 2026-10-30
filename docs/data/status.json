@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-30T02:27:07Z",
+ "run_at": "2026-10-30T02:28:49Z",
  "price_date": "2026-10-29",
  "latest_video": "2026-10-28",
  "new_videos": [],
@@ -55,8 +55,23 @@
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 404 for channel UCPk6nJE8pBZPLCW2DAvaZOA",
-  "videos page: HTTP 200, 1335445 chars",
-  "feed: 0 videos (channel UCPk6nJE8pBZPLCW2DAvaZOA)"
+  "feed: HTTP 500 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "videos page: HTTP 200, 1387257 chars",
+  "watch page pmqaaMHfcm8: bot check (1350299 chars)",
+  "watch page sP9bfi2Tbvg: bot check (1356536 chars)",
+  "watch page 7j2C87An-SM: bot check (1361653 chars)",
+  "watch page tCY71_jQp24: bot check (1359756 chars)",
+  "watch page IPYxNoC1aL4: bot check (1405934 chars)",
+  "watch page Q7fUNbiYTTc: bot check (1352362 chars)",
+  "watch page ISBrgpVqdEU: bot check (1350030 chars)",
+  "watch page nvu1YtsJ5Z0: bot check (1388329 chars)",
+  "watch page aV0yYYGZ5LE: bot check (1397257 chars)",
+  "watch page LpMoj9cnfCo: bot check (1411368 chars)",
+  "watch page WH_NeyCLFA8: bot check (1345276 chars)",
+  "watch page g3WWOicq7GM: bot check (1346109 chars)",
+  "watch page U09SMaCL3uo: bot check (1344136 chars)",
+  "watch page S5og5FxshWk: bot check (1363336 chars)",
+  "watch page Wx-iQkhT46M: bot check (1354854 chars)",
+  "feed: 0 videos (channel UCUvvj5lwue7PspotMDjk5UA)"
  ]
 }
