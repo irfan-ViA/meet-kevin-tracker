@@ -1,76 +1,9 @@
 {
- "run_at": "2026-10-30T09:40:43Z",
+ "run_at": "2026-10-30T10:51:15Z",
  "price_date": "2026-10-29",
  "latest_video": "2026-10-28",
- "new_videos": [
-  {
-   "title": "Prepare for the Fed Meeting (and War???)",
-   "video_id": "se0B_kkt7kw",
-   "calls": 15
-  }
- ],
- "new_calls": [
-  {
-   "ticker": "META",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AAPL",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "QQQ",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AVGO",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "GEV",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CRWV",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MSFT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "GOOGL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "NOW",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "VRT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CMG",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "TMUS",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "FDX",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "EBAY",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "F",
-   "stance": "Neutral"
-  }
- ],
+ "new_videos": [],
+ "new_calls": [],
  "big_moves": [
   {
    "ticker": "MRVL",
@@ -128,11 +61,7 @@
   }
  ],
  "errors": [
-  "No transcript yet: The Fed Meeting",
-  "No transcript yet: Microsoft Stock & Google Earnings & Bessent",
-  "No transcript yet: We need to Talk.",
-  "No transcript yet: Negative One Trillion Dollars.",
-  "No transcript yet: Now What. The Morning After the Fed & Google Disasters."
+  "Gemini limit reached; more videos will be read on the next runs"
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
@@ -140,28 +69,7 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.7-flash took 227s",
-  "Gemini transcript OK for se0B_kkt7kw: 36525 chars",
-  "read se0B_kkt7kw: 15 calls",
   "Gemini failed for 823JkHQLcEQ: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For mor",
-  "transcript-api failed for 823JkHQLcEQ: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for 823JkHQLcEQ: ERROR: [youtube] 823JkHQLcEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for 823JkHQLcEQ (RuntimeError); will retry",
-  "Gemini failed for kvPpxubs0EE: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For mor",
-  "transcript-api failed for kvPpxubs0EE: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for kvPpxubs0EE: ERROR: [youtube] kvPpxubs0EE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for kvPpxubs0EE (RuntimeError); will retry",
-  "Gemini failed for sP9bfi2Tbvg: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For mor",
-  "transcript-api failed for sP9bfi2Tbvg: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for sP9bfi2Tbvg: ERROR: [youtube] sP9bfi2Tbvg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for sP9bfi2Tbvg (RuntimeError); will retry",
-  "Gemini failed for pmqaaMHfcm8: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For mor",
-  "transcript-api failed for pmqaaMHfcm8: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for pmqaaMHfcm8: ERROR: [youtube] pmqaaMHfcm8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for pmqaaMHfcm8 (RuntimeError); will retry",
-  "Gemini failed for AvcKvg264Ws: gemini-3.8-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For mor",
-  "transcript-api failed for AvcKvg264Ws: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for AvcKvg264Ws: ERROR: [youtube] AvcKvg264Ws: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for AvcKvg264Ws (RuntimeError); will retry"
+  "Gemini daily/minute limit reached; remaining videos wait for the next run"
  ]
 }
