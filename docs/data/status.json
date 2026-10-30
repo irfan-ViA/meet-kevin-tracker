@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-30T02:25:31Z",
+ "run_at": "2026-10-30T02:27:07Z",
  "price_date": "2026-10-29",
  "latest_video": "2026-10-28",
  "new_videos": [],
@@ -50,10 +50,13 @@
    "stance": "Not mentioned"
   }
  ],
- "errors": [
-  "Couldn't check YouTube: HTTPError"
- ],
+ "errors": [],
  "skipped_ids": [
   "PlQk8tOSHWw"
+ ],
+ "log": [
+  "feed: HTTP 404 for channel UCPk6nJE8pBZPLCW2DAvaZOA",
+  "videos page: HTTP 200, 1335445 chars",
+  "feed: 0 videos (channel UCPk6nJE8pBZPLCW2DAvaZOA)"
  ]
 }
