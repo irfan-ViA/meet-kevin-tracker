@@ -79,11 +79,17 @@ def page_videos():
     out = []
     for vid in ids:
         w = requests.get(f"https://www.youtube.com/watch?v={vid}", headers=UA, timeout=30).text
-        pub = re.search(r'"(?:publishDate|uploadDate)":"([^"]+)"', w)
+        pub = None
+        for pat in (r'itemprop="datePublished" content="([^"]+)"', r'itemprop="uploadDate" content="([^"]+)"',
+                    r'\\?"publishDate\\?":\\?"([^"\\]+)', r'\\?"uploadDate\\?":\\?"([^"\\]+)',
+                    r'"publishDate":\{"simpleText":"([^"]+)"'):
+            pub = re.search(pat, w)
+            if pub:
+                break
         title = re.search(r'<meta name="title" content="([^"]*)"', w) or re.search(r'"title":"((?:[^"\\]|\\.)*)"', w)
         if not pub:
-            hint = "bot check" if "confirm you" in w and "bot" in w else ("consent" if "consent.youtube" in w else "no date")
-            log(f"watch page {vid}: {hint} ({len(w)} chars)")
+            i = w.find("ublish")
+            log(f"watch page {vid}: no date ({len(w)} chars) near: {w[max(0, i - 40):i + 80]!r}")
             continue
         p = pub.group(1)
         if len(p) == 10:
@@ -96,7 +102,11 @@ def page_videos():
 
 
 def feed_videos(cid):
-    r = requests.get(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}", headers=UA, timeout=30)
+    for _ in range(3):
+        r = requests.get(f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}", headers=UA, timeout=30)
+        if r.status_code == 200:
+            break
+        time.sleep(4)
     log(f"feed: HTTP {r.status_code} for channel {cid}")
     if r.status_code != 200:
         return page_videos()
