@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-30T02:33:56Z",
+ "run_at": "2026-10-30T07:17:30Z",
  "price_date": "2026-10-29",
  "latest_video": "2026-10-28",
  "new_videos": [],
@@ -51,17 +51,40 @@
   }
  ],
  "errors": [
-  "No transcript yet: ",
-  "No transcript yet: "
+  "No transcript yet: Prepare for the Fed Meeting (and War???)",
+  "No transcript yet: The Fed Meeting",
+  "No transcript yet: Microsoft Stock & Google Earnings & Bessent",
+  "No transcript yet: We need to Talk.",
+  "No transcript yet: Negative One Trillion Dollars.",
+  "No transcript yet: Now What. The Morning After the Fed & Google Disasters.",
+  "No transcript yet: The Binance Hack | Explained."
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
-  "videos page: HTTP 200, 1333235 chars",
+  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "transcript not ready for pmqaaMHfcm8 (RequestBlocked); will retry",
-  "transcript not ready for sP9bfi2Tbvg (RequestBlocked); will retry"
+  "transcript-api failed for se0B_kkt7kw: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for se0B_kkt7kw: ERROR: [youtube] se0B_kkt7kw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for se0B_kkt7kw (RuntimeError); will retry",
+  "transcript-api failed for 823JkHQLcEQ: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for 823JkHQLcEQ: ERROR: [youtube] 823JkHQLcEQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for 823JkHQLcEQ (RuntimeError); will retry",
+  "transcript-api failed for kvPpxubs0EE: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for kvPpxubs0EE: ERROR: [youtube] kvPpxubs0EE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for kvPpxubs0EE (RuntimeError); will retry",
+  "transcript-api failed for sP9bfi2Tbvg: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for sP9bfi2Tbvg: ERROR: [youtube] sP9bfi2Tbvg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for sP9bfi2Tbvg (RuntimeError); will retry",
+  "transcript-api failed for pmqaaMHfcm8: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for pmqaaMHfcm8: ERROR: [youtube] pmqaaMHfcm8: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for pmqaaMHfcm8 (RuntimeError); will retry",
+  "transcript-api failed for AvcKvg264Ws: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for AvcKvg264Ws: ERROR: [youtube] AvcKvg264Ws: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for AvcKvg264Ws (RuntimeError); will retry",
+  "transcript-api failed for BMO6RQAFGhM: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for BMO6RQAFGhM: ERROR: [youtube] BMO6RQAFGhM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for BMO6RQAFGhM (RuntimeError); will retry"
  ]
 }
