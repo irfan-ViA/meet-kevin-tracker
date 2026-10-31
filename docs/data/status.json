@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-30T22:18:09Z",
+ "run_at": "2026-10-31T05:38:17Z",
  "price_date": "2026-10-30",
  "latest_video": "2026-10-28",
  "new_videos": [],
@@ -127,9 +127,10 @@
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "videos page: HTTP 200, 1335490 chars",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini failed for kvPpxubs0EE: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://a",
+  "Gemini failed for BMO6RQAFGhM: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; interactions HTT",
   "Gemini daily/minute limit reached; remaining videos wait for the next run"
  ]
 }
