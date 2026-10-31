@@ -1,9 +1,108 @@
 {
- "run_at": "2026-10-31T12:24:43Z",
+ "run_at": "2026-10-31T18:33:40Z",
  "price_date": "2026-10-30",
- "latest_video": "2026-10-28",
- "new_videos": [],
- "new_calls": [],
+ "latest_video": "2026-10-30",
+ "new_videos": [
+  {
+   "title": "Microsoft Stock & Google Earnings & Bessent",
+   "video_id": "kvPpxubs0EE",
+   "calls": 6
+  },
+  {
+   "title": "We need to Talk.",
+   "video_id": "sP9bfi2Tbvg",
+   "calls": 12
+  },
+  {
+   "title": "Negative One Trillion Dollars.",
+   "video_id": "pmqaaMHfcm8",
+   "calls": 6
+  },
+  {
+   "title": "The Binance Hack | Explained.",
+   "video_id": "BMO6RQAFGhM",
+   "calls": 1
+  },
+  {
+   "title": "The War is about to get REALLY BAD",
+   "video_id": "SrueFYphB4Y",
+   "calls": 0
+  }
+ ],
+ "new_calls": [
+  {
+   "ticker": "NVDA",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "META",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "AAPL",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "WDC",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "CRWV",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "MSFT",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "TSLA",
+   "stance": "Bought"
+  },
+  {
+   "ticker": "GOOGL",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "NOW",
+   "stance": "Bearish"
+  },
+  {
+   "ticker": "TMUS",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "EBAY",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "MRNA",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "ORCL",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "FTNT",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CVNA",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "LLY",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "STX",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "CRCL",
+   "stance": "Neutral"
+  }
+ ],
  "big_moves": [
   {
    "ticker": "AVGO",
@@ -101,6 +200,26 @@
    "since_pct": -0.09595959595959602
   },
   {
+   "ticker": "FTNT",
+   "day_pct": -0.021710999281092658,
+   "since_pct": -0.21829044117647056
+  },
+  {
+   "ticker": "CVNA",
+   "day_pct": -0.0002927829014784944,
+   "since_pct": 0.15647756138865376
+  },
+  {
+   "ticker": "STX",
+   "day_pct": -0.07978928433765897,
+   "since_pct": -0.07978928433765897
+  },
+  {
+   "ticker": "CRCL",
+   "day_pct": -0.09313664208025985,
+   "since_pct": -0.09313664208025985
+  },
+  {
    "ticker": "PLTR",
    "day_pct": -0.0626718256796659,
    "since_pct": null
@@ -121,9 +240,7 @@
   }
  ],
  "errors": [
-  "No transcript yet: Microsoft Stock & Google Earnings & Bessent",
-  "No transcript yet: We need to Talk.",
-  "Gemini limit reached; more videos will be read on the next runs"
+  "No transcript yet: Now What. The Morning After the Fed & Google Disasters."
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
@@ -131,15 +248,24 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini failed for kvPpxubs0EE: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; interactions HTT",
-  "transcript-api failed for kvPpxubs0EE: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for kvPpxubs0EE: ERROR: [youtube] kvPpxubs0EE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for kvPpxubs0EE (RuntimeError); will retry",
-  "Gemini failed for sP9bfi2Tbvg: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; interactions HTT",
-  "transcript-api failed for sP9bfi2Tbvg: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for sP9bfi2Tbvg: ERROR: [youtube] sP9bfi2Tbvg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for sP9bfi2Tbvg (RuntimeError); will retry",
-  "Gemini failed for pmqaaMHfcm8: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; interactions HTT",
-  "Gemini daily/minute limit reached; remaining videos wait for the next run"
+  "Gemini gemini-3.8-flash took 158s",
+  "Gemini transcript OK for kvPpxubs0EE: 33445 chars",
+  "read kvPpxubs0EE: 6 calls",
+  "Gemini gemini-3.8-flash took 143s",
+  "Gemini transcript OK for sP9bfi2Tbvg: 20799 chars",
+  "read sP9bfi2Tbvg: 12 calls",
+  "Gemini gemini-3.8-flash took 131s",
+  "Gemini transcript OK for pmqaaMHfcm8: 10767 chars",
+  "read pmqaaMHfcm8: 6 calls",
+  "Gemini failed for AvcKvg264Ws: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash ReadTimeout after 360s; interactions HTTP 503: {\"error\":{\"message\":\"gemini-3.8-flash is currently experiencing high demand, spikes in demand ",
+  "transcript-api failed for AvcKvg264Ws: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for AvcKvg264Ws: ERROR: [youtube] AvcKvg264Ws: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for AvcKvg264Ws (RuntimeError); will retry",
+  "Gemini gemini-3.8-flash took 119s",
+  "Gemini transcript OK for BMO6RQAFGhM: 23687 chars",
+  "read BMO6RQAFGhM: 1 calls",
+  "Gemini gemini-3.8-flash took 188s",
+  "Gemini transcript OK for SrueFYphB4Y: 24192 chars",
+  "read SrueFYphB4Y: 0 calls"
  ]
 }
