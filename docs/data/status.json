@@ -1,5 +1,5 @@
 {
- "run_at": "2026-10-31T05:38:17Z",
+ "run_at": "2026-10-31T12:24:43Z",
  "price_date": "2026-10-30",
  "latest_video": "2026-10-28",
  "new_videos": [],
@@ -121,16 +121,25 @@
   }
  ],
  "errors": [
+  "No transcript yet: Microsoft Stock & Google Earnings & Bessent",
+  "No transcript yet: We need to Talk.",
   "Gemini limit reached; more videos will be read on the next runs"
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
-  "videos page: HTTP 200, 1335490 chars",
+  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini failed for BMO6RQAFGhM: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; interactions HTT",
+  "Gemini failed for kvPpxubs0EE: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; interactions HTT",
+  "transcript-api failed for kvPpxubs0EE: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for kvPpxubs0EE: ERROR: [youtube] kvPpxubs0EE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for kvPpxubs0EE (RuntimeError); will retry",
+  "Gemini failed for sP9bfi2Tbvg: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; interactions HTT",
+  "transcript-api failed for sP9bfi2Tbvg: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for sP9bfi2Tbvg: ERROR: [youtube] sP9bfi2Tbvg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for sP9bfi2Tbvg (RuntimeError); will retry",
+  "Gemini failed for pmqaaMHfcm8: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; interactions HTT",
   "Gemini daily/minute limit reached; remaining videos wait for the next run"
  ]
 }
