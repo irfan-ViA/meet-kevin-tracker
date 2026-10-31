@@ -1,32 +1,17 @@
 {
- "run_at": "2026-10-31T18:33:40Z",
+ "run_at": "2026-10-31T23:22:36Z",
  "price_date": "2026-10-30",
  "latest_video": "2026-10-30",
  "new_videos": [
   {
-   "title": "Microsoft Stock & Google Earnings & Bessent",
-   "video_id": "kvPpxubs0EE",
-   "calls": 6
+   "title": "R6CTLeHIJBY",
+   "video_id": "R6CTLeHIJBY",
+   "calls": 4
   },
   {
-   "title": "We need to Talk.",
-   "video_id": "sP9bfi2Tbvg",
-   "calls": 12
-  },
-  {
-   "title": "Negative One Trillion Dollars.",
-   "video_id": "pmqaaMHfcm8",
-   "calls": 6
-  },
-  {
-   "title": "The Binance Hack | Explained.",
-   "video_id": "BMO6RQAFGhM",
-   "calls": 1
-  },
-  {
-   "title": "The War is about to get REALLY BAD",
-   "video_id": "SrueFYphB4Y",
-   "calls": 0
+   "title": "jt9kvVqzo0M",
+   "video_id": "jt9kvVqzo0M",
+   "calls": 11
   }
  ],
  "new_calls": [
@@ -35,72 +20,48 @@
    "stance": "Bullish"
   },
   {
-   "ticker": "META",
+   "ticker": "AVGO",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "MRVL",
    "stance": "Neutral"
   },
   {
-   "ticker": "AAPL",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "WDC",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "CRWV",
+   "ticker": "AMD",
    "stance": "Neutral"
-  },
-  {
-   "ticker": "MSFT",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "TSLA",
-   "stance": "Bought"
   },
   {
    "ticker": "GOOGL",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "LITE",
    "stance": "Neutral"
-  },
-  {
-   "ticker": "NOW",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "TMUS",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "EBAY",
-   "stance": "Bullish"
   },
   {
    "ticker": "MRNA",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "ORCL",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "FTNT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CVNA",
-   "stance": "Neutral"
+   "stance": "Bought"
   },
   {
    "ticker": "LLY",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "STX",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "CRCL",
    "stance": "Neutral"
+  },
+  {
+   "ticker": "INTC",
+   "stance": "Bearish"
+  },
+  {
+   "ticker": "AMZN",
+   "stance": "Bought"
+  },
+  {
+   "ticker": "APP",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "CBRS",
+   "stance": "Bullish"
   }
  ],
  "big_moves": [
@@ -220,6 +181,21 @@
    "since_pct": -0.09313664208025985
   },
   {
+   "ticker": "INTC",
+   "day_pct": -0.28576083414793085,
+   "since_pct": 0.0
+  },
+  {
+   "ticker": "APP",
+   "day_pct": -0.10360519399003565,
+   "since_pct": 0.0
+  },
+  {
+   "ticker": "CBRS",
+   "day_pct": -0.05192775269190686,
+   "since_pct": 0.0
+  },
+  {
    "ticker": "PLTR",
    "day_pct": -0.0626718256796659,
    "since_pct": null
@@ -240,32 +216,21 @@
   }
  ],
  "errors": [
-  "No transcript yet: Now What. The Morning After the Fed & Google Disasters."
+  "No price for: HXSCL"
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "videos page: HTTP 200, 1336685 chars",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.8-flash took 158s",
-  "Gemini transcript OK for kvPpxubs0EE: 33445 chars",
-  "read kvPpxubs0EE: 6 calls",
-  "Gemini gemini-3.8-flash took 143s",
-  "Gemini transcript OK for sP9bfi2Tbvg: 20799 chars",
-  "read sP9bfi2Tbvg: 12 calls",
-  "Gemini gemini-3.8-flash took 131s",
-  "Gemini transcript OK for pmqaaMHfcm8: 10767 chars",
-  "read pmqaaMHfcm8: 6 calls",
-  "Gemini failed for AvcKvg264Ws: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash ReadTimeout after 360s; interactions HTTP 503: {\"error\":{\"message\":\"gemini-3.8-flash is currently experiencing high demand, spikes in demand ",
-  "transcript-api failed for AvcKvg264Ws: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for AvcKvg264Ws: ERROR: [youtube] AvcKvg264Ws: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for AvcKvg264Ws (RuntimeError); will retry",
-  "Gemini gemini-3.8-flash took 119s",
-  "Gemini transcript OK for BMO6RQAFGhM: 23687 chars",
-  "read BMO6RQAFGhM: 1 calls",
-  "Gemini gemini-3.8-flash took 188s",
-  "Gemini transcript OK for SrueFYphB4Y: 24192 chars",
-  "read SrueFYphB4Y: 0 calls"
+  "Gemini gemini-3.8-flash took 159s",
+  "Gemini transcript OK for R6CTLeHIJBY: 26353 chars",
+  "read R6CTLeHIJBY: 4 calls",
+  "Gemini gemini-3.7-flash took 82s",
+  "Gemini transcript OK for jt9kvVqzo0M: 30070 chars",
+  "read jt9kvVqzo0M: 11 calls",
+  "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
