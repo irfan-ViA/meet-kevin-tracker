@@ -1,122 +1,9 @@
 {
- "run_at": "2026-11-01T13:19:48Z",
+ "run_at": "2026-11-01T18:55:08Z",
  "price_date": "2026-10-30",
  "latest_video": "2026-10-31",
- "new_videos": [
-  {
-   "title": "Now What. The Morning After the Fed & Google Disasters.",
-   "video_id": "AvcKvg264Ws",
-   "calls": 19
-  },
-  {
-   "title": "The Falling Stock Market.",
-   "video_id": "biRyvZBLpJ8",
-   "calls": 8
-  },
-  {
-   "title": "You've been WARNED.",
-   "video_id": "5PPwXRkbNxM",
-   "calls": 6
-  }
- ],
- "new_calls": [
-  {
-   "ticker": "NVDA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "META",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AAPL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "QQQ",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "LEN",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CRWV",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MSFT",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "TSLA",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "GOOGL",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "DELL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "NOW",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "CMG",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MRNA",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "ORCL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "FTNT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "LLY",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "INTC",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AMZN",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "OPEN",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "S",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "PLTR",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CRM",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "RSP",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "JPM",
-   "stance": "Bearish"
-  }
- ],
+ "new_videos": [],
+ "new_calls": [],
  "big_moves": [
   {
    "ticker": "AVGO",
@@ -282,15 +169,6 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.7-flash took 204s",
-  "Gemini transcript OK for AvcKvg264Ws: 31865 chars",
-  "read AvcKvg264Ws: 19 calls",
-  "Gemini gemini-3.8-flash took 171s",
-  "Gemini transcript OK for biRyvZBLpJ8: 35170 chars",
-  "read biRyvZBLpJ8: 8 calls",
-  "Gemini gemini-3.8-flash took 31s",
-  "Gemini transcript OK for 5PPwXRkbNxM: 11426 chars",
-  "read 5PPwXRkbNxM: 6 calls",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
