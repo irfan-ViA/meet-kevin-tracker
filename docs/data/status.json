@@ -1,69 +1,9 @@
 {
- "run_at": "2026-10-31T23:22:36Z",
+ "run_at": "2026-11-01T05:59:30Z",
  "price_date": "2026-10-30",
  "latest_video": "2026-10-30",
- "new_videos": [
-  {
-   "title": "R6CTLeHIJBY",
-   "video_id": "R6CTLeHIJBY",
-   "calls": 4
-  },
-  {
-   "title": "jt9kvVqzo0M",
-   "video_id": "jt9kvVqzo0M",
-   "calls": 11
-  }
- ],
- "new_calls": [
-  {
-   "ticker": "NVDA",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "AVGO",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "MRVL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AMD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "GOOGL",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "LITE",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MRNA",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "LLY",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "INTC",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "AMZN",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "APP",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "CBRS",
-   "stance": "Bullish"
-  }
- ],
+ "new_videos": [],
+ "new_calls": [],
  "big_moves": [
   {
    "ticker": "AVGO",
@@ -216,6 +156,7 @@
   }
  ],
  "errors": [
+  "Gemini limit reached; more videos will be read on the next runs",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -223,14 +164,10 @@
  ],
  "log": [
   "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
-  "videos page: HTTP 200, 1336685 chars",
+  "videos page: HTTP 200, 1336438 chars",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.8-flash took 159s",
-  "Gemini transcript OK for R6CTLeHIJBY: 26353 chars",
-  "read R6CTLeHIJBY: 4 calls",
-  "Gemini gemini-3.7-flash took 82s",
-  "Gemini transcript OK for jt9kvVqzo0M: 30070 chars",
-  "read jt9kvVqzo0M: 11 calls",
+  "Gemini failed for 5PPwXRkbNxM: gemini-3.8-flash ReadTimeout after 360s; gemini-3.7-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; interactions HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded for model gemini-3.8-flash (limit: 20 requests per da",
+  "Gemini daily/minute limit reached; remaining videos wait for the next run",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
