@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-01T18:55:08Z",
+ "run_at": "2026-11-01T23:34:42Z",
  "price_date": "2026-10-30",
  "latest_video": "2026-10-31",
  "new_videos": [],
@@ -161,6 +161,7 @@
   }
  ],
  "errors": [
+  "Gemini limit reached; more videos will be read on the next runs",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -169,6 +170,8 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
+  "Gemini failed for 7KqjagCM80I: gemini-3.8-flash HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.; gemini-3.7-flash HTTP 429: Resource has been exhausted (e.g. check quota).; interactions HTTP 503: {\"error\":{\"message\":\"gemini-3.8-flash is currently experien",
+  "Gemini daily/minute limit reached; remaining videos wait for the next run",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
