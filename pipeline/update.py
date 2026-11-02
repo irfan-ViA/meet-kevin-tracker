@@ -498,6 +498,26 @@ def main():
         log(f"video step failed: {e}")
         errors.append(f"Couldn't check YouTube: {type(e).__name__}: {str(e)[:120]}")
 
+    # Fill in titles that came through as bare video ids
+    fixed = 0
+    for v in videos:
+        if v["title"] == v["video_id"]:
+            try:
+                t = requests.get("https://www.youtube.com/oembed", params={"url": v["url"], "format": "json"},
+                                 headers=UA, timeout=20).json().get("title")
+            except Exception:  # noqa: BLE001
+                t = None
+            if t:
+                v["title"] = t
+                for c in calls:
+                    if c["video_id"] == v["video_id"]:
+                        c["video_title"] = t
+                fixed += 1
+    if fixed:
+        log(f"filled {fixed} missing titles")
+        save("videos", videos)
+        save("calls", calls)
+
     # 4. prices
     tickers = list(dict.fromkeys([c["ticker"] for c in calls] + [w["ticker"] for w in watchlist]))
     fresh, failed = [], []
