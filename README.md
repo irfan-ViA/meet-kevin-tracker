@@ -6,7 +6,7 @@ Tracks the stocks Meet Kevin talks about on YouTube, his stance on each, recent 
 - **Android app:** download `KevinTracker.apk` from the [latest release](../../releases/latest).
 
 ## How it works
-- `.github/workflows/update.yml` runs every 2 hours. It checks Kevin's channel feed for new videos, reads their captions, asks Claude which stocks he gives a view on (`pipeline/update.py`), refreshes prices from Yahoo Finance, saves `docs/data/*.json` and publishes the page.
+- `.github/workflows/update.yml` runs every 12 hours (about 8am and 8pm Singapore time). It checks Kevin's channel feed for new videos, reads their captions, asks Claude which stocks he gives a view on (`pipeline/update.py`), refreshes prices from Yahoo Finance, saves `docs/data/*.json` and publishes the page.
 - The Android app shows the page and checks `docs/data/status.json` every hour, notifying you about new videos, new calls and big moves (5%+ in a day, or 10%+ since his first mention).
 
 ## Secrets (Settings → Secrets and variables → Actions)

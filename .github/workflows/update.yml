@@ -2,7 +2,7 @@ name: Update tracker
 
 on:
   schedule:
-    - cron: "17 */2 * * *"   # every 2 hours
+    - cron: "17 0,12 * * *"   # every 12 hours: 8:17am and 8:17pm Singapore time
   workflow_dispatch:
   push:
     branches: [main]
