@@ -1,182 +1,133 @@
 {
- "run_at": "2026-11-02T04:48:11Z",
- "price_date": "2026-10-30",
- "latest_video": "2026-11-01",
+ "run_at": "2026-11-02T21:41:27Z",
+ "price_date": "2026-11-02",
+ "latest_video": "2026-11-02",
  "new_videos": [
   {
-   "title": "How the Election will Damage Stocks: Prepare.",
-   "video_id": "7KqjagCM80I",
-   "calls": 1
-  },
-  {
-   "title": "HORRIFIC: Florida Learjet Crash Audio [9 Dead] | Explained.",
-   "video_id": "M8Gjk4rTNaQ",
+   "title": "The Final Hours on Iran: Prepare.",
+   "video_id": "t0BEVSmy5xk",
    "calls": 0
   }
  ],
- "new_calls": [
-  {
-   "ticker": "SPYM",
-   "stance": "Bullish"
-  }
- ],
+ "new_calls": [],
  "big_moves": [
   {
-   "ticker": "AVGO",
-   "day_pct": -0.054840579710145,
-   "since_pct": 0.00878604133151839
-  },
-  {
    "ticker": "MRVL",
-   "day_pct": -0.10048548135934776,
-   "since_pct": -0.12113482794111063
-  },
-  {
-   "ticker": "BE",
-   "day_pct": -0.08605488079172297,
-   "since_pct": -0.06704321072691377
+   "day_pct": -0.12724032586558054,
+   "since_pct": -0.2329619188257932
   },
   {
    "ticker": "WDC",
-   "day_pct": -0.07410030095344078,
-   "since_pct": 0.03365425336683714
+   "day_pct": -0.07516866515528131,
+   "since_pct": -0.044044157090826985
   },
   {
    "ticker": "RKT",
-   "day_pct": 0.0738255033557047,
-   "since_pct": 0.09028960817717202
+   "day_pct": 0.07578124999999991,
+   "since_pct": 0.17291311754684835
   },
   {
    "ticker": "AMD",
-   "day_pct": -0.10878853147840817,
-   "since_pct": -0.023200913330366224
+   "day_pct": -0.0751980982567354,
+   "since_pct": -0.09665434702683873
   },
   {
    "ticker": "SOFI",
-   "day_pct": -0.048268029528676815,
-   "since_pct": 0.1590594744121716
+   "day_pct": -0.009546539379474916,
+   "since_pct": 0.14799446749654233
   },
   {
    "ticker": "CRWV",
-   "day_pct": -0.09664142245637153,
-   "since_pct": -0.005798151839101262
+   "day_pct": -0.08602150537634412,
+   "since_pct": -0.09132089146584521
   },
   {
    "ticker": "NBIS",
-   "day_pct": -0.10378510378510386,
-   "since_pct": 0.005676257584654287
-  },
-  {
-   "ticker": "HOOD",
-   "day_pct": -0.07206026858827397,
-   "since_pct": -0.08455407152089622
+   "day_pct": -0.08271701050992608,
+   "since_pct": -0.07751027598355853
   },
   {
    "ticker": "GOOGL",
-   "day_pct": -0.01402297230639149,
-   "since_pct": -0.13866231647634586
+   "day_pct": -0.0030374499714120873,
+   "since_pct": -0.14127858659854098
   },
   {
    "ticker": "LITE",
-   "day_pct": -0.08572857873043827,
-   "since_pct": -0.08014661633568576
+   "day_pct": -0.1859164981562984,
+   "since_pct": -0.25116253624377705
   },
   {
    "ticker": "DELL",
-   "day_pct": -0.10769489600639315,
-   "since_pct": -0.14072783976994274
+   "day_pct": -0.0742870610417159,
+   "since_pct": -0.20456064318840006
   },
   {
    "ticker": "NOW",
-   "day_pct": -0.04148810066563324,
-   "since_pct": -0.29980683407713316
-  },
-  {
-   "ticker": "VRT",
-   "day_pct": -0.05457059206245929,
-   "since_pct": -0.04297357372190669
+   "day_pct": 0.008466514459665175,
+   "since_pct": -0.29387863851328844
   },
   {
    "ticker": "CMG",
-   "day_pct": 0.019501278772378505,
-   "since_pct": 0.10998955795335896
-  },
-  {
-   "ticker": "TMUS",
-   "day_pct": 0.062122343675741876,
-   "since_pct": 0.056455969746083134
+   "day_pct": 0.031984948259642376,
+   "since_pct": 0.14549251653324036
   },
   {
    "ticker": "TEM",
-   "day_pct": -0.0721993833504625,
-   "since_pct": -0.057303224122177254
+   "day_pct": 0.08667959014123516,
+   "since_pct": 0.0244093460383763
   },
   {
    "ticker": "ORCL",
-   "day_pct": -0.06370020063055326,
-   "since_pct": -0.09595959595959602
+   "day_pct": -0.0876253156807224,
+   "since_pct": -0.17517642175176418
   },
   {
    "ticker": "FTNT",
-   "day_pct": -0.021710999281092658,
-   "since_pct": -0.21829044117647056
+   "day_pct": -0.07253086419753096,
+   "since_pct": -0.2749885110294118
   },
   {
    "ticker": "CVNA",
-   "day_pct": -0.0002927829014784944,
-   "since_pct": 0.15647756138865376
+   "day_pct": 0.054327134280275136,
+   "since_pct": 0.2193056731583405
   },
   {
    "ticker": "STX",
-   "day_pct": -0.07978928433765897,
-   "since_pct": -0.07978928433765897
-  },
-  {
-   "ticker": "CRCL",
-   "day_pct": -0.09313664208025985,
-   "since_pct": -0.09313664208025985
+   "day_pct": -0.0788420366750443,
+   "since_pct": -0.15234057133067802
   },
   {
    "ticker": "INTC",
-   "day_pct": -0.28576083414793085,
-   "since_pct": 0.0
-  },
-  {
-   "ticker": "APP",
-   "day_pct": -0.10360519399003565,
-   "since_pct": 0.0
+   "day_pct": -0.08804744525547459,
+   "since_pct": -0.08804744525547459
   },
   {
    "ticker": "CBRS",
-   "day_pct": -0.05192775269190686,
-   "since_pct": 0.0
+   "day_pct": -0.11742077303535448,
+   "since_pct": -0.11742077303535448
   },
   {
-   "ticker": "OPEN",
-   "day_pct": -0.05263157894736836,
-   "since_pct": -0.05263157894736836
-  },
-  {
-   "ticker": "PLTR",
-   "day_pct": -0.0626718256796659,
-   "since_pct": -0.0626718256796659
+   "ticker": "S",
+   "day_pct": -0.07912524850894631,
+   "since_pct": -0.09918319719953328
   }
  ],
  "watchlist": [
   {
    "ticker": "SOFI",
-   "price": 16.76,
-   "day_pct": -0.048268029528676815,
+   "price": 16.6,
+   "day_pct": -0.009546539379474916,
    "stance": "Bullish"
   },
   {
    "ticker": "PLTR",
-   "price": 184.11,
-   "day_pct": -0.0626718256796659,
+   "price": 178.34,
+   "day_pct": -0.031339959806637396,
    "stance": "Neutral"
   }
  ],
  "errors": [
+  "No transcript yet: SHOCKING DATA *Update*: Florida Lear Jet CRASH.",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -185,13 +136,13 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.7-flash took 195s; tokens in 38727, out 112, total 39881",
-  "Gemini transcript OK for 7KqjagCM80I: 387 chars",
-  "read 7KqjagCM80I: 1 calls",
-  "Gemini gemini-3.8-flash took 89s; tokens in 36756, out 1, total 37718",
-  "Gemini: no stock talk in M8Gjk4rTNaQ",
-  "read M8Gjk4rTNaQ: 0 calls",
-  "filled 2 missing titles",
+  "Gemini gemini-3.8-flash took 264s; tokens in 30727, out 1, total 32097",
+  "Gemini: no stock talk in t0BEVSmy5xk",
+  "read t0BEVSmy5xk: 0 calls",
+  "Gemini failed for X1Cu5InB6k4: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for X1Cu5InB6k4: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for X1Cu5InB6k4: ERROR: [youtube] X1Cu5InB6k4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for X1Cu5InB6k4 (RuntimeError); will retry",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
