@@ -136,14 +136,18 @@ def pacific_date(iso):
 
 
 # ---------- 2. transcripts ----------
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
-# Try the newest model first, then steadier ones when Google reports high demand.
-GEMINI_MODELS = [GEMINI_MODEL] + [m for m in ("gemini-3.7-flash",) if m != GEMINI_MODEL]
+# Cheapest models first (Flash-Lite), then standard Flash. A model name Google doesn't offer fails fast with 404.
+GEMINI_MODELS = [m.strip() for m in os.environ.get(
+    "GEMINI_MODELS", "gemini-3.8-flash-lite,gemini-3.7-flash-lite,gemini-3.8-flash,gemini-3.7-flash").split(",") if m.strip()]
+GEMINI_MODEL = GEMINI_MODELS[0]
 GEMINI_TIMEOUT = int(os.environ.get("GEMINI_TIMEOUT", "360"))
 DEADLINE = time.time() + int(os.environ.get("VIDEO_TIME_BUDGET", "1800"))  # stop starting new videos after 20 min
-GEMINI_PROMPT = ("Transcribe everything spoken in this video as accurately as you can, in order. "
-                 "Put a timestamp marker like [12:34] (or [1:02:03]) before the text roughly every 20 seconds. "
-                 "Output only the transcript text with the markers, nothing else.")
+GEMINI_PROMPT = ("Listen to this video and output ONLY the passages where the speaker talks about a specific "
+                 "public company, stock, ETF or ticker. For each passage write the timestamp like [12:34] "
+                 "(or [1:02:03]), the company or ticker, then what he says about it in 1-3 sentences, as close to "
+                 "his own words as possible, including whether he says he owns, bought or sold it. "
+                 "Skip sponsor ads, his own membership/course promotions, and macro talk that names no company. "
+                 "If he discusses no specific companies, output exactly: NONE")
 
 
 def transcript_gemini(video_id):
@@ -168,7 +172,9 @@ def transcript_gemini(video_id):
                 d = r.json()
                 text = "\n".join(p.get("text", "") for c in d.get("candidates", []) for p in c.get("content", {}).get("parts", []))
                 if text:
-                    log(f"Gemini {model} took {int(time.time() - t0)}s")
+                    u = d.get("usageMetadata", {})
+                    log(f"Gemini {model} took {int(time.time() - t0)}s; tokens in {u.get('promptTokenCount')}, "
+                        f"out {u.get('candidatesTokenCount')}, total {u.get('totalTokenCount')}")
                 else:
                     errs.append(f"{model} empty: {json.dumps(d)[:150]}")
             else:
@@ -196,9 +202,12 @@ def transcript_gemini(video_id):
             errs.append(f"interactions {type(e).__name__} after {int(time.time() - t0)}s")
     if not text:
         raise RuntimeError("; ".join(errs).replace(key, "[key]"))
-    text = text.replace(key, "")
-    if len(text) < 200:
-        raise RuntimeError("Gemini transcript too short")
+    text = text.replace(key, "").strip()
+    if text.upper().startswith("NONE"):
+        log(f"Gemini: no stock talk in {video_id}")
+        return "", 0
+    if len(text) < 40:
+        raise RuntimeError("Gemini reply too short")
     stamps = re.findall(r"\[(\d+(?::\d{2}){1,2})\]", text)
     end = to_seconds(stamps[-1]) + 30 if stamps else 0
     log(f"Gemini transcript OK for {video_id}: {len(text)} chars")
@@ -306,7 +315,7 @@ TOOL = {
     },
 }
 
-PROMPT = """You are reading the auto-generated transcript of a Meet Kevin (Kevin Paffrath) YouTube video titled "{title}".
+PROMPT = """You are reading timestamped excerpts (where he discusses specific companies) from a Meet Kevin (Kevin Paffrath) YouTube video titled "{title}".
 List every individual stock or ETF he gives a view on. Be conservative and never invent a stance:
 - Bullish: he expresses a positive view or says it's cheap / a buy.
 - Bought: he says he, or his membership, bought it, added to it, or sent a buy alert.
@@ -467,7 +476,7 @@ def main():
                 skipped.add(v["video_id"])
                 continue
             try:
-                found = extract(v["title"], text)
+                found = extract(v["title"], text) if text else []
             except Exception as e:  # noqa: BLE001
                 log(f"reading calls failed for {v['video_id']}: {e}; will retry")
                 errors.append(f"Couldn't read calls yet: {v['title']}")
