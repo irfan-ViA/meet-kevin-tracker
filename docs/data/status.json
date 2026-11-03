@@ -1,16 +1,15 @@
 {
- "run_at": "2026-11-02T21:41:27Z",
+ "run_at": "2026-11-03T06:42:37Z",
  "price_date": "2026-11-02",
  "latest_video": "2026-11-02",
- "new_videos": [
-  {
-   "title": "The Final Hours on Iran: Prepare.",
-   "video_id": "t0BEVSmy5xk",
-   "calls": 0
-  }
- ],
+ "new_videos": [],
  "new_calls": [],
  "big_moves": [
+  {
+   "ticker": "LDI",
+   "day_pct": 0.050086355785837755,
+   "since_pct": 0.057391304347826244
+  },
   {
    "ticker": "MRVL",
    "day_pct": -0.12724032586558054,
@@ -127,18 +126,16 @@
   }
  ],
  "errors": [
-  "No transcript yet: SHOCKING DATA *Update*: Florida Lear Jet CRASH.",
+  "No transcript yet: X1Cu5InB6k4",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "videos page: HTTP 200, 1337117 chars",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.8-flash took 264s; tokens in 30727, out 1, total 32097",
-  "Gemini: no stock talk in t0BEVSmy5xk",
-  "read t0BEVSmy5xk: 0 calls",
   "Gemini failed for X1Cu5InB6k4: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
   "transcript-api failed for X1Cu5InB6k4: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for X1Cu5InB6k4: ERROR: [youtube] X1Cu5InB6k4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
