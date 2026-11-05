@@ -2,3928 +2,3928 @@
  {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
-  "date": "2026-10-21",
-  "close": 221.97,
-  "fetched_at": "2026-11-05T06:38:56Z"
- },
- {
-  "ticker": "NVDA",
-  "name": "NVIDIA Corporation",
   "date": "2026-10-22",
   "close": 212.21,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
   "date": "2026-10-23",
   "close": 210.96,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
   "date": "2026-10-26",
   "close": 216.0,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
   "date": "2026-10-27",
   "close": 217.94,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
   "date": "2026-10-28",
   "close": 215.38,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
   "date": "2026-10-29",
   "close": 213.66,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
   "date": "2026-10-30",
   "close": 204.64,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
   "date": "2026-11-02",
   "close": 202.06,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
   "date": "2026-11-03",
   "close": 206.69,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NVDA",
   "name": "NVIDIA Corporation",
   "date": "2026-11-04",
   "close": 200.13,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "META",
-  "name": "Meta Platforms, Inc.",
-  "date": "2026-10-21",
-  "close": 697.52,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "NVDA",
+  "name": "NVIDIA Corporation",
+  "date": "2026-11-05",
+  "close": 183.92,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "META",
   "name": "Meta Platforms, Inc.",
   "date": "2026-10-22",
   "close": 648.85,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "META",
   "name": "Meta Platforms, Inc.",
   "date": "2026-10-23",
   "close": 642.62,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "META",
   "name": "Meta Platforms, Inc.",
   "date": "2026-10-26",
   "close": 630.56,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "META",
   "name": "Meta Platforms, Inc.",
   "date": "2026-10-27",
   "close": 620.19,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "META",
   "name": "Meta Platforms, Inc.",
   "date": "2026-10-28",
   "close": 612.49,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "META",
   "name": "Meta Platforms, Inc.",
   "date": "2026-10-29",
   "close": 624.52,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "META",
   "name": "Meta Platforms, Inc.",
   "date": "2026-10-30",
   "close": 614.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "META",
   "name": "Meta Platforms, Inc.",
   "date": "2026-11-02",
   "close": 606.73,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "META",
   "name": "Meta Platforms, Inc.",
   "date": "2026-11-03",
   "close": 621.03,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "META",
   "name": "Meta Platforms, Inc.",
   "date": "2026-11-04",
   "close": 630.0,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "AAPL",
-  "name": "Apple Inc.",
-  "date": "2026-10-21",
-  "close": 343.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "META",
+  "name": "Meta Platforms, Inc.",
+  "date": "2026-11-05",
+  "close": 606.72,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AAPL",
   "name": "Apple Inc.",
   "date": "2026-10-22",
   "close": 348.22,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AAPL",
   "name": "Apple Inc.",
   "date": "2026-10-23",
   "close": 347.73,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AAPL",
   "name": "Apple Inc.",
   "date": "2026-10-26",
   "close": 343.91,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AAPL",
   "name": "Apple Inc.",
   "date": "2026-10-27",
   "close": 347.1,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AAPL",
   "name": "Apple Inc.",
   "date": "2026-10-28",
   "close": 343.83,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AAPL",
   "name": "Apple Inc.",
   "date": "2026-10-29",
   "close": 348.91,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AAPL",
   "name": "Apple Inc.",
   "date": "2026-10-30",
   "close": 344.63,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AAPL",
   "name": "Apple Inc.",
   "date": "2026-11-02",
   "close": 338.32,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AAPL",
   "name": "Apple Inc.",
   "date": "2026-11-03",
   "close": 331.9,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AAPL",
   "name": "Apple Inc.",
   "date": "2026-11-04",
   "close": 349.51,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "LDI",
-  "name": "loanDepot, Inc.",
-  "date": "2026-10-21",
-  "close": 0.53,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "AAPL",
+  "name": "Apple Inc.",
+  "date": "2026-11-05",
+  "close": 345.525,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LDI",
   "name": "loanDepot, Inc.",
   "date": "2026-10-22",
   "close": 0.575,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LDI",
   "name": "loanDepot, Inc.",
   "date": "2026-10-23",
   "close": 0.614,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LDI",
   "name": "loanDepot, Inc.",
   "date": "2026-10-26",
   "close": 0.578,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LDI",
   "name": "loanDepot, Inc.",
   "date": "2026-10-27",
   "close": 0.657,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LDI",
   "name": "loanDepot, Inc.",
   "date": "2026-10-28",
   "close": 0.618,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LDI",
   "name": "loanDepot, Inc.",
   "date": "2026-10-29",
   "close": 0.598,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LDI",
   "name": "loanDepot, Inc.",
   "date": "2026-10-30",
   "close": 0.579,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LDI",
   "name": "loanDepot, Inc.",
   "date": "2026-11-02",
   "close": 0.608,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LDI",
   "name": "loanDepot, Inc.",
   "date": "2026-11-03",
   "close": 0.585,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LDI",
   "name": "loanDepot, Inc.",
   "date": "2026-11-04",
   "close": 0.679,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "QQQ",
-  "name": "Invesco QQQ Trust, Series 1",
-  "date": "2026-10-21",
-  "close": 725.2,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "LDI",
+  "name": "loanDepot, Inc.",
+  "date": "2026-11-05",
+  "close": 0.6292,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "QQQ",
   "name": "Invesco QQQ Trust, Series 1",
   "date": "2026-10-22",
   "close": 704.47,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "QQQ",
   "name": "Invesco QQQ Trust, Series 1",
   "date": "2026-10-23",
   "close": 704.4,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "QQQ",
   "name": "Invesco QQQ Trust, Series 1",
   "date": "2026-10-26",
   "close": 712.2,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "QQQ",
   "name": "Invesco QQQ Trust, Series 1",
   "date": "2026-10-27",
   "close": 721.25,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "QQQ",
   "name": "Invesco QQQ Trust, Series 1",
   "date": "2026-10-28",
   "close": 725.61,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "QQQ",
   "name": "Invesco QQQ Trust, Series 1",
   "date": "2026-10-29",
   "close": 715.34,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "QQQ",
   "name": "Invesco QQQ Trust, Series 1",
   "date": "2026-10-30",
   "close": 690.49,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "QQQ",
   "name": "Invesco QQQ Trust, Series 1",
   "date": "2026-11-02",
   "close": 681.09,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "QQQ",
   "name": "Invesco QQQ Trust, Series 1",
   "date": "2026-11-03",
   "close": 685.28,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "QQQ",
   "name": "Invesco QQQ Trust, Series 1",
   "date": "2026-11-04",
   "close": 691.95,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "AVGO",
-  "name": "Broadcom Inc.",
-  "date": "2026-10-21",
-  "close": 337.8,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "QQQ",
+  "name": "Invesco QQQ Trust, Series 1",
+  "date": "2026-11-05",
+  "close": 654.07,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AVGO",
   "name": "Broadcom Inc.",
   "date": "2026-10-22",
   "close": 323.24,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AVGO",
   "name": "Broadcom Inc.",
   "date": "2026-10-23",
   "close": 321.68,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AVGO",
   "name": "Broadcom Inc.",
   "date": "2026-10-26",
   "close": 329.17,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AVGO",
   "name": "Broadcom Inc.",
   "date": "2026-10-27",
   "close": 342.33,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AVGO",
   "name": "Broadcom Inc.",
   "date": "2026-10-28",
   "close": 351.81,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AVGO",
   "name": "Broadcom Inc.",
   "date": "2026-10-29",
   "close": 345.0,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AVGO",
   "name": "Broadcom Inc.",
   "date": "2026-10-30",
   "close": 326.08,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AVGO",
   "name": "Broadcom Inc.",
   "date": "2026-11-02",
   "close": 322.23,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AVGO",
   "name": "Broadcom Inc.",
   "date": "2026-11-03",
   "close": 332.13,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AVGO",
   "name": "Broadcom Inc.",
   "date": "2026-11-04",
   "close": 325.48,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "MRVL",
-  "name": "Marvell Technology, Inc.",
-  "date": "2026-10-21",
-  "close": 244.76,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "AVGO",
+  "name": "Broadcom Inc.",
+  "date": "2026-11-05",
+  "close": 297.73,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
   "date": "2026-10-22",
   "close": 223.47,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
   "date": "2026-10-23",
   "close": 228.51,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
   "date": "2026-10-26",
   "close": 233.78,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
   "date": "2026-10-27",
   "close": 243.57,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
   "date": "2026-10-28",
   "close": 251.65,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
   "date": "2026-10-29",
   "close": 218.34,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
   "date": "2026-10-30",
   "close": 196.4,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
   "date": "2026-11-02",
   "close": 171.41,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
   "date": "2026-11-03",
   "close": 171.97,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRVL",
   "name": "Marvell Technology, Inc.",
   "date": "2026-11-04",
   "close": 159.8,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "GEV",
-  "name": "GE Vernova Inc.",
-  "date": "2026-10-21",
-  "close": 925.92,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "MRVL",
+  "name": "Marvell Technology, Inc.",
+  "date": "2026-11-05",
+  "close": 139.44,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GEV",
   "name": "GE Vernova Inc.",
   "date": "2026-10-22",
   "close": 827.42,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GEV",
   "name": "GE Vernova Inc.",
   "date": "2026-10-23",
   "close": 815.0,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GEV",
   "name": "GE Vernova Inc.",
   "date": "2026-10-26",
   "close": 855.12,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GEV",
   "name": "GE Vernova Inc.",
   "date": "2026-10-27",
   "close": 895.08,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GEV",
   "name": "GE Vernova Inc.",
   "date": "2026-10-28",
   "close": 878.03,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GEV",
   "name": "GE Vernova Inc.",
   "date": "2026-10-29",
   "close": 887.85,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GEV",
   "name": "GE Vernova Inc.",
   "date": "2026-10-30",
   "close": 857.87,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GEV",
   "name": "GE Vernova Inc.",
   "date": "2026-11-02",
   "close": 862.25,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GEV",
   "name": "GE Vernova Inc.",
   "date": "2026-11-03",
   "close": 918.2,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GEV",
   "name": "GE Vernova Inc.",
   "date": "2026-11-04",
   "close": 832.83,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "BE",
-  "name": "Bloom Energy Corporation",
-  "date": "2026-10-21",
-  "close": 238.53,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "GEV",
+  "name": "GE Vernova Inc.",
+  "date": "2026-11-05",
+  "close": 780.59,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BE",
   "name": "Bloom Energy Corporation",
   "date": "2026-10-22",
   "close": 217.77,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BE",
   "name": "Bloom Energy Corporation",
   "date": "2026-10-23",
   "close": 193.3,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BE",
   "name": "Bloom Energy Corporation",
   "date": "2026-10-26",
   "close": 203.92,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BE",
   "name": "Bloom Energy Corporation",
   "date": "2026-10-27",
   "close": 218.5,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BE",
   "name": "Bloom Energy Corporation",
   "date": "2026-10-28",
   "close": 228.08,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BE",
   "name": "Bloom Energy Corporation",
   "date": "2026-10-29",
   "close": 222.3,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BE",
   "name": "Bloom Energy Corporation",
   "date": "2026-10-30",
   "close": 203.17,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BE",
   "name": "Bloom Energy Corporation",
   "date": "2026-11-02",
   "close": 196.25,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BE",
   "name": "Bloom Energy Corporation",
   "date": "2026-11-03",
   "close": 214.01,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BE",
   "name": "Bloom Energy Corporation",
   "date": "2026-11-04",
   "close": 200.4,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "WDC",
-  "name": "Western Digital Corporation",
-  "date": "2026-10-21",
-  "close": 378.51,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "BE",
+  "name": "Bloom Energy Corporation",
+  "date": "2026-11-05",
+  "close": 170.3,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "WDC",
   "name": "Western Digital Corporation",
   "date": "2026-10-22",
   "close": 354.19,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "WDC",
   "name": "Western Digital Corporation",
   "date": "2026-10-23",
   "close": 343.67,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "WDC",
   "name": "Western Digital Corporation",
   "date": "2026-10-26",
   "close": 356.13,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "WDC",
   "name": "Western Digital Corporation",
   "date": "2026-10-27",
   "close": 380.88,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "WDC",
   "name": "Western Digital Corporation",
   "date": "2026-10-28",
   "close": 396.42,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "WDC",
   "name": "Western Digital Corporation",
   "date": "2026-10-29",
   "close": 395.41,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "WDC",
   "name": "Western Digital Corporation",
   "date": "2026-10-30",
   "close": 366.11,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "WDC",
   "name": "Western Digital Corporation",
   "date": "2026-11-02",
   "close": 338.59,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "WDC",
   "name": "Western Digital Corporation",
   "date": "2026-11-03",
   "close": 347.35,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "WDC",
   "name": "Western Digital Corporation",
   "date": "2026-11-04",
   "close": 323.83,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "LEN",
-  "name": "Lennar Corporation",
-  "date": "2026-10-21",
-  "close": 77.7,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "WDC",
+  "name": "Western Digital Corporation",
+  "date": "2026-11-05",
+  "close": 279.36,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LEN",
   "name": "Lennar Corporation",
   "date": "2026-10-22",
   "close": 84.45,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LEN",
   "name": "Lennar Corporation",
   "date": "2026-10-23",
   "close": 84.92,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LEN",
   "name": "Lennar Corporation",
   "date": "2026-10-26",
   "close": 83.98,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LEN",
   "name": "Lennar Corporation",
   "date": "2026-10-27",
   "close": 84.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LEN",
   "name": "Lennar Corporation",
   "date": "2026-10-28",
   "close": 83.45,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LEN",
   "name": "Lennar Corporation",
   "date": "2026-10-29",
   "close": 85.46,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LEN",
   "name": "Lennar Corporation",
   "date": "2026-10-30",
   "close": 86.94,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LEN",
   "name": "Lennar Corporation",
   "date": "2026-11-02",
   "close": 91.02,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LEN",
   "name": "Lennar Corporation",
   "date": "2026-11-03",
   "close": 86.09,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LEN",
   "name": "Lennar Corporation",
   "date": "2026-11-04",
   "close": 92.19,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "RKT",
-  "name": "Rocket Companies, Inc.",
-  "date": "2026-10-21",
-  "close": 11.11,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "LEN",
+  "name": "Lennar Corporation",
+  "date": "2026-11-05",
+  "close": 91.3,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RKT",
   "name": "Rocket Companies, Inc.",
   "date": "2026-10-22",
   "close": 11.74,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RKT",
   "name": "Rocket Companies, Inc.",
   "date": "2026-10-23",
   "close": 11.73,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RKT",
   "name": "Rocket Companies, Inc.",
   "date": "2026-10-26",
   "close": 11.49,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RKT",
   "name": "Rocket Companies, Inc.",
   "date": "2026-10-27",
   "close": 11.84,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RKT",
   "name": "Rocket Companies, Inc.",
   "date": "2026-10-28",
   "close": 11.57,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RKT",
   "name": "Rocket Companies, Inc.",
   "date": "2026-10-29",
   "close": 11.92,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RKT",
   "name": "Rocket Companies, Inc.",
   "date": "2026-10-30",
   "close": 12.8,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RKT",
   "name": "Rocket Companies, Inc.",
   "date": "2026-11-02",
   "close": 13.77,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RKT",
   "name": "Rocket Companies, Inc.",
   "date": "2026-11-03",
   "close": 13.81,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RKT",
   "name": "Rocket Companies, Inc.",
   "date": "2026-11-04",
   "close": 15.01,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "TLT",
-  "name": "iShares 20+ Year Treasury Bond",
-  "date": "2026-10-21",
-  "close": 80.24,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "RKT",
+  "name": "Rocket Companies, Inc.",
+  "date": "2026-11-05",
+  "close": 14.845,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TLT",
   "name": "iShares 20+ Year Treasury Bond",
   "date": "2026-10-22",
   "close": 81.74,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TLT",
   "name": "iShares 20+ Year Treasury Bond",
   "date": "2026-10-23",
   "close": 81.34,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TLT",
   "name": "iShares 20+ Year Treasury Bond",
   "date": "2026-10-26",
   "close": 81.68,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TLT",
   "name": "iShares 20+ Year Treasury Bond",
   "date": "2026-10-27",
   "close": 81.63,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TLT",
   "name": "iShares 20+ Year Treasury Bond",
   "date": "2026-10-28",
   "close": 80.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TLT",
   "name": "iShares 20+ Year Treasury Bond",
   "date": "2026-10-29",
   "close": 81.49,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TLT",
   "name": "iShares 20+ Year Treasury Bond",
   "date": "2026-10-30",
   "close": 81.84,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TLT",
   "name": "iShares 20+ Year Treasury Bond",
   "date": "2026-11-02",
   "close": 81.73,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TLT",
   "name": "iShares 20+ Year Treasury Bond",
   "date": "2026-11-03",
   "close": 81.11,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TLT",
   "name": "iShares 20+ Year Treasury Bond",
   "date": "2026-11-04",
   "close": 81.76,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "AMD",
-  "name": "Advanced Micro Devices, Inc.",
-  "date": "2026-10-21",
-  "close": 552.72,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "TLT",
+  "name": "iShares 20+ Year Treasury Bond",
+  "date": "2026-11-05",
+  "close": 82.02,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMD",
   "name": "Advanced Micro Devices, Inc.",
   "date": "2026-10-22",
   "close": 507.93,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMD",
   "name": "Advanced Micro Devices, Inc.",
   "date": "2026-10-23",
   "close": 516.79,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMD",
   "name": "Advanced Micro Devices, Inc.",
   "date": "2026-10-26",
   "close": 531.28,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMD",
   "name": "Advanced Micro Devices, Inc.",
   "date": "2026-10-27",
   "close": 560.26,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMD",
   "name": "Advanced Micro Devices, Inc.",
   "date": "2026-10-28",
   "close": 578.44,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMD",
   "name": "Advanced Micro Devices, Inc.",
   "date": "2026-10-29",
   "close": 566.42,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMD",
   "name": "Advanced Micro Devices, Inc.",
   "date": "2026-10-30",
   "close": 504.8,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMD",
   "name": "Advanced Micro Devices, Inc.",
   "date": "2026-11-02",
   "close": 466.84,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMD",
   "name": "Advanced Micro Devices, Inc.",
   "date": "2026-11-03",
   "close": 483.9,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMD",
   "name": "Advanced Micro Devices, Inc.",
   "date": "2026-11-04",
   "close": 488.78,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "BRK-B",
-  "name": "Berkshire Hathaway Inc. New",
-  "date": "2026-10-21",
-  "close": 538.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "AMD",
+  "name": "Advanced Micro Devices, Inc.",
+  "date": "2026-11-05",
+  "close": 417.985,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BRK-B",
   "name": "Berkshire Hathaway Inc. New",
   "date": "2026-10-22",
   "close": 546.97,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BRK-B",
   "name": "Berkshire Hathaway Inc. New",
   "date": "2026-10-23",
   "close": 542.19,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BRK-B",
   "name": "Berkshire Hathaway Inc. New",
   "date": "2026-10-26",
   "close": 548.56,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BRK-B",
   "name": "Berkshire Hathaway Inc. New",
   "date": "2026-10-27",
   "close": 542.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BRK-B",
   "name": "Berkshire Hathaway Inc. New",
   "date": "2026-10-28",
   "close": 540.34,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BRK-B",
   "name": "Berkshire Hathaway Inc. New",
   "date": "2026-10-29",
   "close": 541.96,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BRK-B",
   "name": "Berkshire Hathaway Inc. New",
   "date": "2026-10-30",
   "close": 542.49,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BRK-B",
   "name": "Berkshire Hathaway Inc. New",
   "date": "2026-11-02",
   "close": 556.11,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BRK-B",
   "name": "Berkshire Hathaway Inc. New",
   "date": "2026-11-03",
   "close": 557.07,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "BRK-B",
   "name": "Berkshire Hathaway Inc. New",
   "date": "2026-11-04",
   "close": 579.09,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "SOFI",
-  "name": "SoFi Technologies, Inc.",
-  "date": "2026-10-21",
-  "close": 14.9,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "BRK-B",
+  "name": "Berkshire Hathaway Inc. New",
+  "date": "2026-11-05",
+  "close": 574.335,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SOFI",
   "name": "SoFi Technologies, Inc.",
   "date": "2026-10-22",
   "close": 14.77,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SOFI",
   "name": "SoFi Technologies, Inc.",
   "date": "2026-10-23",
   "close": 14.615,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SOFI",
   "name": "SoFi Technologies, Inc.",
   "date": "2026-10-26",
   "close": 14.46,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SOFI",
   "name": "SoFi Technologies, Inc.",
   "date": "2026-10-27",
   "close": 16.4,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SOFI",
   "name": "SoFi Technologies, Inc.",
   "date": "2026-10-28",
   "close": 17.14,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SOFI",
   "name": "SoFi Technologies, Inc.",
   "date": "2026-10-29",
   "close": 17.61,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SOFI",
   "name": "SoFi Technologies, Inc.",
   "date": "2026-10-30",
   "close": 16.76,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SOFI",
   "name": "SoFi Technologies, Inc.",
   "date": "2026-11-02",
   "close": 16.6,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SOFI",
   "name": "SoFi Technologies, Inc.",
   "date": "2026-11-03",
   "close": 16.77,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SOFI",
   "name": "SoFi Technologies, Inc.",
   "date": "2026-11-04",
   "close": 17.38,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "CRWV",
-  "name": "CoreWeave, Inc.",
-  "date": "2026-10-21",
-  "close": 61.82,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "SOFI",
+  "name": "SoFi Technologies, Inc.",
+  "date": "2026-11-05",
+  "close": 15.945,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRWV",
   "name": "CoreWeave, Inc.",
   "date": "2026-10-22",
   "close": 55.6,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRWV",
   "name": "CoreWeave, Inc.",
   "date": "2026-10-23",
   "close": 54.235,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRWV",
   "name": "CoreWeave, Inc.",
   "date": "2026-10-26",
   "close": 55.19,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRWV",
   "name": "CoreWeave, Inc.",
   "date": "2026-10-27",
   "close": 59.57,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRWV",
   "name": "CoreWeave, Inc.",
   "date": "2026-10-28",
   "close": 63.93,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRWV",
   "name": "CoreWeave, Inc.",
   "date": "2026-10-29",
   "close": 60.74,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRWV",
   "name": "CoreWeave, Inc.",
   "date": "2026-10-30",
   "close": 54.87,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRWV",
   "name": "CoreWeave, Inc.",
   "date": "2026-11-02",
   "close": 50.15,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRWV",
   "name": "CoreWeave, Inc.",
   "date": "2026-11-03",
   "close": 53.74,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRWV",
   "name": "CoreWeave, Inc.",
   "date": "2026-11-04",
   "close": 48.42,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "NBIS",
-  "name": "Nebius Group N.V.",
-  "date": "2026-10-21",
-  "close": 171.57,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "CRWV",
+  "name": "CoreWeave, Inc.",
+  "date": "2026-11-05",
+  "close": 44.045,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NBIS",
   "name": "Nebius Group N.V.",
   "date": "2026-10-22",
   "close": 159.17,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NBIS",
   "name": "Nebius Group N.V.",
   "date": "2026-10-23",
   "close": 158.74,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NBIS",
   "name": "Nebius Group N.V.",
   "date": "2026-10-26",
   "close": 153.27,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NBIS",
   "name": "Nebius Group N.V.",
   "date": "2026-10-27",
   "close": 170.47,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NBIS",
   "name": "Nebius Group N.V.",
   "date": "2026-10-28",
   "close": 182.34,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NBIS",
   "name": "Nebius Group N.V.",
   "date": "2026-10-29",
   "close": 171.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NBIS",
   "name": "Nebius Group N.V.",
   "date": "2026-10-30",
   "close": 154.14,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NBIS",
   "name": "Nebius Group N.V.",
   "date": "2026-11-02",
   "close": 141.39,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NBIS",
   "name": "Nebius Group N.V.",
   "date": "2026-11-03",
   "close": 151.64,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NBIS",
   "name": "Nebius Group N.V.",
   "date": "2026-11-04",
   "close": 141.52,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "HOOD",
-  "name": "Robinhood Markets, Inc.",
-  "date": "2026-10-21",
-  "close": 101.93,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "NBIS",
+  "name": "Nebius Group N.V.",
+  "date": "2026-11-05",
+  "close": 121.4,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "HOOD",
   "name": "Robinhood Markets, Inc.",
   "date": "2026-10-22",
   "close": 96.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "HOOD",
   "name": "Robinhood Markets, Inc.",
   "date": "2026-10-23",
   "close": 95.07,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "HOOD",
   "name": "Robinhood Markets, Inc.",
   "date": "2026-10-26",
   "close": 92.84,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "HOOD",
   "name": "Robinhood Markets, Inc.",
   "date": "2026-10-27",
   "close": 94.56,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "HOOD",
   "name": "Robinhood Markets, Inc.",
   "date": "2026-10-28",
   "close": 91.43,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "HOOD",
   "name": "Robinhood Markets, Inc.",
   "date": "2026-10-29",
   "close": 91.59,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "HOOD",
   "name": "Robinhood Markets, Inc.",
   "date": "2026-10-30",
   "close": 84.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "HOOD",
   "name": "Robinhood Markets, Inc.",
   "date": "2026-11-02",
   "close": 83.84,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "HOOD",
   "name": "Robinhood Markets, Inc.",
   "date": "2026-11-03",
   "close": 85.68,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "HOOD",
   "name": "Robinhood Markets, Inc.",
   "date": "2026-11-04",
   "close": 87.41,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "MSFT",
-  "name": "Microsoft Corporation",
-  "date": "2026-10-21",
-  "close": 532.95,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "HOOD",
+  "name": "Robinhood Markets, Inc.",
+  "date": "2026-11-05",
+  "close": 78.54,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MSFT",
   "name": "Microsoft Corporation",
   "date": "2026-10-22",
   "close": 521.08,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MSFT",
   "name": "Microsoft Corporation",
   "date": "2026-10-23",
   "close": 524.51,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MSFT",
   "name": "Microsoft Corporation",
   "date": "2026-10-26",
   "close": 532.6,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MSFT",
   "name": "Microsoft Corporation",
   "date": "2026-10-27",
   "close": 531.33,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MSFT",
   "name": "Microsoft Corporation",
   "date": "2026-10-28",
   "close": 531.01,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MSFT",
   "name": "Microsoft Corporation",
   "date": "2026-10-29",
   "close": 530.14,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MSFT",
   "name": "Microsoft Corporation",
   "date": "2026-10-30",
   "close": 521.91,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MSFT",
   "name": "Microsoft Corporation",
   "date": "2026-11-02",
   "close": 507.12,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MSFT",
   "name": "Microsoft Corporation",
   "date": "2026-11-03",
   "close": 520.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MSFT",
   "name": "Microsoft Corporation",
   "date": "2026-11-04",
   "close": 555.8,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "TSLA",
-  "name": "Tesla, Inc.",
-  "date": "2026-10-21",
-  "close": 386.47,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "MSFT",
+  "name": "Microsoft Corporation",
+  "date": "2026-11-05",
+  "close": 536.66,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TSLA",
   "name": "Tesla, Inc.",
   "date": "2026-10-22",
   "close": 374.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TSLA",
   "name": "Tesla, Inc.",
   "date": "2026-10-23",
   "close": 372.22,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TSLA",
   "name": "Tesla, Inc.",
   "date": "2026-10-26",
   "close": 391.62,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TSLA",
   "name": "Tesla, Inc.",
   "date": "2026-10-27",
   "close": 407.46,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TSLA",
   "name": "Tesla, Inc.",
   "date": "2026-10-28",
   "close": 404.22,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TSLA",
   "name": "Tesla, Inc.",
   "date": "2026-10-29",
   "close": 403.3,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TSLA",
   "name": "Tesla, Inc.",
   "date": "2026-10-30",
   "close": 399.81,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TSLA",
   "name": "Tesla, Inc.",
   "date": "2026-11-02",
   "close": 403.82,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TSLA",
   "name": "Tesla, Inc.",
   "date": "2026-11-03",
   "close": 398.5,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TSLA",
   "name": "Tesla, Inc.",
   "date": "2026-11-04",
   "close": 385.19,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "GOOGL",
-  "name": "Alphabet Inc.",
-  "date": "2026-10-21",
-  "close": 334.76,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "TSLA",
+  "name": "Tesla, Inc.",
+  "date": "2026-11-05",
+  "close": 342.8601,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GOOGL",
   "name": "Alphabet Inc.",
   "date": "2026-10-22",
   "close": 324.22,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GOOGL",
   "name": "Alphabet Inc.",
   "date": "2026-10-23",
   "close": 320.21,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GOOGL",
   "name": "Alphabet Inc.",
   "date": "2026-10-26",
   "close": 316.8,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GOOGL",
   "name": "Alphabet Inc.",
   "date": "2026-10-27",
   "close": 320.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GOOGL",
   "name": "Alphabet Inc.",
   "date": "2026-10-28",
   "close": 324.89,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GOOGL",
   "name": "Alphabet Inc.",
   "date": "2026-10-29",
   "close": 283.82,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GOOGL",
   "name": "Alphabet Inc.",
   "date": "2026-10-30",
   "close": 279.84,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GOOGL",
   "name": "Alphabet Inc.",
   "date": "2026-11-02",
   "close": 278.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GOOGL",
   "name": "Alphabet Inc.",
   "date": "2026-11-03",
   "close": 280.03,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GOOGL",
   "name": "Alphabet Inc.",
   "date": "2026-11-04",
   "close": 288.93,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "LITE",
-  "name": "Lumentum Holdings Inc.",
-  "date": "2026-10-21",
-  "close": 850.7,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "GOOGL",
+  "name": "Alphabet Inc.",
+  "date": "2026-11-05",
+  "close": 284.735,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
   "date": "2026-10-22",
   "close": 752.54,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
   "date": "2026-10-23",
   "close": 756.17,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
   "date": "2026-10-26",
   "close": 818.1,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
   "date": "2026-10-27",
   "close": 866.18,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
   "date": "2026-10-28",
   "close": 913.95,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
   "date": "2026-10-29",
   "close": 919.53,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
   "date": "2026-10-30",
   "close": 840.7,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
   "date": "2026-11-02",
   "close": 684.4,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
   "date": "2026-11-03",
   "close": 680.16,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LITE",
   "name": "Lumentum Holdings Inc.",
   "date": "2026-11-04",
   "close": 626.75,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "GLW",
-  "name": "Corning Incorporated",
-  "date": "2026-10-21",
-  "close": 134.92,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "LITE",
+  "name": "Lumentum Holdings Inc.",
+  "date": "2026-11-05",
+  "close": 532.665,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GLW",
   "name": "Corning Incorporated",
   "date": "2026-10-22",
   "close": 123.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GLW",
   "name": "Corning Incorporated",
   "date": "2026-10-23",
   "close": 123.69,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GLW",
   "name": "Corning Incorporated",
   "date": "2026-10-26",
   "close": 127.74,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GLW",
   "name": "Corning Incorporated",
   "date": "2026-10-27",
   "close": 126.3,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GLW",
   "name": "Corning Incorporated",
   "date": "2026-10-28",
   "close": 131.2,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GLW",
   "name": "Corning Incorporated",
   "date": "2026-10-29",
   "close": 128.88,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GLW",
   "name": "Corning Incorporated",
   "date": "2026-10-30",
   "close": 123.31,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GLW",
   "name": "Corning Incorporated",
   "date": "2026-11-02",
   "close": 123.2,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GLW",
   "name": "Corning Incorporated",
   "date": "2026-11-03",
   "close": 126.14,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "GLW",
   "name": "Corning Incorporated",
   "date": "2026-11-04",
   "close": 118.77,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "DELL",
-  "name": "Dell Technologies Inc.",
-  "date": "2026-10-21",
-  "close": 485.88,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "GLW",
+  "name": "Corning Incorporated",
+  "date": "2026-11-05",
+  "close": 105.32,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "DELL",
   "name": "Dell Technologies Inc.",
   "date": "2026-10-22",
   "close": 452.95,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "DELL",
   "name": "Dell Technologies Inc.",
   "date": "2026-10-23",
   "close": 456.44,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "DELL",
   "name": "Dell Technologies Inc.",
   "date": "2026-10-26",
   "close": 467.09,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "DELL",
   "name": "Dell Technologies Inc.",
   "date": "2026-10-27",
   "close": 501.96,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "DELL",
   "name": "Dell Technologies Inc.",
   "date": "2026-10-28",
   "close": 493.79,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "DELL",
   "name": "Dell Technologies Inc.",
   "date": "2026-10-29",
   "close": 475.51,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "DELL",
   "name": "Dell Technologies Inc.",
   "date": "2026-10-30",
   "close": 424.3,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "DELL",
   "name": "Dell Technologies Inc.",
   "date": "2026-11-02",
   "close": 392.78,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "DELL",
   "name": "Dell Technologies Inc.",
   "date": "2026-11-03",
   "close": 408.4,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "DELL",
   "name": "Dell Technologies Inc.",
   "date": "2026-11-04",
   "close": 372.36,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "NOW",
-  "name": "ServiceNow, Inc.",
-  "date": "2026-10-21",
-  "close": 153.12,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "DELL",
+  "name": "Dell Technologies Inc.",
+  "date": "2026-11-05",
+  "close": 327.15,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NOW",
   "name": "ServiceNow, Inc.",
   "date": "2026-10-22",
   "close": 157.0,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NOW",
   "name": "ServiceNow, Inc.",
   "date": "2026-10-23",
   "close": 158.96,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NOW",
   "name": "ServiceNow, Inc.",
   "date": "2026-10-26",
   "close": 158.18,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NOW",
   "name": "ServiceNow, Inc.",
   "date": "2026-10-27",
   "close": 154.78,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NOW",
   "name": "ServiceNow, Inc.",
   "date": "2026-10-28",
   "close": 150.13,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NOW",
   "name": "ServiceNow, Inc.",
   "date": "2026-10-29",
   "close": 109.67,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NOW",
   "name": "ServiceNow, Inc.",
   "date": "2026-10-30",
   "close": 105.12,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NOW",
   "name": "ServiceNow, Inc.",
   "date": "2026-11-02",
   "close": 106.01,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NOW",
   "name": "ServiceNow, Inc.",
   "date": "2026-11-03",
   "close": 109.16,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "NOW",
   "name": "ServiceNow, Inc.",
   "date": "2026-11-04",
   "close": 108.81,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "VRT",
-  "name": "Vertiv Holdings, LLC",
-  "date": "2026-10-21",
-  "close": 212.15,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "NOW",
+  "name": "ServiceNow, Inc.",
+  "date": "2026-11-05",
+  "close": 102.35,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "VRT",
   "name": "Vertiv Holdings, LLC",
   "date": "2026-10-22",
   "close": 195.59,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "VRT",
   "name": "Vertiv Holdings, LLC",
   "date": "2026-10-23",
   "close": 194.32,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "VRT",
   "name": "Vertiv Holdings, LLC",
   "date": "2026-10-26",
   "close": 199.78,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "VRT",
   "name": "Vertiv Holdings, LLC",
   "date": "2026-10-27",
   "close": 208.56,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "VRT",
   "name": "Vertiv Holdings, LLC",
   "date": "2026-10-28",
   "close": 242.94,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "VRT",
   "name": "Vertiv Holdings, LLC",
   "date": "2026-10-29",
   "close": 245.92,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "VRT",
   "name": "Vertiv Holdings, LLC",
   "date": "2026-10-30",
   "close": 232.5,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "VRT",
   "name": "Vertiv Holdings, LLC",
   "date": "2026-11-02",
   "close": 224.24,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "VRT",
   "name": "Vertiv Holdings, LLC",
   "date": "2026-11-03",
   "close": 235.97,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "VRT",
   "name": "Vertiv Holdings, LLC",
   "date": "2026-11-04",
   "close": 205.55,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "CMG",
-  "name": "Chipotle Mexican Grill, Inc.",
-  "date": "2026-10-21",
-  "close": 28.12,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "VRT",
+  "name": "Vertiv Holdings, LLC",
+  "date": "2026-11-05",
+  "close": 177.37,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CMG",
   "name": "Chipotle Mexican Grill, Inc.",
   "date": "2026-10-22",
   "close": 28.14,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CMG",
   "name": "Chipotle Mexican Grill, Inc.",
   "date": "2026-10-23",
   "close": 27.52,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CMG",
   "name": "Chipotle Mexican Grill, Inc.",
   "date": "2026-10-26",
   "close": 28.41,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CMG",
   "name": "Chipotle Mexican Grill, Inc.",
   "date": "2026-10-27",
   "close": 27.98,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CMG",
   "name": "Chipotle Mexican Grill, Inc.",
   "date": "2026-10-28",
   "close": 28.73,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CMG",
   "name": "Chipotle Mexican Grill, Inc.",
   "date": "2026-10-29",
   "close": 31.28,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CMG",
   "name": "Chipotle Mexican Grill, Inc.",
   "date": "2026-10-30",
   "close": 31.89,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CMG",
   "name": "Chipotle Mexican Grill, Inc.",
   "date": "2026-11-02",
   "close": 32.91,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CMG",
   "name": "Chipotle Mexican Grill, Inc.",
   "date": "2026-11-03",
   "close": 33.26,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CMG",
   "name": "Chipotle Mexican Grill, Inc.",
   "date": "2026-11-04",
   "close": 35.2,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "TMUS",
-  "name": "T-Mobile US, Inc.",
-  "date": "2026-10-21",
-  "close": 153.75,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "CMG",
+  "name": "Chipotle Mexican Grill, Inc.",
+  "date": "2026-11-05",
+  "close": 34.935,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TMUS",
   "name": "T-Mobile US, Inc.",
   "date": "2026-10-22",
   "close": 158.79,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TMUS",
   "name": "T-Mobile US, Inc.",
   "date": "2026-10-23",
   "close": 146.54,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TMUS",
   "name": "T-Mobile US, Inc.",
   "date": "2026-10-26",
   "close": 146.93,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TMUS",
   "name": "T-Mobile US, Inc.",
   "date": "2026-10-27",
   "close": 146.83,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TMUS",
   "name": "T-Mobile US, Inc.",
   "date": "2026-10-28",
   "close": 148.08,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TMUS",
   "name": "T-Mobile US, Inc.",
   "date": "2026-10-29",
   "close": 147.29,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TMUS",
   "name": "T-Mobile US, Inc.",
   "date": "2026-10-30",
   "close": 156.44,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TMUS",
   "name": "T-Mobile US, Inc.",
   "date": "2026-11-02",
   "close": 160.15,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TMUS",
   "name": "T-Mobile US, Inc.",
   "date": "2026-11-03",
   "close": 154.41,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TMUS",
   "name": "T-Mobile US, Inc.",
   "date": "2026-11-04",
   "close": 159.17,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "FDX",
-  "name": "FedEx Corporation",
-  "date": "2026-10-21",
-  "close": 298.23,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "TMUS",
+  "name": "T-Mobile US, Inc.",
+  "date": "2026-11-05",
+  "close": 159.65,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FDX",
   "name": "FedEx Corporation",
   "date": "2026-10-22",
   "close": 303.92,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FDX",
   "name": "FedEx Corporation",
   "date": "2026-10-23",
   "close": 298.72,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FDX",
   "name": "FedEx Corporation",
   "date": "2026-10-26",
   "close": 300.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FDX",
   "name": "FedEx Corporation",
   "date": "2026-10-27",
   "close": 307.1,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FDX",
   "name": "FedEx Corporation",
   "date": "2026-10-28",
   "close": 304.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FDX",
   "name": "FedEx Corporation",
   "date": "2026-10-29",
   "close": 307.82,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FDX",
   "name": "FedEx Corporation",
   "date": "2026-10-30",
   "close": 313.28,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FDX",
   "name": "FedEx Corporation",
   "date": "2026-11-02",
   "close": 318.25,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FDX",
   "name": "FedEx Corporation",
   "date": "2026-11-03",
   "close": 318.02,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FDX",
   "name": "FedEx Corporation",
   "date": "2026-11-04",
   "close": 329.4,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "EBAY",
-  "name": "eBay Inc.",
-  "date": "2026-10-21",
-  "close": 122.9,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "FDX",
+  "name": "FedEx Corporation",
+  "date": "2026-11-05",
+  "close": 317.67,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "EBAY",
   "name": "eBay Inc.",
   "date": "2026-10-22",
   "close": 122.04,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "EBAY",
   "name": "eBay Inc.",
   "date": "2026-10-23",
   "close": 121.41,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "EBAY",
   "name": "eBay Inc.",
   "date": "2026-10-26",
   "close": 118.62,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "EBAY",
   "name": "eBay Inc.",
   "date": "2026-10-27",
   "close": 117.83,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "EBAY",
   "name": "eBay Inc.",
   "date": "2026-10-28",
   "close": 118.02,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "EBAY",
   "name": "eBay Inc.",
   "date": "2026-10-29",
   "close": 121.19,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "EBAY",
   "name": "eBay Inc.",
   "date": "2026-10-30",
   "close": 121.64,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "EBAY",
   "name": "eBay Inc.",
   "date": "2026-11-02",
   "close": 120.93,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "EBAY",
   "name": "eBay Inc.",
   "date": "2026-11-03",
   "close": 118.62,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "EBAY",
   "name": "eBay Inc.",
   "date": "2026-11-04",
   "close": 125.15,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "F",
-  "name": "Ford Motor Company",
-  "date": "2026-10-21",
-  "close": 11.9,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "EBAY",
+  "name": "eBay Inc.",
+  "date": "2026-11-05",
+  "close": 122.62,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "F",
   "name": "Ford Motor Company",
   "date": "2026-10-22",
   "close": 11.94,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "F",
   "name": "Ford Motor Company",
   "date": "2026-10-23",
   "close": 11.6,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "F",
   "name": "Ford Motor Company",
   "date": "2026-10-26",
   "close": 11.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "F",
   "name": "Ford Motor Company",
   "date": "2026-10-27",
   "close": 11.71,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "F",
   "name": "Ford Motor Company",
   "date": "2026-10-28",
   "close": 11.95,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "F",
   "name": "Ford Motor Company",
   "date": "2026-10-29",
   "close": 12.36,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "F",
   "name": "Ford Motor Company",
   "date": "2026-10-30",
   "close": 12.25,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "F",
   "name": "Ford Motor Company",
   "date": "2026-11-02",
   "close": 12.6,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "F",
   "name": "Ford Motor Company",
   "date": "2026-11-03",
   "close": 12.31,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "F",
   "name": "Ford Motor Company",
   "date": "2026-11-04",
   "close": 12.67,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "MRNA",
-  "name": "Moderna, Inc.",
-  "date": "2026-10-21",
-  "close": 245.81,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "F",
+  "name": "Ford Motor Company",
+  "date": "2026-11-05",
+  "close": 12.425,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRNA",
   "name": "Moderna, Inc.",
   "date": "2026-10-22",
   "close": 202.63,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRNA",
   "name": "Moderna, Inc.",
   "date": "2026-10-23",
   "close": 200.1,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRNA",
   "name": "Moderna, Inc.",
   "date": "2026-10-26",
   "close": 198.85,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRNA",
   "name": "Moderna, Inc.",
   "date": "2026-10-27",
   "close": 207.97,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRNA",
   "name": "Moderna, Inc.",
   "date": "2026-10-28",
   "close": 214.165,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRNA",
   "name": "Moderna, Inc.",
   "date": "2026-10-29",
   "close": 222.76,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRNA",
   "name": "Moderna, Inc.",
   "date": "2026-10-30",
   "close": 221.72,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRNA",
   "name": "Moderna, Inc.",
   "date": "2026-11-02",
   "close": 220.83,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRNA",
   "name": "Moderna, Inc.",
   "date": "2026-11-03",
   "close": 228.44,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "MRNA",
   "name": "Moderna, Inc.",
   "date": "2026-11-04",
   "close": 258.38,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "TEM",
-  "name": "Tempus AI, Inc.",
-  "date": "2026-10-21",
-  "close": 67.76,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "MRNA",
+  "name": "Moderna, Inc.",
+  "date": "2026-11-05",
+  "close": 240.69,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TEM",
   "name": "Tempus AI, Inc.",
   "date": "2026-10-22",
   "close": 63.81,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TEM",
   "name": "Tempus AI, Inc.",
   "date": "2026-10-23",
   "close": 67.615,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TEM",
   "name": "Tempus AI, Inc.",
   "date": "2026-10-26",
   "close": 67.16,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TEM",
   "name": "Tempus AI, Inc.",
   "date": "2026-10-27",
   "close": 72.15,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TEM",
   "name": "Tempus AI, Inc.",
   "date": "2026-10-28",
   "close": 76.61,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TEM",
   "name": "Tempus AI, Inc.",
   "date": "2026-10-29",
   "close": 77.84,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TEM",
   "name": "Tempus AI, Inc.",
   "date": "2026-10-30",
   "close": 72.22,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TEM",
   "name": "Tempus AI, Inc.",
   "date": "2026-11-02",
   "close": 78.48,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TEM",
   "name": "Tempus AI, Inc.",
   "date": "2026-11-03",
   "close": 77.8,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "TEM",
   "name": "Tempus AI, Inc.",
   "date": "2026-11-04",
   "close": 75.61,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "ORCL",
-  "name": "Oracle Corporation",
-  "date": "2026-10-21",
-  "close": 129.13,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "TEM",
+  "name": "Tempus AI, Inc.",
+  "date": "2026-11-05",
+  "close": 68.975,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
   "date": "2026-10-22",
   "close": 125.54,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
   "date": "2026-10-23",
   "close": 126.16,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
   "date": "2026-10-26",
   "close": 126.06,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
   "date": "2026-10-27",
   "close": 130.53,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
   "date": "2026-10-28",
   "close": 144.54,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
   "date": "2026-10-29",
   "close": 139.56,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
   "date": "2026-10-30",
   "close": 130.67,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
   "date": "2026-11-02",
   "close": 119.22,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
   "date": "2026-11-03",
   "close": 126.19,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "ORCL",
   "name": "Oracle Corporation",
   "date": "2026-11-04",
   "close": 123.73,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "FTNT",
-  "name": "Fortinet, Inc.",
-  "date": "2026-10-21",
-  "close": 174.05,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "ORCL",
+  "name": "Oracle Corporation",
+  "date": "2026-11-05",
+  "close": 115.33,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FTNT",
   "name": "Fortinet, Inc.",
   "date": "2026-10-22",
   "close": 172.98,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FTNT",
   "name": "Fortinet, Inc.",
   "date": "2026-10-23",
   "close": 179.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FTNT",
   "name": "Fortinet, Inc.",
   "date": "2026-10-26",
   "close": 183.33,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FTNT",
   "name": "Fortinet, Inc.",
   "date": "2026-10-27",
   "close": 185.0,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FTNT",
   "name": "Fortinet, Inc.",
   "date": "2026-10-28",
   "close": 174.08,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FTNT",
   "name": "Fortinet, Inc.",
   "date": "2026-10-29",
   "close": 139.1,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FTNT",
   "name": "Fortinet, Inc.",
   "date": "2026-10-30",
   "close": 136.08,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FTNT",
   "name": "Fortinet, Inc.",
   "date": "2026-11-02",
   "close": 126.21,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FTNT",
   "name": "Fortinet, Inc.",
   "date": "2026-11-03",
   "close": 128.11,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "FTNT",
   "name": "Fortinet, Inc.",
   "date": "2026-11-04",
   "close": 129.39,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "CVNA",
-  "name": "Carvana Co.",
-  "date": "2026-10-21",
-  "close": 59.19,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "FTNT",
+  "name": "Fortinet, Inc.",
+  "date": "2026-11-05",
+  "close": 122.885,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CVNA",
   "name": "Carvana Co.",
   "date": "2026-10-22",
   "close": 58.72,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CVNA",
   "name": "Carvana Co.",
   "date": "2026-10-23",
   "close": 57.81,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CVNA",
   "name": "Carvana Co.",
   "date": "2026-10-26",
   "close": 56.61,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CVNA",
   "name": "Carvana Co.",
   "date": "2026-10-27",
   "close": 59.23,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CVNA",
   "name": "Carvana Co.",
   "date": "2026-10-28",
   "close": 59.05,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CVNA",
   "name": "Carvana Co.",
   "date": "2026-10-29",
   "close": 68.31,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CVNA",
   "name": "Carvana Co.",
   "date": "2026-10-30",
   "close": 68.29,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CVNA",
   "name": "Carvana Co.",
   "date": "2026-11-02",
   "close": 72.0,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CVNA",
   "name": "Carvana Co.",
   "date": "2026-11-03",
   "close": 71.28,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CVNA",
   "name": "Carvana Co.",
   "date": "2026-11-04",
   "close": 77.56,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "LLY",
-  "name": "Eli Lilly and Company",
-  "date": "2026-10-21",
-  "close": 1270.75,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "CVNA",
+  "name": "Carvana Co.",
+  "date": "2026-11-05",
+  "close": 70.9,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LLY",
   "name": "Eli Lilly and Company",
   "date": "2026-10-22",
   "close": 1306.6899,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LLY",
   "name": "Eli Lilly and Company",
   "date": "2026-10-23",
   "close": 1273.46,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LLY",
   "name": "Eli Lilly and Company",
   "date": "2026-10-26",
   "close": 1279.14,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LLY",
   "name": "Eli Lilly and Company",
   "date": "2026-10-27",
   "close": 1281.91,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LLY",
   "name": "Eli Lilly and Company",
   "date": "2026-10-28",
   "close": 1288.3,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LLY",
   "name": "Eli Lilly and Company",
   "date": "2026-10-29",
   "close": 1373.7,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LLY",
   "name": "Eli Lilly and Company",
   "date": "2026-10-30",
   "close": 1417.54,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LLY",
   "name": "Eli Lilly and Company",
   "date": "2026-11-02",
   "close": 1410.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LLY",
   "name": "Eli Lilly and Company",
   "date": "2026-11-03",
   "close": 1409.38,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "LLY",
   "name": "Eli Lilly and Company",
   "date": "2026-11-04",
   "close": 1417.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "STX",
-  "name": "Seagate Technology Holdings PLC",
-  "date": "2026-10-21",
-  "close": 696.89,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "LLY",
+  "name": "Eli Lilly and Company",
+  "date": "2026-11-05",
+  "close": 1376.9351,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "STX",
   "name": "Seagate Technology Holdings PLC",
   "date": "2026-10-22",
   "close": 642.14,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "STX",
   "name": "Seagate Technology Holdings PLC",
   "date": "2026-10-23",
   "close": 630.49,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "STX",
   "name": "Seagate Technology Holdings PLC",
   "date": "2026-10-26",
   "close": 644.21,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "STX",
   "name": "Seagate Technology Holdings PLC",
   "date": "2026-10-27",
   "close": 667.85,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "STX",
   "name": "Seagate Technology Holdings PLC",
   "date": "2026-10-28",
   "close": 697.97,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "STX",
   "name": "Seagate Technology Holdings PLC",
   "date": "2026-10-29",
   "close": 700.47,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "STX",
   "name": "Seagate Technology Holdings PLC",
   "date": "2026-10-30",
   "close": 644.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "STX",
   "name": "Seagate Technology Holdings PLC",
   "date": "2026-11-02",
   "close": 593.76,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "STX",
   "name": "Seagate Technology Holdings PLC",
   "date": "2026-11-03",
   "close": 606.38,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "STX",
   "name": "Seagate Technology Holdings PLC",
   "date": "2026-11-04",
   "close": 557.06,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "CRCL",
-  "name": "Circle Internet Group, Inc.",
-  "date": "2026-10-21",
-  "close": 89.71,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "STX",
+  "name": "Seagate Technology Holdings PLC",
+  "date": "2026-11-05",
+  "close": 476.4366,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRCL",
   "name": "Circle Internet Group, Inc.",
   "date": "2026-10-22",
   "close": 86.62,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRCL",
   "name": "Circle Internet Group, Inc.",
   "date": "2026-10-23",
   "close": 85.91,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRCL",
   "name": "Circle Internet Group, Inc.",
   "date": "2026-10-26",
   "close": 79.84,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRCL",
   "name": "Circle Internet Group, Inc.",
   "date": "2026-10-27",
   "close": 81.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRCL",
   "name": "Circle Internet Group, Inc.",
   "date": "2026-10-28",
   "close": 81.71,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRCL",
   "name": "Circle Internet Group, Inc.",
   "date": "2026-10-29",
   "close": 79.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRCL",
   "name": "Circle Internet Group, Inc.",
   "date": "2026-10-30",
   "close": 72.54,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRCL",
   "name": "Circle Internet Group, Inc.",
   "date": "2026-11-02",
   "close": 72.08,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRCL",
   "name": "Circle Internet Group, Inc.",
   "date": "2026-11-03",
   "close": 75.22,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRCL",
   "name": "Circle Internet Group, Inc.",
   "date": "2026-11-04",
   "close": 76.12,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "INTC",
-  "name": "Intel Corporation",
-  "date": "2026-10-21",
-  "close": 92.96,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "CRCL",
+  "name": "Circle Internet Group, Inc.",
+  "date": "2026-11-05",
+  "close": 68.48,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "INTC",
   "name": "Intel Corporation",
   "date": "2026-10-22",
   "close": 85.49,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "INTC",
   "name": "Intel Corporation",
   "date": "2026-10-23",
   "close": 86.96,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "INTC",
   "name": "Intel Corporation",
   "date": "2026-10-26",
   "close": 90.47,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "INTC",
   "name": "Intel Corporation",
   "date": "2026-10-27",
   "close": 93.74,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "INTC",
   "name": "Intel Corporation",
   "date": "2026-10-28",
   "close": 95.53,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "INTC",
   "name": "Intel Corporation",
   "date": "2026-10-29",
   "close": 92.07,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "INTC",
   "name": "Intel Corporation",
   "date": "2026-10-30",
   "close": 65.76,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "INTC",
   "name": "Intel Corporation",
   "date": "2026-11-02",
   "close": 59.97,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "INTC",
   "name": "Intel Corporation",
   "date": "2026-11-03",
   "close": 60.55,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "INTC",
   "name": "Intel Corporation",
   "date": "2026-11-04",
   "close": 58.27,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "AMZN",
-  "name": "Amazon.com, Inc.",
-  "date": "2026-10-21",
-  "close": 262.37,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "INTC",
+  "name": "Intel Corporation",
+  "date": "2026-11-05",
+  "close": 54.1035,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMZN",
   "name": "Amazon.com, Inc.",
   "date": "2026-10-22",
   "close": 250.38,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMZN",
   "name": "Amazon.com, Inc.",
   "date": "2026-10-23",
   "close": 248.0,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMZN",
   "name": "Amazon.com, Inc.",
   "date": "2026-10-26",
   "close": 249.09,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMZN",
   "name": "Amazon.com, Inc.",
   "date": "2026-10-27",
   "close": 253.1,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMZN",
   "name": "Amazon.com, Inc.",
   "date": "2026-10-28",
   "close": 254.6,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMZN",
   "name": "Amazon.com, Inc.",
   "date": "2026-10-29",
   "close": 243.79,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMZN",
   "name": "Amazon.com, Inc.",
   "date": "2026-10-30",
   "close": 240.35,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMZN",
   "name": "Amazon.com, Inc.",
   "date": "2026-11-02",
   "close": 245.63,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMZN",
   "name": "Amazon.com, Inc.",
   "date": "2026-11-03",
   "close": 250.69,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "AMZN",
   "name": "Amazon.com, Inc.",
   "date": "2026-11-04",
   "close": 266.03,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "APP",
-  "name": "Applovin Corporation",
-  "date": "2026-10-21",
-  "close": 267.9,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "AMZN",
+  "name": "Amazon.com, Inc.",
+  "date": "2026-11-05",
+  "close": 258.99,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "APP",
   "name": "Applovin Corporation",
   "date": "2026-10-22",
   "close": 264.28,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "APP",
   "name": "Applovin Corporation",
   "date": "2026-10-23",
   "close": 260.25,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "APP",
   "name": "Applovin Corporation",
   "date": "2026-10-26",
   "close": 260.74,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "APP",
   "name": "Applovin Corporation",
   "date": "2026-10-27",
   "close": 262.82,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "APP",
   "name": "Applovin Corporation",
   "date": "2026-10-28",
   "close": 259.97,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "APP",
   "name": "Applovin Corporation",
   "date": "2026-10-29",
   "close": 254.91,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "APP",
   "name": "Applovin Corporation",
   "date": "2026-10-30",
   "close": 228.5,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "APP",
   "name": "Applovin Corporation",
   "date": "2026-11-02",
   "close": 228.85,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "APP",
   "name": "Applovin Corporation",
   "date": "2026-11-03",
   "close": 245.51,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "APP",
   "name": "Applovin Corporation",
   "date": "2026-11-04",
   "close": 271.75,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "CBRS",
-  "name": "Cerebras Systems Inc.",
-  "date": "2026-10-21",
-  "close": 117.98,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "APP",
+  "name": "Applovin Corporation",
+  "date": "2026-11-05",
+  "close": 352.055,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CBRS",
   "name": "Cerebras Systems Inc.",
   "date": "2026-10-22",
   "close": 108.94,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CBRS",
   "name": "Cerebras Systems Inc.",
   "date": "2026-10-23",
   "close": 110.82,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CBRS",
   "name": "Cerebras Systems Inc.",
   "date": "2026-10-26",
   "close": 108.37,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CBRS",
   "name": "Cerebras Systems Inc.",
   "date": "2026-10-27",
   "close": 119.31,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CBRS",
   "name": "Cerebras Systems Inc.",
   "date": "2026-10-28",
   "close": 112.56,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CBRS",
   "name": "Cerebras Systems Inc.",
   "date": "2026-10-29",
   "close": 115.16,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CBRS",
   "name": "Cerebras Systems Inc.",
   "date": "2026-10-30",
   "close": 109.18,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CBRS",
   "name": "Cerebras Systems Inc.",
   "date": "2026-11-02",
   "close": 96.36,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CBRS",
   "name": "Cerebras Systems Inc.",
   "date": "2026-11-03",
   "close": 97.82,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CBRS",
   "name": "Cerebras Systems Inc.",
   "date": "2026-11-04",
   "close": 91.85,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "OPEN",
-  "name": "Opendoor Technologies Inc",
-  "date": "2026-10-21",
-  "close": 1.95,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "CBRS",
+  "name": "Cerebras Systems Inc.",
+  "date": "2026-11-05",
+  "close": 83.3616,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "OPEN",
   "name": "Opendoor Technologies Inc",
   "date": "2026-10-22",
   "close": 2.02,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "OPEN",
   "name": "Opendoor Technologies Inc",
   "date": "2026-10-23",
   "close": 1.98,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "OPEN",
   "name": "Opendoor Technologies Inc",
   "date": "2026-10-26",
   "close": 1.93,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "OPEN",
   "name": "Opendoor Technologies Inc",
   "date": "2026-10-27",
   "close": 1.91,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "OPEN",
   "name": "Opendoor Technologies Inc",
   "date": "2026-10-28",
   "close": 1.91,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "OPEN",
   "name": "Opendoor Technologies Inc",
   "date": "2026-10-29",
   "close": 1.9,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "OPEN",
   "name": "Opendoor Technologies Inc",
   "date": "2026-10-30",
   "close": 1.8,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "OPEN",
   "name": "Opendoor Technologies Inc",
   "date": "2026-11-02",
   "close": 1.8,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "OPEN",
   "name": "Opendoor Technologies Inc",
   "date": "2026-11-03",
   "close": 1.74,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "OPEN",
   "name": "Opendoor Technologies Inc",
   "date": "2026-11-04",
   "close": 1.98,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "S",
-  "name": "SentinelOne, Inc.",
-  "date": "2026-10-21",
-  "close": 22.77,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "OPEN",
+  "name": "Opendoor Technologies Inc",
+  "date": "2026-11-05",
+  "close": 1.805,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "S",
   "name": "SentinelOne, Inc.",
   "date": "2026-10-22",
   "close": 22.5,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "S",
   "name": "SentinelOne, Inc.",
   "date": "2026-10-23",
   "close": 24.0,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "S",
   "name": "SentinelOne, Inc.",
   "date": "2026-10-26",
   "close": 25.5,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "S",
   "name": "SentinelOne, Inc.",
   "date": "2026-10-27",
   "close": 25.65,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "S",
   "name": "SentinelOne, Inc.",
   "date": "2026-10-28",
   "close": 25.59,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "S",
   "name": "SentinelOne, Inc.",
   "date": "2026-10-29",
   "close": 25.71,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "S",
   "name": "SentinelOne, Inc.",
   "date": "2026-10-30",
   "close": 25.15,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "S",
   "name": "SentinelOne, Inc.",
   "date": "2026-11-02",
   "close": 23.16,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "S",
   "name": "SentinelOne, Inc.",
   "date": "2026-11-03",
   "close": 23.11,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "S",
   "name": "SentinelOne, Inc.",
   "date": "2026-11-04",
   "close": 23.49,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "PLTR",
-  "name": "Palantir Technologies Inc.",
-  "date": "2026-10-21",
-  "close": 201.72,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "S",
+  "name": "SentinelOne, Inc.",
+  "date": "2026-11-05",
+  "close": 21.59,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "PLTR",
   "name": "Palantir Technologies Inc.",
   "date": "2026-10-22",
   "close": 196.19,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "PLTR",
   "name": "Palantir Technologies Inc.",
   "date": "2026-10-23",
   "close": 196.75,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "PLTR",
   "name": "Palantir Technologies Inc.",
   "date": "2026-10-26",
   "close": 198.84,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "PLTR",
   "name": "Palantir Technologies Inc.",
   "date": "2026-10-27",
   "close": 198.73,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "PLTR",
   "name": "Palantir Technologies Inc.",
   "date": "2026-10-28",
   "close": 196.81,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "PLTR",
   "name": "Palantir Technologies Inc.",
   "date": "2026-10-29",
   "close": 196.42,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "PLTR",
   "name": "Palantir Technologies Inc.",
   "date": "2026-10-30",
   "close": 184.11,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "PLTR",
   "name": "Palantir Technologies Inc.",
   "date": "2026-11-02",
   "close": 178.34,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "PLTR",
   "name": "Palantir Technologies Inc.",
   "date": "2026-11-03",
   "close": 175.4,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "PLTR",
   "name": "Palantir Technologies Inc.",
   "date": "2026-11-04",
   "close": 171.7,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "CRM",
-  "name": "Salesforce, Inc.",
-  "date": "2026-10-21",
-  "close": 241.78,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "PLTR",
+  "name": "Palantir Technologies Inc.",
+  "date": "2026-11-05",
+  "close": 155.47,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRM",
   "name": "Salesforce, Inc.",
   "date": "2026-10-22",
   "close": 250.29,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRM",
   "name": "Salesforce, Inc.",
   "date": "2026-10-23",
   "close": 248.57,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRM",
   "name": "Salesforce, Inc.",
   "date": "2026-10-26",
   "close": 247.61,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRM",
   "name": "Salesforce, Inc.",
   "date": "2026-10-27",
   "close": 240.89,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRM",
   "name": "Salesforce, Inc.",
   "date": "2026-10-28",
   "close": 242.11,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRM",
   "name": "Salesforce, Inc.",
   "date": "2026-10-29",
   "close": 230.9,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRM",
   "name": "Salesforce, Inc.",
   "date": "2026-10-30",
   "close": 229.17,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRM",
   "name": "Salesforce, Inc.",
   "date": "2026-11-02",
   "close": 226.18,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRM",
   "name": "Salesforce, Inc.",
   "date": "2026-11-03",
   "close": 222.2,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "CRM",
   "name": "Salesforce, Inc.",
   "date": "2026-11-04",
   "close": 227.11,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "RSP",
-  "name": "Invesco S&P 500 Equal Weight ET",
-  "date": "2026-10-21",
-  "close": 216.64,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "CRM",
+  "name": "Salesforce, Inc.",
+  "date": "2026-11-05",
+  "close": 221.01,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RSP",
   "name": "Invesco S&P 500 Equal Weight ET",
   "date": "2026-10-22",
   "close": 218.22,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RSP",
   "name": "Invesco S&P 500 Equal Weight ET",
   "date": "2026-10-23",
   "close": 216.54,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RSP",
   "name": "Invesco S&P 500 Equal Weight ET",
   "date": "2026-10-26",
   "close": 217.29,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RSP",
   "name": "Invesco S&P 500 Equal Weight ET",
   "date": "2026-10-27",
   "close": 217.52,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RSP",
   "name": "Invesco S&P 500 Equal Weight ET",
   "date": "2026-10-28",
   "close": 217.43,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RSP",
   "name": "Invesco S&P 500 Equal Weight ET",
   "date": "2026-10-29",
   "close": 220.04,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RSP",
   "name": "Invesco S&P 500 Equal Weight ET",
   "date": "2026-10-30",
   "close": 218.31,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RSP",
   "name": "Invesco S&P 500 Equal Weight ET",
   "date": "2026-11-02",
   "close": 219.98,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RSP",
   "name": "Invesco S&P 500 Equal Weight ET",
   "date": "2026-11-03",
   "close": 219.26,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "RSP",
   "name": "Invesco S&P 500 Equal Weight ET",
   "date": "2026-11-04",
   "close": 223.33,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "JPM",
-  "name": "JP Morgan Chase & Co.",
-  "date": "2026-10-21",
-  "close": 335.19,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "RSP",
+  "name": "Invesco S&P 500 Equal Weight ET",
+  "date": "2026-11-05",
+  "close": 217.1298,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "JPM",
   "name": "JP Morgan Chase & Co.",
   "date": "2026-10-22",
   "close": 336.54,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "JPM",
   "name": "JP Morgan Chase & Co.",
   "date": "2026-10-23",
   "close": 331.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "JPM",
   "name": "JP Morgan Chase & Co.",
   "date": "2026-10-26",
   "close": 334.04,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "JPM",
   "name": "JP Morgan Chase & Co.",
   "date": "2026-10-27",
   "close": 335.79,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "JPM",
   "name": "JP Morgan Chase & Co.",
   "date": "2026-10-28",
   "close": 339.3,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "JPM",
   "name": "JP Morgan Chase & Co.",
   "date": "2026-10-29",
   "close": 343.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "JPM",
   "name": "JP Morgan Chase & Co.",
   "date": "2026-10-30",
   "close": 337.04,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "JPM",
   "name": "JP Morgan Chase & Co.",
   "date": "2026-11-02",
   "close": 340.58,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "JPM",
   "name": "JP Morgan Chase & Co.",
   "date": "2026-11-03",
   "close": 337.98,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "JPM",
   "name": "JP Morgan Chase & Co.",
   "date": "2026-11-04",
   "close": 352.11,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
-  "ticker": "SPYM",
-  "name": "State Street SPDR Portfolio S&P",
-  "date": "2026-10-21",
-  "close": 90.99,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "ticker": "JPM",
+  "name": "JP Morgan Chase & Co.",
+  "date": "2026-11-05",
+  "close": 336.7035,
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SPYM",
   "name": "State Street SPDR Portfolio S&P",
   "date": "2026-10-22",
   "close": 89.93,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SPYM",
   "name": "State Street SPDR Portfolio S&P",
   "date": "2026-10-23",
   "close": 89.45,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SPYM",
   "name": "State Street SPDR Portfolio S&P",
   "date": "2026-10-26",
   "close": 90.06,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SPYM",
   "name": "State Street SPDR Portfolio S&P",
   "date": "2026-10-27",
   "close": 90.6,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SPYM",
   "name": "State Street SPDR Portfolio S&P",
   "date": "2026-10-28",
   "close": 90.9,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SPYM",
   "name": "State Street SPDR Portfolio S&P",
   "date": "2026-10-29",
   "close": 90.59,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SPYM",
   "name": "State Street SPDR Portfolio S&P",
   "date": "2026-10-30",
   "close": 88.95,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SPYM",
   "name": "State Street SPDR Portfolio S&P",
   "date": "2026-11-02",
   "close": 88.52,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SPYM",
   "name": "State Street SPDR Portfolio S&P",
   "date": "2026-11-03",
   "close": 88.78,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
  },
  {
   "ticker": "SPYM",
   "name": "State Street SPDR Portfolio S&P",
   "date": "2026-11-04",
   "close": 90.25,
-  "fetched_at": "2026-11-05T06:38:56Z"
+  "fetched_at": "2026-11-05T19:53:49Z"
+ },
+ {
+  "ticker": "SPYM",
+  "name": "State Street SPDR Portfolio S&P",
+  "date": "2026-11-05",
+  "close": 86.735,
+  "fetched_at": "2026-11-05T19:53:49Z"
  }
 ]
