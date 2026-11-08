@@ -1,37 +1,37 @@
 {
- "run_at": "2026-11-07T17:43:56Z",
+ "run_at": "2026-11-08T05:55:40Z",
  "price_date": "2026-11-06",
- "latest_video": "2026-11-03",
+ "latest_video": "2026-11-05",
  "new_videos": [
   {
-   "title": "Trump Accepts Iran Deal Framework | Market Dot Com CRASH Levels.",
-   "video_id": "uEAn9TO6aew",
-   "calls": 9
-  },
-  {
-   "title": "HORRIFIC: Florida Learjet Crash Update & Victims + Dog",
-   "video_id": "-UiDN400X-c",
+   "title": "X1Cu5InB6k4",
+   "video_id": "X1Cu5InB6k4",
    "calls": 0
   },
   {
-   "title": "The Stock Market, AMD Earnings, and Pre-Election Stream",
-   "video_id": "Ndibj4_9Hqw",
-   "calls": 26
+   "title": "9wPXrD_uKz8",
+   "video_id": "9wPXrD_uKz8",
+   "calls": 4
   },
   {
-   "title": "The AI Great Depression.",
-   "video_id": "SLG4LOeBjek",
-   "calls": 22
+   "title": "rf6eHOe_jT0",
+   "video_id": "rf6eHOe_jT0",
+   "calls": 14
   },
   {
-   "title": "What the 2026 Election Results Mean for Us.",
-   "video_id": "sRAzMmbzAYc",
-   "calls": 3
+   "title": "JYTNMKnbr2E",
+   "video_id": "JYTNMKnbr2E",
+   "calls": 0
   },
   {
-   "title": "Election Results: 2026 Live Polls with Meet Kevin",
-   "video_id": "LEkfQUtrP3w",
-   "calls": 1
+   "title": "AtEyrDxfrWY",
+   "video_id": "AtEyrDxfrWY",
+   "calls": 9
+  },
+  {
+   "title": "_TJ7n3BTskc",
+   "video_id": "_TJ7n3BTskc",
+   "calls": 27
   }
  ],
  "new_calls": [
@@ -45,11 +45,15 @@
   },
   {
    "ticker": "AAPL",
-   "stance": "Bullish"
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "LDI",
+   "stance": "Neutral"
   },
   {
    "ticker": "QQQ",
-   "stance": "Bullish"
+   "stance": "Neutral"
   },
   {
    "ticker": "AVGO",
@@ -60,7 +64,15 @@
    "stance": "Bullish"
   },
   {
-   "ticker": "AMD",
+   "ticker": "WDC",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "LEN",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "RKT",
    "stance": "Neutral"
   },
   {
@@ -69,46 +81,54 @@
   },
   {
    "ticker": "MSFT",
-   "stance": "Neutral"
+   "stance": "Bullish"
   },
   {
    "ticker": "TSLA",
-   "stance": "Bullish"
+   "stance": "Neutral"
   },
   {
    "ticker": "GOOGL",
-   "stance": "Bearish"
+   "stance": "Neutral"
   },
   {
    "ticker": "LITE",
-   "stance": "Neutral"
+   "stance": "Bullish"
   },
   {
    "ticker": "DELL",
-   "stance": "Bullish"
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CMG",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "MRNA",
+   "stance": "Bought"
   },
   {
    "ticker": "ORCL",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "STX",
    "stance": "Neutral"
   },
   {
-   "ticker": "INTC",
+   "ticker": "LLY",
+   "stance": "Bought"
+  },
+  {
+   "ticker": "AMZN",
    "stance": "Neutral"
   },
   {
-   "ticker": "PLTR",
+   "ticker": "APP",
    "stance": "Bullish"
   },
   {
-   "ticker": "RSP",
+   "ticker": "PLTR",
    "stance": "Neutral"
   },
   {
-   "ticker": "CSCO",
+   "ticker": "RSP",
    "stance": "Neutral"
   },
   {
@@ -120,18 +140,6 @@
    "stance": "Neutral"
   },
   {
-   "ticker": "DUOL",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "BKNG",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "IBM",
-   "stance": "Neutral"
-  },
-  {
    "ticker": "DIS",
    "stance": "Neutral"
   },
@@ -140,20 +148,60 @@
    "stance": "Bullish"
   },
   {
-   "ticker": "NVTS",
-   "stance": "Neutral"
-  },
-  {
    "ticker": "PTON",
    "stance": "Neutral"
   },
   {
-   "ticker": "TOST",
+   "ticker": "HD",
    "stance": "Neutral"
   },
   {
-   "ticker": "SNDK",
+   "ticker": "ETSY",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "PLAY",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "RRGB",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CAKE",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "SOXL",
+   "stance": "Bearish"
+  },
+  {
+   "ticker": "NET",
    "stance": "Bullish"
+  },
+  {
+   "ticker": "ABNB",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "CAT",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "SMH",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "MELI",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "WMT",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "IREN",
+   "stance": "Neutral"
   }
  ],
  "big_moves": [
@@ -316,6 +364,31 @@
    "ticker": "SNDK",
    "day_pct": 0.035502151457659004,
    "since_pct": -0.2587259879984377
+  },
+  {
+   "ticker": "PLAY",
+   "day_pct": -0.04112952731737263,
+   "since_pct": -0.11047835990888377
+  },
+  {
+   "ticker": "SOXL",
+   "day_pct": 0.12478590653290933,
+   "since_pct": 0.12478590653290933
+  },
+  {
+   "ticker": "NET",
+   "day_pct": 0.09913704960942304,
+   "since_pct": 0.09913704960942304
+  },
+  {
+   "ticker": "ABNB",
+   "day_pct": 0.11673426203491455,
+   "since_pct": 0.11673426203491455
+  },
+  {
+   "ticker": "IREN",
+   "day_pct": 0.20022185246810875,
+   "since_pct": 0.20022185246810875
   }
  ],
  "watchlist": [
@@ -339,26 +412,28 @@
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "videos page: HTTP 200, 1339249 chars",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.7-flash took 98s; tokens in 27492, out 502, total 29411",
-  "Gemini transcript OK for uEAn9TO6aew: 1781 chars",
-  "read uEAn9TO6aew: 9 calls",
-  "Gemini gemini-3.8-flash took 78s; tokens in 48776, out 1, total 49340",
-  "Gemini: no stock talk in -UiDN400X-c",
-  "read -UiDN400X-c: 0 calls",
-  "Gemini gemini-3.8-flash took 85s; tokens in 76530, out 1223, total 79390",
-  "Gemini transcript OK for Ndibj4_9Hqw: 4523 chars",
-  "read Ndibj4_9Hqw: 26 calls",
-  "Gemini gemini-3.8-flash took 52s; tokens in 59062, out 900, total 62270",
-  "Gemini transcript OK for SLG4LOeBjek: 3437 chars",
-  "read SLG4LOeBjek: 22 calls",
-  "Gemini gemini-3.8-flash took 101s; tokens in 38557, out 131, total 40021",
-  "Gemini transcript OK for sRAzMmbzAYc: 487 chars",
-  "read sRAzMmbzAYc: 3 calls",
-  "Gemini gemini-3.8-flash took 64s; tokens in 76530, out 34, total 77168",
-  "Gemini transcript OK for LEkfQUtrP3w: 119 chars",
-  "read LEkfQUtrP3w: 1 calls",
+  "Gemini gemini-3.8-flash took 90s; tokens in 49480, out 1, total 49842",
+  "Gemini: no stock talk in X1Cu5InB6k4",
+  "read X1Cu5InB6k4: 0 calls",
+  "Gemini gemini-3.8-flash took 55s; tokens in 74241, out 139, total 76514",
+  "Gemini transcript OK for 9wPXrD_uKz8: 621 chars",
+  "read 9wPXrD_uKz8: 4 calls",
+  "Gemini gemini-3.8-flash took 74s; tokens in 41031, out 395, total 41426",
+  "Gemini transcript OK for rf6eHOe_jT0: 1520 chars",
+  "read rf6eHOe_jT0: 14 calls",
+  "Gemini gemini-3.8-flash took 71s; tokens in 29377, out 1, total 29849",
+  "Gemini: no stock talk in JYTNMKnbr2E",
+  "read JYTNMKnbr2E: 0 calls",
+  "Gemini gemini-3.7-flash took 120s; tokens in 35389, out 258, total 36945",
+  "Gemini transcript OK for AtEyrDxfrWY: 1013 chars",
+  "read AtEyrDxfrWY: 9 calls",
+  "Gemini gemini-3.8-flash took 61s; tokens in 66696, out 820, total 69373",
+  "Gemini transcript OK for _TJ7n3BTskc: 3139 chars",
+  "read _TJ7n3BTskc: 27 calls",
+  "filled 6 missing titles",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
