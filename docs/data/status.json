@@ -1,43 +1,23 @@
 {
- "run_at": "2026-11-08T05:55:40Z",
+ "run_at": "2026-11-08T17:55:05Z",
  "price_date": "2026-11-06",
  "latest_video": "2026-11-05",
  "new_videos": [
   {
-   "title": "X1Cu5InB6k4",
-   "video_id": "X1Cu5InB6k4",
-   "calls": 0
+   "title": "LIQUIDATION: The Stock Market Pain Continues.",
+   "video_id": "BBOUbVfe968",
+   "calls": 22
   },
   {
-   "title": "9wPXrD_uKz8",
-   "video_id": "9wPXrD_uKz8",
-   "calls": 4
-  },
-  {
-   "title": "rf6eHOe_jT0",
-   "video_id": "rf6eHOe_jT0",
-   "calls": 14
-  },
-  {
-   "title": "JYTNMKnbr2E",
-   "video_id": "JYTNMKnbr2E",
-   "calls": 0
-  },
-  {
-   "title": "AtEyrDxfrWY",
-   "video_id": "AtEyrDxfrWY",
-   "calls": 9
-  },
-  {
-   "title": "_TJ7n3BTskc",
-   "video_id": "_TJ7n3BTskc",
-   "calls": 27
+   "title": "The Historic Stock Market Selloff.",
+   "video_id": "B72Ojzig7cM",
+   "calls": 40
   }
  ],
  "new_calls": [
   {
    "ticker": "NVDA",
-   "stance": "Bullish"
+   "stance": "Neutral"
   },
   {
    "ticker": "META",
@@ -48,31 +28,35 @@
    "stance": "Neutral"
   },
   {
-   "ticker": "LDI",
-   "stance": "Neutral"
-  },
-  {
    "ticker": "QQQ",
    "stance": "Neutral"
   },
   {
-   "ticker": "AVGO",
-   "stance": "Bullish"
-  },
-  {
    "ticker": "MRVL",
-   "stance": "Bullish"
+   "stance": "Bought"
   },
   {
-   "ticker": "WDC",
-   "stance": "Bullish"
+   "ticker": "BE",
+   "stance": "Neutral"
   },
   {
    "ticker": "LEN",
    "stance": "Neutral"
   },
   {
-   "ticker": "RKT",
+   "ticker": "AMD",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "BRK-B",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CRWV",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "NBIS",
    "stance": "Neutral"
   },
   {
@@ -81,11 +65,11 @@
   },
   {
    "ticker": "MSFT",
-   "stance": "Bullish"
+   "stance": "Neutral"
   },
   {
    "ticker": "TSLA",
-   "stance": "Neutral"
+   "stance": "Bought"
   },
   {
    "ticker": "GOOGL",
@@ -100,12 +84,12 @@
    "stance": "Neutral"
   },
   {
-   "ticker": "CMG",
+   "ticker": "MRNA",
    "stance": "Neutral"
   },
   {
-   "ticker": "MRNA",
-   "stance": "Bought"
+   "ticker": "TEM",
+   "stance": "Neutral"
   },
   {
    "ticker": "ORCL",
@@ -113,7 +97,7 @@
   },
   {
    "ticker": "LLY",
-   "stance": "Bought"
+   "stance": "Neutral"
   },
   {
    "ticker": "AMZN",
@@ -124,6 +108,10 @@
    "stance": "Bullish"
   },
   {
+   "ticker": "OPEN",
+   "stance": "Neutral"
+  },
+  {
    "ticker": "PLTR",
    "stance": "Neutral"
   },
@@ -132,48 +120,12 @@
    "stance": "Neutral"
   },
   {
-   "ticker": "MU",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "ENPH",
-   "stance": "Neutral"
-  },
-  {
    "ticker": "DIS",
    "stance": "Neutral"
   },
   {
-   "ticker": "SMCI",
+   "ticker": "SNDK",
    "stance": "Bullish"
-  },
-  {
-   "ticker": "PTON",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "HD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "ETSY",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "PLAY",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "RRGB",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CAKE",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "SOXL",
-   "stance": "Bearish"
   },
   {
    "ticker": "NET",
@@ -181,7 +133,7 @@
   },
   {
    "ticker": "ABNB",
-   "stance": "Bullish"
+   "stance": "Neutral"
   },
   {
    "ticker": "CAT",
@@ -192,15 +144,39 @@
    "stance": "Neutral"
   },
   {
-   "ticker": "MELI",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "WMT",
-   "stance": "Neutral"
-  },
-  {
    "ticker": "IREN",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "QCOM",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "INTU",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "FUN",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CRWD",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "RKLB",
+   "stance": "Bearish"
+  },
+  {
+   "ticker": "AXON",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "TEAM",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "SPG",
    "stance": "Neutral"
   }
  ],
@@ -389,6 +365,31 @@
    "ticker": "IREN",
    "day_pct": 0.20022185246810875,
    "since_pct": 0.20022185246810875
+  },
+  {
+   "ticker": "QCOM",
+   "day_pct": 0.055247208931419545,
+   "since_pct": 0.055247208931419545
+  },
+  {
+   "ticker": "FUN",
+   "day_pct": 0.08225108225108224,
+   "since_pct": 0.08225108225108224
+  },
+  {
+   "ticker": "RKLB",
+   "day_pct": 0.15394651011089366,
+   "since_pct": 0.15394651011089366
+  },
+  {
+   "ticker": "AXON",
+   "day_pct": -0.18182768716018405,
+   "since_pct": -0.18182768716018405
+  },
+  {
+   "ticker": "TEAM",
+   "day_pct": -0.16154727481040965,
+   "since_pct": -0.16154727481040965
   }
  ],
  "watchlist": [
@@ -406,34 +407,30 @@
   }
  ],
  "errors": [
+  "No transcript yet: The Stock Market & Morning After Election 2026.",
+  "No transcript yet: The Economy JUST Flipped.",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
-  "videos page: HTTP 200, 1339249 chars",
+  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.8-flash took 90s; tokens in 49480, out 1, total 49842",
-  "Gemini: no stock talk in X1Cu5InB6k4",
-  "read X1Cu5InB6k4: 0 calls",
-  "Gemini gemini-3.8-flash took 55s; tokens in 74241, out 139, total 76514",
-  "Gemini transcript OK for 9wPXrD_uKz8: 621 chars",
-  "read 9wPXrD_uKz8: 4 calls",
-  "Gemini gemini-3.8-flash took 74s; tokens in 41031, out 395, total 41426",
-  "Gemini transcript OK for rf6eHOe_jT0: 1520 chars",
-  "read rf6eHOe_jT0: 14 calls",
-  "Gemini gemini-3.8-flash took 71s; tokens in 29377, out 1, total 29849",
-  "Gemini: no stock talk in JYTNMKnbr2E",
-  "read JYTNMKnbr2E: 0 calls",
-  "Gemini gemini-3.7-flash took 120s; tokens in 35389, out 258, total 36945",
-  "Gemini transcript OK for AtEyrDxfrWY: 1013 chars",
-  "read AtEyrDxfrWY: 9 calls",
-  "Gemini gemini-3.8-flash took 61s; tokens in 66696, out 820, total 69373",
-  "Gemini transcript OK for _TJ7n3BTskc: 3139 chars",
-  "read _TJ7n3BTskc: 27 calls",
-  "filled 6 missing titles",
+  "Gemini failed for NApjDYej0xM: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for NApjDYej0xM: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for NApjDYej0xM: ERROR: [youtube] NApjDYej0xM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for NApjDYej0xM (RuntimeError); will retry",
+  "Gemini gemini-3.8-flash took 356s; tokens in 76530, out 659, total 78261",
+  "Gemini transcript OK for BBOUbVfe968: 2373 chars",
+  "read BBOUbVfe968: 22 calls",
+  "Gemini gemini-3.7-flash took 59s; tokens in 76530, out 1479, total 80536",
+  "Gemini transcript OK for B72Ojzig7cM: 5472 chars",
+  "read B72Ojzig7cM: 40 calls",
+  "Gemini failed for 96IWbcHftyM: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for 96IWbcHftyM: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for 96IWbcHftyM: ERROR: [youtube] 96IWbcHftyM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for 96IWbcHftyM (RuntimeError); will retry",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
