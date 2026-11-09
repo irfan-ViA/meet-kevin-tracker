@@ -1,277 +1,309 @@
 {
- "run_at": "2026-11-09T06:17:29Z",
- "price_date": "2026-11-06",
+ "run_at": "2026-11-09T22:17:38Z",
+ "price_date": "2026-11-09",
  "latest_video": "2026-11-08",
- "new_videos": [
-  {
-   "title": "96IWbcHftyM",
-   "video_id": "96IWbcHftyM",
-   "calls": 0
-  },
-  {
-   "title": "Ft6ce7F3U8s",
-   "video_id": "Ft6ce7F3U8s",
-   "calls": 2
-  }
- ],
- "new_calls": [
-  {
-   "ticker": "NVDA",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "AMD",
-   "stance": "Neutral"
-  }
- ],
+ "new_videos": [],
+ "new_calls": [],
  "big_moves": [
   {
+   "ticker": "META",
+   "day_pct": 0.051167745636319095,
+   "since_pct": null
+  },
+  {
+   "ticker": "LDI",
+   "day_pct": -0.17093750000000008,
+   "since_pct": null
+  },
+  {
+   "ticker": "AVGO",
+   "day_pct": 0.08781368109230825,
+   "since_pct": null
+  },
+  {
    "ticker": "MRVL",
-   "day_pct": 0.05728191688506157,
+   "day_pct": 0.094900849858357,
+   "since_pct": null
+  },
+  {
+   "ticker": "GEV",
+   "day_pct": 0.07134644947100544,
+   "since_pct": null
+  },
+  {
+   "ticker": "BE",
+   "day_pct": 0.1191410759639806,
+   "since_pct": null
+  },
+  {
+   "ticker": "WDC",
+   "day_pct": 0.09856698764121608,
    "since_pct": null
   },
   {
    "ticker": "AMD",
-   "day_pct": 0.11038575667655803,
-   "since_pct": -0.13109773795932578
+   "day_pct": 0.1325939782647425,
+   "since_pct": null
   },
   {
    "ticker": "SOFI",
-   "day_pct": 0.010598503740648413,
-   "since_pct": 0.12102351313969573
+   "day_pct": 0.033312769895126326,
+   "since_pct": 0.15836791147994456
   },
   {
    "ticker": "CRWV",
-   "day_pct": 0.06275767292716461,
-   "since_pct": -0.15926798333031345
+   "day_pct": 0.055603448275862055,
+   "since_pct": -0.11252038412755938
   },
   {
    "ticker": "NBIS",
-   "day_pct": 0.07576638697349836,
-   "since_pct": -0.15515104064722385
+   "day_pct": 0.09236234458259318,
+   "since_pct": -0.07711880994323761
   },
   {
    "ticker": "HOOD",
-   "day_pct": 0.03214695752009189,
-   "since_pct": -0.12850064627315816
+   "day_pct": 0.029786182177728326,
+   "since_pct": -0.102542007755278
   },
   {
    "ticker": "TSLA",
-   "day_pct": 0.04227647007477686,
-   "since_pct": -0.1208462180336719
+   "day_pct": 0.05535704315783585,
+   "since_pct": -0.07217886418298725
   },
   {
    "ticker": "GOOGL",
-   "day_pct": 0.00782107088509032,
-   "since_pct": -0.12345717011911728
+   "day_pct": 0.011833696186529963,
+   "since_pct": -0.11308442857582568
   },
   {
    "ticker": "LITE",
-   "day_pct": 0.05668040023543264,
-   "since_pct": -0.41070080420154276
+   "day_pct": 0.10689021333481863,
+   "since_pct": -0.34771048744460864
   },
   {
    "ticker": "GLW",
-   "day_pct": 0.026104611814753875,
-   "since_pct": -0.1910823170731707
+   "day_pct": 0.0925280316592858,
+   "since_pct": -0.11623475609756084
   },
   {
    "ticker": "DELL",
-   "day_pct": 0.036666561484332894,
-   "since_pct": -0.3346766844205027
+   "day_pct": 0.05411986728761464,
+   "since_pct": -0.29866947487798456
   },
   {
    "ticker": "NOW",
-   "day_pct": -0.0038100820633060195,
-   "since_pct": -0.3207886498368081
+   "day_pct": 0.007747376679415607,
+   "since_pct": -0.3155265436621594
   },
   {
    "ticker": "VRT",
-   "day_pct": 0.03468567871895001,
-   "since_pct": -0.2473038610356466
+   "day_pct": 0.09630318276276917,
+   "since_pct": -0.1748168272001317
   },
   {
    "ticker": "CMG",
-   "day_pct": -0.027401129943502744,
-   "since_pct": 0.19839888618169166
+   "day_pct": 0.03804821376706369,
+   "since_pct": 0.2439958231813435
+  },
+  {
+   "ticker": "TMUS",
+   "day_pct": 0.04135547188445177,
+   "since_pct": 0.13931658562938942
   },
   {
    "ticker": "MRNA",
-   "day_pct": 0.0527209475689554,
-   "since_pct": 0.18688861391917455
+   "day_pct": 0.05826350367835076,
+   "since_pct": 0.25604090304204696
   },
   {
    "ticker": "TEM",
-   "day_pct": 0.07979554167258263,
-   "since_pct": -0.0073097506852891625
+   "day_pct": 0.11032215647600263,
+   "since_pct": 0.10220597833181055
   },
   {
    "ticker": "ORCL",
-   "day_pct": 0.008162556443209512,
-   "since_pct": -0.19676214196762143
+   "day_pct": 0.031782945736434254,
+   "since_pct": -0.17123287671232867
   },
   {
    "ticker": "FTNT",
-   "day_pct": -0.029956738225450974,
-   "since_pct": -0.3173253676470589
+   "day_pct": 0.030545270952541115,
+   "since_pct": -0.2964728860294118
   },
   {
    "ticker": "CVNA",
-   "day_pct": 0.020671476137624767,
-   "since_pct": 0.24589331075359855
+   "day_pct": 0.036563816773141466,
+   "since_pct": 0.2914479254868756
   },
   {
    "ticker": "STX",
-   "day_pct": -0.011874906222536508,
-   "since_pct": -0.34188473453538337
+   "day_pct": 0.09794138701490263,
+   "since_pct": -0.277428012620098
   },
   {
    "ticker": "CRCL",
-   "day_pct": -0.023028209556707036,
-   "since_pct": -0.1513939242405301
+   "day_pct": -0.004714201532115436,
+   "since_pct": -0.15539442430303785
   },
   {
    "ticker": "INTC",
-   "day_pct": 0.07712918660287094,
-   "since_pct": -0.1441605839416059
+   "day_pct": 0.05490405117270791,
+   "since_pct": -0.09717153284671542
+  },
+  {
+   "ticker": "AMZN",
+   "day_pct": 0.029425376012340854,
+   "since_pct": 0.11058872477636794
   },
   {
    "ticker": "APP",
-   "day_pct": 0.09862398202752032,
-   "since_pct": 0.7121225382932168
+   "day_pct": 0.04800368079341544,
+   "since_pct": 0.7943107221006565
   },
   {
    "ticker": "CBRS",
-   "day_pct": 0.09754008077346721,
-   "since_pct": -0.17860413995237223
+   "day_pct": 0.07827832292595893,
+   "since_pct": -0.1143066495695183
   },
   {
    "ticker": "OPEN",
-   "day_pct": -0.2178770949720671,
-   "since_pct": -0.26315789473684215
+   "day_pct": 0.0071428571428571175,
+   "since_pct": -0.2578947368421053
   },
   {
    "ticker": "S",
-   "day_pct": 0.016339869281045694,
-   "since_pct": -0.15324776351614167
+   "day_pct": 0.08038585209003224,
+   "since_pct": -0.0851808634772463
   },
   {
    "ticker": "PLTR",
-   "day_pct": 0.03477643718949608,
-   "since_pct": -0.18348437022706443
+   "day_pct": 0.05499438832772152,
+   "since_pct": -0.1385805926076774
+  },
+  {
+   "ticker": "CSCO",
+   "day_pct": 0.051145444858817335,
+   "since_pct": -0.04195396717490529
   },
   {
    "ticker": "MU",
-   "day_pct": 0.05120431450814311,
-   "since_pct": -0.19307683311893353
+   "day_pct": 0.06253623188405788,
+   "since_pct": -0.14261489884224077
   },
   {
    "ticker": "DUOL",
-   "day_pct": 0.021653292574194127,
-   "since_pct": 0.2532812499999999
-  },
-  {
-   "ticker": "SMCI",
-   "day_pct": 0.06203840472673572,
-   "since_pct": -0.08378464479133474
+   "day_pct": -0.038461538461538436,
+   "since_pct": 0.205078125
   },
   {
    "ticker": "NVTS",
-   "day_pct": 0.09541984732824416,
-   "since_pct": 0.005841121495326895
+   "day_pct": 0.11265969802555187,
+   "since_pct": 0.11915887850467288
+  },
+  {
+   "ticker": "PTON",
+   "day_pct": 0.06060606060606055,
+   "since_pct": 0.12052730696798508
   },
   {
    "ticker": "SNDK",
-   "day_pct": 0.035502151457659004,
-   "since_pct": -0.2587259879984377
-  },
-  {
-   "ticker": "PLAY",
-   "day_pct": -0.04112952731737263,
-   "since_pct": -0.11047835990888377
+   "day_pct": 0.06161233923310916,
+   "since_pct": -0.21305436210630968
   },
   {
    "ticker": "SOXL",
-   "day_pct": 0.12478590653290933,
-   "since_pct": 0.12478590653290933
+   "day_pct": 0.22253643680661317,
+   "since_pct": 0.375091754343039
   },
   {
    "ticker": "NET",
-   "day_pct": 0.09913704960942304,
-   "since_pct": 0.09913704960942304
+   "day_pct": 0.09302325581395343,
+   "since_pct": 0.2013823565498345
   },
   {
    "ticker": "ABNB",
-   "day_pct": 0.11673426203491455,
-   "since_pct": 0.11673426203491455
+   "day_pct": 0.001579030475288068,
+   "since_pct": 0.11849761946746606
+  },
+  {
+   "ticker": "CAT",
+   "day_pct": 0.07205126828133102,
+   "since_pct": 0.08171374900657469
+  },
+  {
+   "ticker": "SMH",
+   "day_pct": 0.05054315027157519,
+   "since_pct": 0.08862484086391342
   },
   {
    "ticker": "IREN",
-   "day_pct": 0.20022185246810875,
-   "since_pct": 0.20022185246810875
-  },
-  {
-   "ticker": "QCOM",
-   "day_pct": 0.055247208931419545,
-   "since_pct": 0.055247208931419545
+   "day_pct": -0.010628465804066511,
+   "since_pct": 0.18746533555185785
   },
   {
    "ticker": "FUN",
-   "day_pct": 0.08225108225108224,
-   "since_pct": 0.08225108225108224
+   "day_pct": 0.07600000000000007,
+   "since_pct": 0.16450216450216448
+  },
+  {
+   "ticker": "CRWD",
+   "day_pct": 0.0538497003227294,
+   "since_pct": 0.052394106813996366
   },
   {
    "ticker": "RKLB",
-   "day_pct": 0.15394651011089366,
-   "since_pct": 0.15394651011089366
+   "day_pct": 0.1091011871113623,
+   "since_pct": 0.2798434442270059
   },
   {
    "ticker": "AXON",
-   "day_pct": -0.18182768716018405,
-   "since_pct": -0.18182768716018405
+   "day_pct": -0.03137380191693284,
+   "since_pct": -0.20749686323713923
   },
   {
    "ticker": "TEAM",
-   "day_pct": -0.16154727481040965,
-   "since_pct": -0.16154727481040965
+   "day_pct": 0.007938573659552306,
+   "since_pct": -0.15489115609143977
   }
  ],
  "watchlist": [
   {
    "ticker": "SOFI",
-   "price": 16.21,
-   "day_pct": 0.010598503740648413,
+   "price": 16.75,
+   "day_pct": 0.033312769895126326,
    "stance": "Bullish"
   },
   {
    "ticker": "PLTR",
-   "price": 160.38,
-   "day_pct": 0.03477643718949608,
+   "price": 169.2,
+   "day_pct": 0.05499438832772152,
    "stance": "Bullish"
   }
  ],
  "errors": [
-  "No transcript yet: tFJBR8mQqRA",
+  "No transcript yet: Trump's NEW Operation in Iran: Prepare.",
+  "No transcript yet: The Historic Stock Market REBOUND.",
+  "No transcript yet: Prepare for Tomorrow: VIOLENT Stock Market",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
-  "videos page: HTTP 200, 1343039 chars",
+  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.8-flash took 333s; tokens in 19528, out 1, total 20188",
-  "Gemini: no stock talk in 96IWbcHftyM",
-  "read 96IWbcHftyM: 0 calls",
-  "Gemini gemini-3.7-flash took 307s; tokens in 51559, out 159, total 52673",
-  "Gemini transcript OK for Ft6ce7F3U8s: 667 chars",
-  "read Ft6ce7F3U8s: 2 calls",
   "Gemini failed for tFJBR8mQqRA: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
   "transcript-api failed for tFJBR8mQqRA: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for tFJBR8mQqRA: ERROR: [youtube] tFJBR8mQqRA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for tFJBR8mQqRA (RuntimeError); will retry",
-  "filled 2 missing titles",
+  "Gemini failed for 2fIMunhu6oI: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for 2fIMunhu6oI: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for 2fIMunhu6oI: ERROR: [youtube] 2fIMunhu6oI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for 2fIMunhu6oI (RuntimeError); will retry",
+  "Gemini failed for 7oqw7rFE-AE: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for 7oqw7rFE-AE: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for 7oqw7rFE-AE: ERROR: [youtube] 7oqw7rFE-AE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for 7oqw7rFE-AE (RuntimeError); will retry",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
