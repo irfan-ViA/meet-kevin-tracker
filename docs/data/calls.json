@@ -4275,5 +4275,31 @@
   "at_seconds": 2285,
   "what_he_said": "Praises Cloudflare's massive beat-and-raise and 39% revenue growth, though criticizing its sales spending.",
   "link": "https://www.youtube.com/watch?v=B72Ojzig7cM&t=2285s"
+ },
+ {
+  "id": "c330",
+  "ticker": "AMD",
+  "stance": "Neutral",
+  "owns": "Yes",
+  "video_date": "2026-11-08",
+  "video_title": "Jensen Cheated | AI got F**K'd",
+  "video_id": "Ft6ce7F3U8s",
+  "at": "18:14",
+  "at_seconds": 1094,
+  "what_he_said": "He holds a small AMD position, noting a roughly 1 PEG and upside potential but weaker free cash flow, margins, and data center exposure than Nvidia.",
+  "link": "https://www.youtube.com/watch?v=Ft6ce7F3U8s&t=1094s"
+ },
+ {
+  "id": "c331",
+  "ticker": "NVDA",
+  "stance": "Bullish",
+  "owns": "Yes",
+  "video_date": "2026-11-08",
+  "video_title": "Jensen Cheated | AI got F**K'd",
+  "video_id": "Ft6ce7F3U8s",
+  "at": "18:22",
+  "at_seconds": 1102,
+  "what_he_said": "He holds a small Nvidia position, calls it much cheaper than AMD with better margins and data center exposure, and advises buying any dip.",
+  "link": "https://www.youtube.com/watch?v=Ft6ce7F3U8s&t=1102s"
  }
 ]

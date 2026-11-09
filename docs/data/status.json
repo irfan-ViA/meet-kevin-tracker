@@ -1,182 +1,26 @@
 {
- "run_at": "2026-11-08T17:55:05Z",
+ "run_at": "2026-11-09T06:17:29Z",
  "price_date": "2026-11-06",
- "latest_video": "2026-11-05",
+ "latest_video": "2026-11-08",
  "new_videos": [
   {
-   "title": "LIQUIDATION: The Stock Market Pain Continues.",
-   "video_id": "BBOUbVfe968",
-   "calls": 22
+   "title": "96IWbcHftyM",
+   "video_id": "96IWbcHftyM",
+   "calls": 0
   },
   {
-   "title": "The Historic Stock Market Selloff.",
-   "video_id": "B72Ojzig7cM",
-   "calls": 40
+   "title": "Ft6ce7F3U8s",
+   "video_id": "Ft6ce7F3U8s",
+   "calls": 2
   }
  ],
  "new_calls": [
   {
    "ticker": "NVDA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "META",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AAPL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "QQQ",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MRVL",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "BE",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "LEN",
-   "stance": "Neutral"
+   "stance": "Bullish"
   },
   {
    "ticker": "AMD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "BRK-B",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CRWV",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "NBIS",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "HOOD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MSFT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "TSLA",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "GOOGL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "LITE",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "DELL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MRNA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "TEM",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "ORCL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "LLY",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AMZN",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "APP",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "OPEN",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "PLTR",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "RSP",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "DIS",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "SNDK",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "NET",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "ABNB",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CAT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "SMH",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "IREN",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "QCOM",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "INTU",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "FUN",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CRWD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "RKLB",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "AXON",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "TEAM",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "SPG",
    "stance": "Neutral"
   }
  ],
@@ -407,30 +251,27 @@
   }
  ],
  "errors": [
-  "No transcript yet: The Stock Market & Morning After Election 2026.",
-  "No transcript yet: The Economy JUST Flipped.",
+  "No transcript yet: tFJBR8mQqRA",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "videos page: HTTP 200, 1343039 chars",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini failed for NApjDYej0xM: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for NApjDYej0xM: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for NApjDYej0xM: ERROR: [youtube] NApjDYej0xM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for NApjDYej0xM (RuntimeError); will retry",
-  "Gemini gemini-3.8-flash took 356s; tokens in 76530, out 659, total 78261",
-  "Gemini transcript OK for BBOUbVfe968: 2373 chars",
-  "read BBOUbVfe968: 22 calls",
-  "Gemini gemini-3.7-flash took 59s; tokens in 76530, out 1479, total 80536",
-  "Gemini transcript OK for B72Ojzig7cM: 5472 chars",
-  "read B72Ojzig7cM: 40 calls",
-  "Gemini failed for 96IWbcHftyM: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for 96IWbcHftyM: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for 96IWbcHftyM: ERROR: [youtube] 96IWbcHftyM: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for 96IWbcHftyM (RuntimeError); will retry",
+  "Gemini gemini-3.8-flash took 333s; tokens in 19528, out 1, total 20188",
+  "Gemini: no stock talk in 96IWbcHftyM",
+  "read 96IWbcHftyM: 0 calls",
+  "Gemini gemini-3.7-flash took 307s; tokens in 51559, out 159, total 52673",
+  "Gemini transcript OK for Ft6ce7F3U8s: 667 chars",
+  "read Ft6ce7F3U8s: 2 calls",
+  "Gemini failed for tFJBR8mQqRA: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for tFJBR8mQqRA: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for tFJBR8mQqRA: ERROR: [youtube] tFJBR8mQqRA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for tFJBR8mQqRA (RuntimeError); will retry",
+  "filled 2 missing titles",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
