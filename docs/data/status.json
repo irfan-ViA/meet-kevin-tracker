@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-09T22:17:38Z",
+ "run_at": "2026-11-10T07:11:49Z",
  "price_date": "2026-11-09",
  "latest_video": "2026-11-08",
  "new_videos": [],
@@ -12,7 +12,7 @@
   },
   {
    "ticker": "LDI",
-   "day_pct": -0.17093750000000008,
+   "day_pct": -0.17031249999999998,
    "since_pct": null
   },
   {
@@ -281,25 +281,26 @@
   }
  ],
  "errors": [
-  "No transcript yet: Trump's NEW Operation in Iran: Prepare.",
-  "No transcript yet: The Historic Stock Market REBOUND.",
-  "No transcript yet: Prepare for Tomorrow: VIOLENT Stock Market",
+  "No transcript yet: tFJBR8mQqRA",
+  "No transcript yet: mWpmwgkjW5I",
+  "No transcript yet: 7oqw7rFE-AE",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "videos page: HTTP 200, 1340517 chars",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
   "Gemini failed for tFJBR8mQqRA: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
   "transcript-api failed for tFJBR8mQqRA: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for tFJBR8mQqRA: ERROR: [youtube] tFJBR8mQqRA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for tFJBR8mQqRA (RuntimeError); will retry",
-  "Gemini failed for 2fIMunhu6oI: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for 2fIMunhu6oI: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for 2fIMunhu6oI: ERROR: [youtube] 2fIMunhu6oI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for 2fIMunhu6oI (RuntimeError); will retry",
+  "Gemini failed for mWpmwgkjW5I: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for mWpmwgkjW5I: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for mWpmwgkjW5I: ERROR: [youtube] mWpmwgkjW5I: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for mWpmwgkjW5I (RuntimeError); will retry",
   "Gemini failed for 7oqw7rFE-AE: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
   "transcript-api failed for 7oqw7rFE-AE: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for 7oqw7rFE-AE: ERROR: [youtube] 7oqw7rFE-AE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
