@@ -1,310 +1,274 @@
 {
- "run_at": "2026-11-10T07:11:49Z",
- "price_date": "2026-11-09",
+ "run_at": "2026-11-10T19:41:12Z",
+ "price_date": "2026-11-10",
  "latest_video": "2026-11-08",
  "new_videos": [],
  "new_calls": [],
  "big_moves": [
   {
-   "ticker": "META",
-   "day_pct": 0.051167745636319095,
+   "ticker": "NVDA",
+   "day_pct": -0.0648681927575977,
    "since_pct": null
   },
   {
    "ticker": "LDI",
-   "day_pct": -0.17031249999999998,
-   "since_pct": null
-  },
-  {
-   "ticker": "AVGO",
-   "day_pct": 0.08781368109230825,
-   "since_pct": null
-  },
-  {
-   "ticker": "MRVL",
-   "day_pct": 0.094900849858357,
+   "day_pct": -0.08512241054613934,
    "since_pct": null
   },
   {
    "ticker": "GEV",
-   "day_pct": 0.07134644947100544,
+   "day_pct": -0.05505582752550231,
    "since_pct": null
   },
   {
-   "ticker": "BE",
-   "day_pct": 0.1191410759639806,
+   "ticker": "LEN",
+   "day_pct": -0.05230399650578721,
    "since_pct": null
   },
   {
-   "ticker": "WDC",
-   "day_pct": 0.09856698764121608,
+   "ticker": "RKT",
+   "day_pct": -0.058262014483212665,
    "since_pct": null
-  },
-  {
-   "ticker": "AMD",
-   "day_pct": 0.1325939782647425,
-   "since_pct": null
-  },
-  {
-   "ticker": "SOFI",
-   "day_pct": 0.033312769895126326,
-   "since_pct": 0.15836791147994456
-  },
-  {
-   "ticker": "CRWV",
-   "day_pct": 0.055603448275862055,
-   "since_pct": -0.11252038412755938
   },
   {
    "ticker": "NBIS",
-   "day_pct": 0.09236234458259318,
-   "since_pct": -0.07711880994323761
-  },
-  {
-   "ticker": "HOOD",
-   "day_pct": 0.029786182177728326,
-   "since_pct": -0.102542007755278
-  },
-  {
-   "ticker": "TSLA",
-   "day_pct": 0.05535704315783585,
-   "since_pct": -0.07217886418298725
+   "day_pct": -0.0678331565924355,
+   "since_pct": null
   },
   {
    "ticker": "GOOGL",
-   "day_pct": 0.011833696186529963,
-   "since_pct": -0.11308442857582568
+   "day_pct": -0.004233905951761097,
+   "since_pct": -0.11683954569238808
   },
   {
    "ticker": "LITE",
-   "day_pct": 0.10689021333481863,
-   "since_pct": -0.34771048744460864
+   "day_pct": -0.022846215780998436,
+   "since_pct": -0.36261283440013137
   },
   {
    "ticker": "GLW",
-   "day_pct": 0.0925280316592858,
-   "since_pct": -0.11623475609756084
+   "day_pct": -0.042820181112548594,
+   "since_pct": -0.154077743902439
   },
   {
    "ticker": "DELL",
-   "day_pct": 0.05411986728761464,
-   "since_pct": -0.29866947487798456
+   "day_pct": -0.046316883716901125,
+   "since_pct": -0.33115291925717416
   },
   {
    "ticker": "NOW",
-   "day_pct": 0.007747376679415607,
-   "since_pct": -0.3155265436621594
+   "day_pct": -0.047391008174386906,
+   "since_pct": -0.3479644308266169
   },
   {
    "ticker": "VRT",
-   "day_pct": 0.09630318276276917,
-   "since_pct": -0.1748168272001317
+   "day_pct": -0.0401556342594902,
+   "since_pct": -0.207952580884169
   },
   {
    "ticker": "CMG",
-   "day_pct": 0.03804821376706369,
-   "since_pct": 0.2439958231813435
+   "day_pct": 0.005316172355903648,
+   "since_pct": 0.2506091193873998
   },
   {
    "ticker": "TMUS",
-   "day_pct": 0.04135547188445177,
-   "since_pct": 0.13931658562938942
+   "day_pct": -0.0011854661845771552,
+   "since_pct": 0.13796596434359798
   },
   {
    "ticker": "MRNA",
-   "day_pct": 0.05826350367835076,
-   "since_pct": 0.25604090304204696
+   "day_pct": -0.06438661710037175,
+   "since_pct": 0.17516867835547356
   },
   {
    "ticker": "TEM",
-   "day_pct": 0.11032215647600263,
-   "since_pct": 0.10220597833181055
+   "day_pct": -0.0702865940312648,
+   "since_pct": 0.024735674193969492
   },
   {
    "ticker": "ORCL",
-   "day_pct": 0.031782945736434254,
-   "since_pct": -0.17123287671232867
+   "day_pct": -0.022706402871692233,
+   "since_pct": -0.19005119690051198
   },
   {
    "ticker": "FTNT",
-   "day_pct": 0.030545270952541115,
-   "since_pct": -0.2964728860294118
+   "day_pct": 0.004164285131052603,
+   "since_pct": -0.2935431985294118
   },
   {
    "ticker": "CVNA",
-   "day_pct": 0.036563816773141466,
-   "since_pct": 0.2914479254868756
+   "day_pct": -0.062221348019931844,
+   "since_pct": 0.2110922946655378
   },
   {
    "ticker": "STX",
-   "day_pct": 0.09794138701490263,
-   "since_pct": -0.277428012620098
+   "day_pct": -0.024380606156399365,
+   "since_pct": -0.2950447556640542
   },
   {
    "ticker": "CRCL",
-   "day_pct": -0.004714201532115436,
-   "since_pct": -0.15539442430303785
+   "day_pct": -0.04943753700414455,
+   "since_pct": -0.19714964370546317
   },
   {
    "ticker": "INTC",
-   "day_pct": 0.05490405117270791,
-   "since_pct": -0.09717153284671542
+   "day_pct": -0.028970860704059298,
+   "since_pct": -0.12332725060827254
   },
   {
    "ticker": "AMZN",
-   "day_pct": 0.029425376012340854,
-   "since_pct": 0.11058872477636794
+   "day_pct": 0.017738733001161355,
+   "since_pct": 0.13028916163927606
   },
   {
    "ticker": "APP",
-   "day_pct": 0.04800368079341544,
-   "since_pct": 0.7943107221006565
+   "day_pct": -0.043345121951219534,
+   "since_pct": 0.7165361050328227
   },
   {
    "ticker": "CBRS",
-   "day_pct": 0.07827832292595893,
-   "since_pct": -0.1143066495695183
+   "day_pct": -0.05703205791106514,
+   "since_pct": -0.1648195640227148
   },
   {
    "ticker": "OPEN",
-   "day_pct": 0.0071428571428571175,
-   "since_pct": -0.2578947368421053
-  },
-  {
-   "ticker": "S",
-   "day_pct": 0.08038585209003224,
-   "since_pct": -0.0851808634772463
+   "day_pct": -0.092127659574468,
+   "since_pct": -0.3262631578947368
   },
   {
    "ticker": "PLTR",
-   "day_pct": 0.05499438832772152,
-   "since_pct": -0.1385805926076774
-  },
-  {
-   "ticker": "CSCO",
-   "day_pct": 0.051145444858817335,
-   "since_pct": -0.04195396717490529
+   "day_pct": -0.017700945626477393,
+   "since_pct": -0.1538285306995213
   },
   {
    "ticker": "MU",
-   "day_pct": 0.06253623188405788,
-   "since_pct": -0.14261489884224077
+   "day_pct": -0.027286367046307047,
+   "since_pct": -0.1660098234124664
+  },
+  {
+   "ticker": "ENPH",
+   "day_pct": -0.05983493810178808,
+   "since_pct": -0.1012491781722552
   },
   {
    "ticker": "DUOL",
-   "day_pct": -0.038461538461538436,
-   "since_pct": 0.205078125
+   "day_pct": 0.020680713128038875,
+   "since_pct": 0.22999999999999998
   },
   {
-   "ticker": "NVTS",
-   "day_pct": 0.11265969802555187,
-   "since_pct": 0.11915887850467288
-  },
-  {
-   "ticker": "PTON",
-   "day_pct": 0.06060606060606055,
-   "since_pct": 0.12052730696798508
+   "ticker": "SMCI",
+   "day_pct": -0.03741258741258746,
+   "since_pct": -0.12296909843899329
   },
   {
    "ticker": "SNDK",
-   "day_pct": 0.06161233923310916,
-   "since_pct": -0.21305436210630968
+   "day_pct": -0.04346707876955702,
+   "since_pct": -0.247260590135994
+  },
+  {
+   "ticker": "ETSY",
+   "day_pct": -0.032112166440524725,
+   "since_pct": -0.11055694098088109
   },
   {
    "ticker": "SOXL",
-   "day_pct": 0.22253643680661317,
-   "since_pct": 0.375091754343039
+   "day_pct": -0.022064056939501864,
+   "since_pct": 0.3447516515781748
   },
   {
    "ticker": "NET",
-   "day_pct": 0.09302325581395343,
-   "since_pct": 0.2013823565498345
+   "day_pct": 0.034536170212766004,
+   "since_pct": 0.24287350210625336
   },
   {
    "ticker": "ABNB",
-   "day_pct": 0.001579030475288068,
-   "since_pct": 0.11849761946746606
-  },
-  {
-   "ticker": "CAT",
-   "day_pct": 0.07205126828133102,
-   "since_pct": 0.08171374900657469
-  },
-  {
-   "ticker": "SMH",
-   "day_pct": 0.05054315027157519,
-   "since_pct": 0.08862484086391342
+   "day_pct": -0.015292448368280032,
+   "since_pct": 0.1013930523717157
   },
   {
    "ticker": "IREN",
-   "day_pct": -0.010628465804066511,
-   "since_pct": 0.18746533555185785
+   "day_pct": -0.09761793554413822,
+   "since_pct": 0.07154742096505817
+  },
+  {
+   "ticker": "QCOM",
+   "day_pct": 0.007173266460605232,
+   "since_pct": 0.10175438596491215
   },
   {
    "ticker": "FUN",
-   "day_pct": 0.07600000000000007,
-   "since_pct": 0.16450216450216448
-  },
-  {
-   "ticker": "CRWD",
-   "day_pct": 0.0538497003227294,
-   "since_pct": 0.052394106813996366
+   "day_pct": -0.04925650557620809,
+   "since_pct": 0.1071428571428572
   },
   {
    "ticker": "RKLB",
-   "day_pct": 0.1091011871113623,
-   "since_pct": 0.2798434442270059
+   "day_pct": 0.019539585457016617,
+   "since_pct": 0.30485105457708195
   },
   {
    "ticker": "AXON",
-   "day_pct": -0.03137380191693284,
-   "since_pct": -0.20749686323713923
+   "day_pct": -0.025611847747212813,
+   "since_pct": -0.2277943329150982
   },
   {
    "ticker": "TEAM",
-   "day_pct": 0.007938573659552306,
-   "since_pct": -0.15489115609143977
+   "day_pct": -0.05235635894125246,
+   "since_pct": -0.1991379780675433
   }
  ],
  "watchlist": [
   {
    "ticker": "SOFI",
-   "price": 16.75,
-   "day_pct": 0.033312769895126326,
+   "price": 16.125,
+   "day_pct": -0.03731343283582089,
    "stance": "Bullish"
   },
   {
    "ticker": "PLTR",
-   "price": 169.2,
-   "day_pct": 0.05499438832772152,
+   "price": 166.205,
+   "day_pct": -0.017700945626477393,
    "stance": "Bullish"
   }
  ],
  "errors": [
-  "No transcript yet: tFJBR8mQqRA",
-  "No transcript yet: mWpmwgkjW5I",
-  "No transcript yet: 7oqw7rFE-AE",
+  "No transcript yet: Trump's NEW Operation in Iran: Prepare.",
+  "No transcript yet: The Historic Stock Market REBOUND.",
+  "No transcript yet: Prepare for Tomorrow: VIOLENT Stock Market",
+  "No transcript yet: New Evidence Found: Learjet 60 Crash",
+  "No transcript yet: Critical CPI Inflation Report & Fed Rate Impact",
+  "No transcript yet: Lawsuit Filed: Nvidia Stock & Corruption Allegations.",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
   "PlQk8tOSHWw"
  ],
  "log": [
-  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
-  "videos page: HTTP 200, 1340517 chars",
+  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
   "Gemini failed for tFJBR8mQqRA: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
   "transcript-api failed for tFJBR8mQqRA: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for tFJBR8mQqRA: ERROR: [youtube] tFJBR8mQqRA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for tFJBR8mQqRA (RuntimeError); will retry",
-  "Gemini failed for mWpmwgkjW5I: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for mWpmwgkjW5I: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for mWpmwgkjW5I: ERROR: [youtube] mWpmwgkjW5I: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for mWpmwgkjW5I (RuntimeError); will retry",
+  "Gemini failed for 2fIMunhu6oI: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for 2fIMunhu6oI: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for 2fIMunhu6oI: ERROR: [youtube] 2fIMunhu6oI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for 2fIMunhu6oI (RuntimeError); will retry",
   "Gemini failed for 7oqw7rFE-AE: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
   "transcript-api failed for 7oqw7rFE-AE: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for 7oqw7rFE-AE: ERROR: [youtube] 7oqw7rFE-AE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for 7oqw7rFE-AE (RuntimeError); will retry",
+  "Gemini failed for mWpmwgkjW5I: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for mWpmwgkjW5I: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for mWpmwgkjW5I: ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+  "transcript not ready for mWpmwgkjW5I (RuntimeError); will retry",
+  "Gemini failed for EVUoGmiVlMc: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for EVUoGmiVlMc: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for EVUoGmiVlMc: ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+  "transcript not ready for EVUoGmiVlMc (RuntimeError); will retry",
+  "Gemini failed for WDosULDZRDI: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for WDosULDZRDI: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for WDosULDZRDI: ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests",
+  "transcript not ready for WDosULDZRDI (RuntimeError); will retry",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
