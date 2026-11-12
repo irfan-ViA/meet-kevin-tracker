@@ -1,229 +1,166 @@
 {
- "run_at": "2026-11-12T07:05:23Z",
- "price_date": "2026-11-11",
+ "run_at": "2026-11-12T19:52:23Z",
+ "price_date": "2026-11-12",
  "latest_video": "2026-11-10",
  "new_videos": [],
  "new_calls": [],
  "big_moves": [
   {
-   "ticker": "MRVL",
-   "day_pct": 0.09333506056091734,
+   "ticker": "NVDA",
+   "day_pct": -0.05445231105738779,
    "since_pct": null
   },
   {
-   "ticker": "BE",
-   "day_pct": 0.12970553338366964,
-   "since_pct": null
-  },
-  {
-   "ticker": "WDC",
-   "day_pct": 0.08336791147994482,
+   "ticker": "AVGO",
+   "day_pct": 0.054617345460865385,
    "since_pct": null
   },
   {
    "ticker": "AMD",
-   "day_pct": 0.07315463597368055,
+   "day_pct": 0.05943208536805944,
    "since_pct": null
   },
   {
    "ticker": "CRWV",
-   "day_pct": 0.247075723373692,
+   "day_pct": -0.07915089682409082,
    "since_pct": null
   },
   {
    "ticker": "NBIS",
-   "day_pct": 0.1544029850746269,
+   "day_pct": -0.17665783179261751,
    "since_pct": null
   },
   {
-   "ticker": "LITE",
-   "day_pct": 0.10671653260925229,
-   "since_pct": -0.29092401116034805
-  },
-  {
-   "ticker": "GLW",
-   "day_pct": 0.0742887719611165,
-   "since_pct": -0.08185975609756091
-  },
-  {
-   "ticker": "DELL",
-   "day_pct": 0.11753095280818227,
-   "since_pct": -0.24324105388930517
-  },
-  {
-   "ticker": "NOW",
-   "day_pct": 0.03162333099086445,
-   "since_pct": -0.3155265436621594
-  },
-  {
-   "ticker": "VRT",
-   "day_pct": 0.06327875604984046,
-   "since_pct": -0.1499547213303697
-  },
-  {
-   "ticker": "CMG",
-   "day_pct": 0.020044543429843964,
-   "since_pct": 0.27532196310476853
-  },
-  {
-   "ticker": "TMUS",
-   "day_pct": 0.018216229004021756,
-   "since_pct": 0.1626148028092922
-  },
-  {
    "ticker": "MRNA",
-   "day_pct": -0.008531674839532766,
-   "since_pct": 0.1612074802138539
-  },
-  {
-   "ticker": "ORCL",
-   "day_pct": 0.08815053398881156,
-   "since_pct": -0.11180296111802956
-  },
-  {
-   "ticker": "FTNT",
-   "day_pct": 0.03665938334547225,
-   "since_pct": -0.26413143382352955
-  },
-  {
-   "ticker": "CVNA",
-   "day_pct": 0.011640646398247245,
-   "since_pct": 0.2509737510584251
+   "day_pct": -0.06417628372672812,
+   "since_pct": null
   },
   {
    "ticker": "STX",
-   "day_pct": 0.09987640046250146,
-   "since_pct": -0.21235741716276213
+   "day_pct": -0.015080113100848336,
+   "since_pct": -0.22423515639499203
   },
   {
    "ticker": "CRCL",
-   "day_pct": 0.032933210218528686,
-   "since_pct": -0.16089511188898598
-  },
-  {
-   "ticker": "INTC",
-   "day_pct": 0.07517632891794257,
-   "since_pct": -0.049574209245742185
+   "day_pct": -0.04112038140643626,
+   "since_pct": -0.19539942492811602
   },
   {
    "ticker": "AMZN",
-   "day_pct": -0.017351497028094576,
-   "since_pct": 0.10742666944039958
+   "day_pct": 0.006837735281962631,
+   "since_pct": 0.11499895985021857
   },
   {
    "ticker": "APP",
-   "day_pct": 0.023412808778539018,
-   "since_pct": 0.7714223194748357
-  },
-  {
-   "ticker": "CBRS",
-   "day_pct": 0.07922272047832579,
-   "since_pct": -0.07418941198021622
+   "day_pct": -0.0214504533438743,
+   "since_pct": 0.7334245076586432
   },
   {
    "ticker": "OPEN",
-   "day_pct": 0.041984732824427384,
-   "since_pct": -0.28157894736842104
+   "day_pct": -0.05860805860805862,
+   "since_pct": -0.3236842105263158
+  },
+  {
+   "ticker": "S",
+   "day_pct": -0.06749369217830115,
+   "since_pct": -0.1374951380785686
   },
   {
    "ticker": "PLTR",
-   "day_pct": 0.02120601824428392,
-   "since_pct": -0.12228897260971383
+   "day_pct": -0.005452436194895549,
+   "since_pct": -0.1270746359841156
   },
   {
-   "ticker": "MU",
-   "day_pct": 0.11886472397291437,
-   "since_pct": -0.051222079288972155
+   "ticker": "ENPH",
+   "day_pct": -0.0367491166077738,
+   "since_pct": -0.10387902695595008
   },
   {
    "ticker": "DUOL",
-   "day_pct": 0.04755217974085668,
-   "since_pct": 0.28218750000000004
+   "day_pct": -0.025895686083353686,
+   "since_pct": 0.24898437500000004
   },
   {
    "ticker": "SMCI",
-   "day_pct": 0.09499820079165167,
-   "since_pct": -0.030582988212806694
+   "day_pct": -0.09234308248439038,
+   "since_pct": -0.12010194329404267
   },
   {
    "ticker": "NVTS",
-   "day_pct": 0.07356076759061825,
-   "since_pct": 0.17640186915887845
+   "day_pct": -0.045183714001986064,
+   "since_pct": 0.12324766355140193
   },
   {
    "ticker": "SNDK",
-   "day_pct": 0.13686205653554118,
-   "since_pct": -0.1321148315165287
-  },
-  {
-   "ticker": "RRGB",
-   "day_pct": 0.06375442739079085,
-   "since_pct": -0.024891774891774965
+   "day_pct": -0.04808272560832172,
+   "since_pct": -0.1738451159322516
   },
   {
    "ticker": "SOXL",
-   "day_pct": 0.17784516589368526,
-   "since_pct": 0.615610472229019
+   "day_pct": -0.007213387854005715,
+   "since_pct": 0.6039564472718377
   },
   {
    "ticker": "NET",
-   "day_pct": 0.0300850228907783,
-   "since_pct": 0.2882908674491842
+   "day_pct": 0.00996825396825396,
+   "since_pct": 0.3011328780008997
   },
   {
    "ticker": "SMH",
-   "day_pct": 0.04823935653288669,
-   "since_pct": 0.13228954950528204
+   "day_pct": -0.011026510967334646,
+   "since_pct": 0.1198043463694638
   },
   {
    "ticker": "IREN",
-   "day_pct": 0.05625950329447549,
-   "since_pct": 0.15585135884636703
+   "day_pct": -0.07832053742802303,
+   "since_pct": 0.06532445923460894
   },
   {
    "ticker": "QCOM",
-   "day_pct": 0.017518584682763683,
-   "since_pct": 0.12644338118022325
+   "day_pct": 0.0040210681316192876,
+   "since_pct": 0.13097288676236052
   },
   {
    "ticker": "FUN",
-   "day_pct": 0.09251968503937014,
-   "since_pct": 0.2012987012987013
+   "day_pct": 0.01981981981981984,
+   "since_pct": 0.22510822510822504
   },
   {
    "ticker": "RKLB",
-   "day_pct": 0.054855684898740265,
-   "since_pct": 0.4383561643835616
+   "day_pct": -0.019727891156462674,
+   "since_pct": 0.40998043052837563
   },
   {
    "ticker": "AXON",
-   "day_pct": 0.04257288292457195,
-   "since_pct": -0.17550188205771644
+   "day_pct": -0.0280578276583604,
+   "since_pct": -0.1986355081555835
   },
   {
    "ticker": "TEAM",
-   "day_pct": 0.025841184387617844,
-   "since_pct": -0.16831251022969063
+   "day_pct": -0.004460771451062717,
+   "since_pct": -0.17202247804026405
   }
  ],
  "watchlist": [
   {
    "ticker": "SOFI",
-   "price": 16.27,
-   "day_pct": -0.006108735491753281,
+   "price": 15.6619,
+   "day_pct": -0.03737553779963121,
    "stance": "Bullish"
   },
   {
    "ticker": "PLTR",
-   "price": 172.4,
-   "day_pct": 0.02120601824428392,
+   "price": 171.46,
+   "day_pct": -0.005452436194895549,
    "stance": "Bullish"
   }
  ],
  "errors": [
-  "No transcript yet: 2I9KLQSHn_s",
-  "No transcript yet: k3KkWr5DgyE",
-  "No transcript yet: v-B79qJ6df0",
+  "No transcript yet: The Historic Stock Market REBOUND.",
+  "No transcript yet: Critical CPI Inflation Report & Fed Rate Impact",
+  "No transcript yet: The Fed JUST Released their Great Reset Economic Playbook.",
+  "No transcript yet: Prepare for the Anthropic IPO [Full Warning].",
+  "Gemini limit reached; more videos will be read on the next runs",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -231,21 +168,26 @@
   "zYBATY2PPPE"
  ],
  "log": [
-  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
-  "videos page: HTTP 200, 1361901 chars",
+  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini failed for 2I9KLQSHn_s: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for 2I9KLQSHn_s: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for 2I9KLQSHn_s: ERROR: [youtube] 2I9KLQSHn_s: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for 2I9KLQSHn_s (RuntimeError); will retry",
-  "Gemini failed for k3KkWr5DgyE: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for k3KkWr5DgyE: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for k3KkWr5DgyE: ERROR: [youtube] k3KkWr5DgyE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for k3KkWr5DgyE (RuntimeError); will retry",
+  "Gemini failed for 2fIMunhu6oI: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for 2fIMunhu6oI: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for 2fIMunhu6oI: ERROR: [youtube] 2fIMunhu6oI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for 2fIMunhu6oI (RuntimeError); will retry",
+  "Gemini failed for EVUoGmiVlMc: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for EVUoGmiVlMc: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for EVUoGmiVlMc: ERROR: [youtube] EVUoGmiVlMc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for EVUoGmiVlMc (RuntimeError); will retry",
   "Gemini failed for v-B79qJ6df0: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
   "transcript-api failed for v-B79qJ6df0: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for v-B79qJ6df0: ERROR: [youtube] v-B79qJ6df0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for v-B79qJ6df0 (RuntimeError); will retry",
+  "Gemini failed for k3KkWr5DgyE: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for k3KkWr5DgyE: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for k3KkWr5DgyE: ERROR: [youtube] k3KkWr5DgyE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for k3KkWr5DgyE (RuntimeError); will retry",
+  "Gemini failed for 2I9KLQSHn_s: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "Gemini daily/minute limit reached; remaining videos wait for the next run",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
