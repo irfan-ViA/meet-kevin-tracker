@@ -1,116 +1,15 @@
 {
- "run_at": "2026-11-14T06:13:08Z",
+ "run_at": "2026-11-14T17:57:49Z",
  "price_date": "2026-11-13",
- "latest_video": "2026-11-12",
+ "latest_video": "2026-11-13",
  "new_videos": [
   {
-   "title": "2I9KLQSHn_s",
-   "video_id": "2I9KLQSHn_s",
-   "calls": 7
-  },
-  {
-   "title": "k3KkWr5DgyE",
-   "video_id": "k3KkWr5DgyE",
-   "calls": 7
-  },
-  {
-   "title": "v-B79qJ6df0",
-   "video_id": "v-B79qJ6df0",
-   "calls": 12
-  },
-  {
-   "title": "fbC79vAIWWM",
-   "video_id": "fbC79vAIWWM",
-   "calls": 3
-  },
-  {
-   "title": "0A9uTZ4Q27M",
-   "video_id": "0A9uTZ4Q27M",
-   "calls": 3
+   "title": "The Fed Just Hit the Panic Button.",
+   "video_id": "JdDKaP_xdh0",
+   "calls": 0
   }
  ],
- "new_calls": [
-  {
-   "ticker": "NVDA",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "META",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AAPL",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "QQQ",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "MRVL",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "AMD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CRWV",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "MSFT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "TSLA",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "LITE",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "DELL",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "ORCL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "STX",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "INTC",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "PLTR",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "MU",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "SMCI",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "SNDK",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "MCD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "ADBE",
-   "stance": "Bearish"
-  }
- ],
+ "new_calls": [],
  "big_moves": [
   {
    "ticker": "AMD",
@@ -238,7 +137,10 @@
   }
  ],
  "errors": [
-  "No transcript yet: pg1ucywxTh0",
+  "No transcript yet: The Inflation Report is HOT Again...",
+  "No transcript yet: BASES ON ALERT 🚨 FAA Orders ALL Flights STOPPED: Nationwide Ground Stop!",
+  "No transcript yet: The REASON why the FAA *JUST* Shutdown All Airports",
+  "No transcript yet: Elon JUST Started Selling Cybercabs for $299/mo",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -246,29 +148,27 @@
   "zYBATY2PPPE"
  ],
  "log": [
-  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
-  "videos page: HTTP 200, 1353894 chars",
+  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.7-flash took 189s; tokens in 28615, out 400, total 30081",
-  "Gemini transcript OK for 2I9KLQSHn_s: 1571 chars",
-  "read 2I9KLQSHn_s: 7 calls",
-  "Gemini gemini-3.7-flash took 34s; tokens in 51139, out 312, total 53973",
-  "Gemini transcript OK for k3KkWr5DgyE: 1296 chars",
-  "read k3KkWr5DgyE: 7 calls",
-  "Gemini gemini-3.8-flash took 106s; tokens in 50413, out 295, total 52619",
-  "Gemini transcript OK for v-B79qJ6df0: 1087 chars",
-  "read v-B79qJ6df0: 12 calls",
-  "Gemini gemini-3.8-flash took 339s; tokens in 47846, out 211, total 49644",
-  "Gemini transcript OK for fbC79vAIWWM: 850 chars",
-  "read fbC79vAIWWM: 3 calls",
-  "Gemini gemini-3.8-flash took 268s; tokens in 20178, out 255, total 21680",
-  "Gemini transcript OK for 0A9uTZ4Q27M: 1083 chars",
-  "read 0A9uTZ4Q27M: 3 calls",
+  "Gemini gemini-3.8-flash took 111s; tokens in 25174, out 1, total 25886",
+  "Gemini: no stock talk in JdDKaP_xdh0",
+  "read JdDKaP_xdh0: 0 calls",
+  "Gemini failed for S7QBYIEfKLs: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for S7QBYIEfKLs: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for S7QBYIEfKLs: ERROR: [youtube] S7QBYIEfKLs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for S7QBYIEfKLs (RuntimeError); will retry",
+  "Gemini failed for jdKEsw98cC4: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for jdKEsw98cC4: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for jdKEsw98cC4: ERROR: [youtube] jdKEsw98cC4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for jdKEsw98cC4 (RuntimeError); will retry",
+  "Gemini failed for vGjX5vARV9Q: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for vGjX5vARV9Q: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for vGjX5vARV9Q: ERROR: [youtube] vGjX5vARV9Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for vGjX5vARV9Q (RuntimeError); will retry",
   "Gemini failed for pg1ucywxTh0: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
   "transcript-api failed for pg1ucywxTh0: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for pg1ucywxTh0: ERROR: [youtube] pg1ucywxTh0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for pg1ucywxTh0 (RuntimeError); will retry",
-  "filled 5 missing titles",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
