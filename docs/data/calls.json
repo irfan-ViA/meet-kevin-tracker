@@ -5107,5 +5107,70 @@
   "at_seconds": 356,
   "what_he_said": "Tesla should be trading higher alongside SpaceX, since it would get a premium valuation in a SpaceX buyout.",
   "link": "https://www.youtube.com/watch?v=0A9uTZ4Q27M&t=356s"
+ },
+ {
+  "id": "c394",
+  "ticker": "TSLA",
+  "stance": "Bought",
+  "owns": "Yes",
+  "video_date": "2026-11-13",
+  "video_title": "Elon JUST Started Selling Cybercabs for $299/mo",
+  "video_id": "pg1ucywxTh0",
+  "at": "6:12",
+  "at_seconds": 372,
+  "what_he_said": "He says he has been buying Tesla, seeing it as a discounted backdoor into SpaceX.",
+  "link": "https://www.youtube.com/watch?v=pg1ucywxTh0&t=372s"
+ },
+ {
+  "id": "c395",
+  "ticker": "TSLA",
+  "stance": "Bearish",
+  "owns": "Not stated",
+  "video_date": "2026-11-13",
+  "video_title": "Elon JUST Started Selling Cybercabs for $299/mo",
+  "video_id": "pg1ucywxTh0",
+  "at": "16:18",
+  "at_seconds": 978,
+  "what_he_said": "He calls Tesla's roughly 200 P/E valuation 'kind of ludicrous', justified only by a possible SpaceX merger premium.",
+  "link": "https://www.youtube.com/watch?v=pg1ucywxTh0&t=978s"
+ },
+ {
+  "id": "c396",
+  "ticker": "NVDA",
+  "stance": "Neutral",
+  "owns": "Not stated",
+  "video_date": "2026-11-14",
+  "video_title": "The Return of Nvidia's CEO Jensen Huang.",
+  "video_id": "axiCoySOyBY",
+  "at": "1:20",
+  "at_seconds": 80,
+  "what_he_said": "Reports Morgan Stanley's downgrade of Nvidia to $267, citing Jensen Huang's resignation and China regulatory risks.",
+  "link": "https://www.youtube.com/watch?v=axiCoySOyBY&t=80s"
+ },
+ {
+  "id": "c397",
+  "ticker": "NVDA",
+  "stance": "Neutral",
+  "owns": "Yes",
+  "video_date": "2026-11-14",
+  "video_title": "The Return of Nvidia's CEO Jensen Huang.",
+  "video_id": "axiCoySOyBY",
+  "at": "6:29",
+  "at_seconds": 389,
+  "what_he_said": "Says he personally has exposure to Nvidia stock and explains Jensen Huang's and institutional shareholders' voting stakes.",
+  "link": "https://www.youtube.com/watch?v=axiCoySOyBY&t=389s"
+ },
+ {
+  "id": "c398",
+  "ticker": "NVDA",
+  "stance": "Bullish",
+  "owns": "Not stated",
+  "video_date": "2026-11-14",
+  "video_title": "The Return of Nvidia's CEO Jensen Huang.",
+  "video_id": "axiCoySOyBY",
+  "at": "18:08",
+  "at_seconds": 1088,
+  "what_he_said": "Thinks Jensen Huang could be reinstated after an investigation, so investors who believe it can buy the dip.",
+  "link": "https://www.youtube.com/watch?v=axiCoySOyBY&t=1088s"
  }
 ]
