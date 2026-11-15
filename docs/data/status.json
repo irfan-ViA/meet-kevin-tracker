@@ -1,27 +1,52 @@
 {
- "run_at": "2026-11-15T06:21:25Z",
+ "run_at": "2026-11-15T18:48:03Z",
  "price_date": "2026-11-13",
  "latest_video": "2026-11-14",
  "new_videos": [
   {
-   "title": "pg1ucywxTh0",
-   "video_id": "pg1ucywxTh0",
-   "calls": 2
+   "title": "The Inflation Report is HOT Again...",
+   "video_id": "S7QBYIEfKLs",
+   "calls": 1
   },
   {
-   "title": "axiCoySOyBY",
-   "video_id": "axiCoySOyBY",
+   "title": "BASES ON ALERT 🚨 FAA Orders ALL Flights STOPPED: Nationwide Ground Stop!",
+   "video_id": "jdKEsw98cC4",
+   "calls": 3
+  },
+  {
+   "title": "The REASON why the FAA *JUST* Shutdown All Airports",
+   "video_id": "vGjX5vARV9Q",
    "calls": 3
   }
  ],
  "new_calls": [
   {
    "ticker": "NVDA",
-   "stance": "Bullish"
+   "stance": "Neutral"
   },
   {
-   "ticker": "TSLA",
+   "ticker": "MSFT",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "UAL",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "AAL",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "LHX",
    "stance": "Bearish"
+  },
+  {
+   "ticker": "HTZ",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "DAL",
+   "stance": "Neutral"
   }
  ],
  "big_moves": [
@@ -151,7 +176,6 @@
   }
  ],
  "errors": [
-  "No transcript yet: vGjX5vARV9Q",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -159,20 +183,17 @@
   "zYBATY2PPPE"
  ],
  "log": [
-  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
-  "videos page: HTTP 200, 1350717 chars",
+  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.7-flash took 353s; tokens in 32187, out 126, total 33344",
-  "Gemini transcript OK for pg1ucywxTh0: 505 chars",
-  "read pg1ucywxTh0: 2 calls",
-  "Gemini failed for vGjX5vARV9Q: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for vGjX5vARV9Q: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for vGjX5vARV9Q: ERROR: [youtube] vGjX5vARV9Q: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for vGjX5vARV9Q (RuntimeError); will retry",
-  "Gemini gemini-3.7-flash took 253s; tokens in 34579, out 226, total 36520",
-  "Gemini transcript OK for axiCoySOyBY: 973 chars",
-  "read axiCoySOyBY: 3 calls",
-  "filled 2 missing titles",
+  "Gemini gemini-3.7-flash took 189s; tokens in 76530, out 78, total 80466",
+  "Gemini transcript OK for S7QBYIEfKLs: 386 chars",
+  "read S7QBYIEfKLs: 1 calls",
+  "Gemini gemini-3.8-flash took 238s; tokens in 76530, out 147, total 78007",
+  "Gemini transcript OK for jdKEsw98cC4: 627 chars",
+  "read jdKEsw98cC4: 3 calls",
+  "Gemini gemini-3.8-flash took 345s; tokens in 50891, out 144, total 52268",
+  "Gemini transcript OK for vGjX5vARV9Q: 600 chars",
+  "read vGjX5vARV9Q: 3 calls",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
