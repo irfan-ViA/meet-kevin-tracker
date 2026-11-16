@@ -1,54 +1,9 @@
 {
- "run_at": "2026-11-15T18:48:03Z",
+ "run_at": "2026-11-16T06:20:40Z",
  "price_date": "2026-11-13",
  "latest_video": "2026-11-14",
- "new_videos": [
-  {
-   "title": "The Inflation Report is HOT Again...",
-   "video_id": "S7QBYIEfKLs",
-   "calls": 1
-  },
-  {
-   "title": "BASES ON ALERT 🚨 FAA Orders ALL Flights STOPPED: Nationwide Ground Stop!",
-   "video_id": "jdKEsw98cC4",
-   "calls": 3
-  },
-  {
-   "title": "The REASON why the FAA *JUST* Shutdown All Airports",
-   "video_id": "vGjX5vARV9Q",
-   "calls": 3
-  }
- ],
- "new_calls": [
-  {
-   "ticker": "NVDA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MSFT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "UAL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AAL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "LHX",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "HTZ",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "DAL",
-   "stance": "Neutral"
-  }
- ],
+ "new_videos": [],
+ "new_calls": [],
  "big_moves": [
   {
    "ticker": "AMD",
@@ -176,6 +131,7 @@
   }
  ],
  "errors": [
+  "No transcript yet: WJv-1MammyE",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -183,17 +139,13 @@
   "zYBATY2PPPE"
  ],
  "log": [
-  "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "feed: HTTP 404 for channel UCUvvj5lwue7PspotMDjk5UA",
+  "videos page: HTTP 200, 1350658 chars",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.7-flash took 189s; tokens in 76530, out 78, total 80466",
-  "Gemini transcript OK for S7QBYIEfKLs: 386 chars",
-  "read S7QBYIEfKLs: 1 calls",
-  "Gemini gemini-3.8-flash took 238s; tokens in 76530, out 147, total 78007",
-  "Gemini transcript OK for jdKEsw98cC4: 627 chars",
-  "read jdKEsw98cC4: 3 calls",
-  "Gemini gemini-3.8-flash took 345s; tokens in 50891, out 144, total 52268",
-  "Gemini transcript OK for vGjX5vARV9Q: 600 chars",
-  "read vGjX5vARV9Q: 3 calls",
+  "Gemini failed for WJv-1MammyE: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for WJv-1MammyE: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for WJv-1MammyE: ERROR: [youtube] WJv-1MammyE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for WJv-1MammyE (RuntimeError); will retry",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
