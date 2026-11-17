@@ -1,197 +1,122 @@
 {
- "run_at": "2026-11-17T07:49:33Z",
- "price_date": "2026-11-16",
+ "run_at": "2026-11-17T20:50:54Z",
+ "price_date": "2026-11-17",
  "latest_video": "2026-11-14",
  "new_videos": [],
  "new_calls": [],
  "big_moves": [
   {
-   "ticker": "LDI",
-   "day_pct": -0.05764966740576505,
-   "since_pct": null
-  },
-  {
-   "ticker": "MRVL",
-   "day_pct": -0.07272263332482765,
-   "since_pct": null
-  },
-  {
-   "ticker": "BE",
-   "day_pct": -0.07661857388405646,
-   "since_pct": null
-  },
-  {
-   "ticker": "AMD",
-   "day_pct": -0.05576152492229336,
-   "since_pct": null
-  },
-  {
-   "ticker": "CRWV",
-   "day_pct": -0.061170713344626426,
-   "since_pct": null
-  },
-  {
-   "ticker": "NBIS",
-   "day_pct": -0.07550914739385572,
-   "since_pct": null
-  },
-  {
-   "ticker": "HOOD",
-   "day_pct": -0.07449267916773694,
-   "since_pct": null
-  },
-  {
-   "ticker": "LITE",
-   "day_pct": -0.0848446247192518,
-   "since_pct": null
-  },
-  {
-   "ticker": "GLW",
-   "day_pct": -0.06933730715287512,
-   "since_pct": null
-  },
-  {
-   "ticker": "DELL",
-   "day_pct": -0.06960206658346146,
-   "since_pct": null
-  },
-  {
-   "ticker": "VRT",
-   "day_pct": -0.06631365368436681,
-   "since_pct": null
-  },
-  {
-   "ticker": "TEM",
-   "day_pct": -0.09553072625698311,
-   "since_pct": null
-  },
-  {
-   "ticker": "STX",
-   "day_pct": -0.0554430331825323,
+   "ticker": "NOW",
+   "day_pct": -0.06551273020026172,
    "since_pct": null
   },
   {
    "ticker": "CRCL",
-   "day_pct": -0.07315112540192936,
+   "day_pct": -0.0525585429314831,
    "since_pct": null
   },
   {
-   "ticker": "INTC",
-   "day_pct": -0.07023131076097888,
-   "since_pct": null
-  },
-  {
-   "ticker": "CBRS",
-   "day_pct": -0.07110007358351733,
-   "since_pct": null
-  },
-  {
-   "ticker": "OPEN",
-   "day_pct": -0.050420168067226934,
+   "ticker": "CRM",
+   "day_pct": -0.09407438439696503,
    "since_pct": null
   },
   {
    "ticker": "MU",
-   "day_pct": -0.0761778725700556,
-   "since_pct": -0.1591392819553269
+   "day_pct": -0.009179160524046659,
+   "since_pct": -0.1668576774646241
   },
   {
    "ticker": "ENPH",
-   "day_pct": -0.04296125815113161,
-   "since_pct": -0.17981591058514146
+   "day_pct": -0.07575150300601208,
+   "since_pct": -0.24194608809993434
   },
   {
    "ticker": "DUOL",
-   "day_pct": 0.02080938842175306,
-   "since_pct": 0.318359375
+   "day_pct": -0.051377777777777744,
+   "since_pct": 0.2506250000000001
   },
   {
    "ticker": "SMCI",
-   "day_pct": -0.06847785634536652,
-   "since_pct": -0.20261229690984384
+   "day_pct": -0.035557331202556997,
+   "since_pct": -0.23096527556546675
   },
   {
    "ticker": "NVTS",
-   "day_pct": -0.11955307262569825,
-   "since_pct": -0.07943925233644866
-  },
-  {
-   "ticker": "PTON",
-   "day_pct": -0.06491228070175437,
-   "since_pct": 0.0037664783427495685
+   "day_pct": -0.035532994923857864,
+   "since_pct": -0.1121495327102805
   },
   {
    "ticker": "SNDK",
-   "day_pct": -0.08576174280516602,
-   "since_pct": -0.28176153108688706
+   "day_pct": -0.014670440360395998,
+   "since_pct": -0.29229840570961896
   },
   {
    "ticker": "ETSY",
-   "day_pct": -0.0449438202247191,
-   "since_pct": -0.11679135494596837
+   "day_pct": -0.027999999999999914,
+   "since_pct": -0.14152119700748123
   },
   {
    "ticker": "PLAY",
-   "day_pct": -0.06234413965087282,
-   "since_pct": -0.14350797266514803
+   "day_pct": -0.02659574468085102,
+   "since_pct": -0.16628701594533024
+  },
+  {
+   "ticker": "RRGB",
+   "day_pct": -0.04225352112676051,
+   "since_pct": -0.11688311688311692
   },
   {
    "ticker": "SOXL",
-   "day_pct": -0.163923182441701,
-   "since_pct": 0.19305113775385374
+   "day_pct": 0.005742411812961423,
+   "since_pct": 0.19990212870075852
   },
   {
    "ticker": "NET",
-   "day_pct": -0.03995945194728767,
-   "since_pct": 0.20072798658541569
-  },
-  {
-   "ticker": "SMH",
-   "day_pct": -0.051052901900359604,
-   "since_pct": 0.03164853818149327
+   "day_pct": -0.02989713546101702,
+   "since_pct": 0.16482965931863736
   },
   {
    "ticker": "IREN",
-   "day_pct": -0.09796367638965331,
-   "since_pct": -0.09095951192457019
+   "day_pct": -0.03569249542403907,
+   "since_pct": -0.12340543538546878
+  },
+  {
+   "ticker": "INTU",
+   "day_pct": -0.07168075008681551,
+   "since_pct": -0.09595874196821086
   },
   {
    "ticker": "FUN",
-   "day_pct": 0.0051948051948049745,
-   "since_pct": 0.25649350649350633
+   "day_pct": -0.054694229112833725,
+   "since_pct": 0.1877705627705628
   },
   {
    "ticker": "RKLB",
-   "day_pct": -0.0676092962782383,
-   "since_pct": 0.24744509676016513
+   "day_pct": -0.0404392539654872,
+   "since_pct": 0.19699934768427907
   },
   {
    "ticker": "AXON",
-   "day_pct": -0.028500776717496734,
-   "since_pct": -0.19897532413216223
+   "day_pct": -0.025616760214071332,
+   "since_pct": -0.2194949811794229
   },
   {
    "ticker": "TEAM",
-   "day_pct": -0.0003333555570371738,
-   "since_pct": -0.18195209776856347
-  },
-  {
-   "ticker": "HTZ",
-   "day_pct": -0.06666666666666676,
-   "since_pct": -0.06666666666666676
+   "day_pct": -0.05975723622782447,
+   "since_pct": -0.23083637950788372
   }
  ],
  "watchlist": [
   {
    "ticker": "SOFI",
-   "price": 14.85,
-   "day_pct": -0.03696498054474706,
+   "price": 14.28,
+   "day_pct": -0.03838383838383841,
    "stance": "Bullish"
   },
   {
    "ticker": "PLTR",
-   "price": 160.39,
-   "day_pct": -0.04524078814215149,
+   "price": 156.56,
+   "day_pct": -0.023879294220337854,
    "stance": "Bearish"
   }
  ],
@@ -199,6 +124,9 @@
   "No transcript yet: Jensen Accepts: Return as Nvidia CEO.",
   "No transcript yet: The Nvidia & Jensen Market Collapse Begins.",
   "No transcript yet: The Truth About the Nationwide Ground Stop: EXPOSED",
+  "No transcript yet: -92% | Liquidated AGAIN.",
+  "No transcript yet: JENSEN CONFIRMS",
+  "No transcript yet: Nvidia Stock Earnings LIVE 🚨 Holy Moly.",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -220,6 +148,18 @@
   "transcript-api failed for gmp9ium-mVY: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for gmp9ium-mVY: ERROR: [youtube] gmp9ium-mVY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for gmp9ium-mVY (RuntimeError); will retry",
+  "Gemini failed for NsnimG4dBlI: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for NsnimG4dBlI: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for NsnimG4dBlI: ERROR: [youtube] NsnimG4dBlI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for NsnimG4dBlI (RuntimeError); will retry",
+  "Gemini failed for dogmDx8j2fA: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for dogmDx8j2fA: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for dogmDx8j2fA: ERROR: [youtube] dogmDx8j2fA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for dogmDx8j2fA (RuntimeError); will retry",
+  "Gemini failed for hS3CqyReHzs: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for hS3CqyReHzs: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for hS3CqyReHzs: ERROR: [youtube] hS3CqyReHzs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for hS3CqyReHzs (RuntimeError); will retry",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
