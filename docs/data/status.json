@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-16T21:58:39Z",
+ "run_at": "2026-11-17T07:49:33Z",
  "price_date": "2026-11-16",
  "latest_video": "2026-11-14",
  "new_videos": [],
@@ -107,8 +107,8 @@
   },
   {
    "ticker": "SMCI",
-   "day_pct": -0.06866393747673993,
-   "since_pct": -0.20277158330678569
+   "day_pct": -0.06847785634536652,
+   "since_pct": -0.20261229690984384
   },
   {
    "ticker": "NVTS",
@@ -198,6 +198,7 @@
  "errors": [
   "No transcript yet: Jensen Accepts: Return as Nvidia CEO.",
   "No transcript yet: The Nvidia & Jensen Market Collapse Begins.",
+  "No transcript yet: The Truth About the Nationwide Ground Stop: EXPOSED",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -208,13 +209,17 @@
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
   "Gemini failed for WJv-1MammyE: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for WJv-1MammyE: IpBlocked; trying yt-dlp",
-  "yt-dlp failed for WJv-1MammyE: ERROR: [youtube] WJv-1MammyE: Failed to extract any player response; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you a",
+  "transcript-api failed for WJv-1MammyE: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for WJv-1MammyE: ERROR: [youtube] WJv-1MammyE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for WJv-1MammyE (RuntimeError); will retry",
   "Gemini failed for jUlIobFTg5E: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for jUlIobFTg5E: IpBlocked; trying yt-dlp",
-  "yt-dlp failed for jUlIobFTg5E: ERROR: [youtube] jUlIobFTg5E: Failed to extract any player response; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you a",
+  "transcript-api failed for jUlIobFTg5E: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for jUlIobFTg5E: ERROR: [youtube] jUlIobFTg5E: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for jUlIobFTg5E (RuntimeError); will retry",
+  "Gemini failed for gmp9ium-mVY: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for gmp9ium-mVY: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for gmp9ium-mVY: ERROR: [youtube] gmp9ium-mVY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for gmp9ium-mVY (RuntimeError); will retry",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
