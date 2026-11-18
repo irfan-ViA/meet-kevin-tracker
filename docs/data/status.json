@@ -1,23 +1,155 @@
 {
- "run_at": "2026-11-17T20:50:54Z",
+ "run_at": "2026-11-18T07:20:52Z",
  "price_date": "2026-11-17",
- "latest_video": "2026-11-14",
- "new_videos": [],
- "new_calls": [],
+ "latest_video": "2026-11-17",
+ "new_videos": [
+  {
+   "title": "Jensen Accepts: Return as Nvidia CEO.",
+   "video_id": "WJv-1MammyE",
+   "calls": 9
+  },
+  {
+   "title": "The Nvidia & Jensen Market Collapse Begins.",
+   "video_id": "jUlIobFTg5E",
+   "calls": 14
+  },
+  {
+   "title": "The Truth About the Nationwide Ground Stop: EXPOSED",
+   "video_id": "gmp9ium-mVY",
+   "calls": 3
+  },
+  {
+   "title": "-92% | Liquidated AGAIN.",
+   "video_id": "NsnimG4dBlI",
+   "calls": 20
+  },
+  {
+   "title": "JENSEN CONFIRMS",
+   "video_id": "dogmDx8j2fA",
+   "calls": 6
+  },
+  {
+   "title": "Cops Called: Nvidia Earnings Breakdown & SEC Investigation",
+   "video_id": "OzdQRWazdE4",
+   "calls": 6
+  }
+ ],
+ "new_calls": [
+  {
+   "ticker": "NVDA",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "META",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "QQQ",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "AVGO",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "BE",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "AMD",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CRWV",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "NBIS",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "MSFT",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "GOOGL",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "AMZN",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "PLTR",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "MU",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "IREN",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "LHX",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "ARM",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "HPE",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CLSK",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "BTDR",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "TSM",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CORZ",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "STM",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "APLD",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "RIOT",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "UI",
+   "stance": "Bullish"
+  }
+ ],
  "big_moves": [
   {
    "ticker": "NOW",
-   "day_pct": -0.06551273020026172,
+   "day_pct": -0.06511019422360875,
    "since_pct": null
   },
   {
    "ticker": "CRCL",
-   "day_pct": -0.0525585429314831,
+   "day_pct": -0.05238508239375539,
    "since_pct": null
   },
   {
    "ticker": "CRM",
-   "day_pct": -0.09407438439696503,
+   "day_pct": -0.09453986873341713,
    "since_pct": null
   },
   {
@@ -67,13 +199,13 @@
   },
   {
    "ticker": "SOXL",
-   "day_pct": 0.005742411812961423,
-   "since_pct": 0.19990212870075852
+   "day_pct": 0.006357670221493139,
+   "since_pct": 0.20063616344506974
   },
   {
    "ticker": "NET",
-   "day_pct": -0.02989713546101702,
-   "since_pct": 0.16482965931863736
+   "day_pct": -0.029939711843046335,
+   "since_pct": 0.16477853666516706
   },
   {
    "ticker": "IREN",
@@ -87,8 +219,8 @@
   },
   {
    "ticker": "FUN",
-   "day_pct": -0.054694229112833725,
-   "since_pct": 0.1877705627705628
+   "day_pct": -0.05598621877691634,
+   "since_pct": 0.18614718614718617
   },
   {
    "ticker": "RKLB",
@@ -104,6 +236,11 @@
    "ticker": "TEAM",
    "day_pct": -0.05975723622782447,
    "since_pct": -0.23083637950788372
+  },
+  {
+   "ticker": "BTDR",
+   "day_pct": -0.11012235817575089,
+   "since_pct": 0.0
   }
  ],
  "watchlist": [
@@ -121,12 +258,6 @@
   }
  ],
  "errors": [
-  "No transcript yet: Jensen Accepts: Return as Nvidia CEO.",
-  "No transcript yet: The Nvidia & Jensen Market Collapse Begins.",
-  "No transcript yet: The Truth About the Nationwide Ground Stop: EXPOSED",
-  "No transcript yet: -92% | Liquidated AGAIN.",
-  "No transcript yet: JENSEN CONFIRMS",
-  "No transcript yet: Nvidia Stock Earnings LIVE 🚨 Holy Moly.",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -136,30 +267,24 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini failed for WJv-1MammyE: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for WJv-1MammyE: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for WJv-1MammyE: ERROR: [youtube] WJv-1MammyE: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for WJv-1MammyE (RuntimeError); will retry",
-  "Gemini failed for jUlIobFTg5E: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for jUlIobFTg5E: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for jUlIobFTg5E: ERROR: [youtube] jUlIobFTg5E: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for jUlIobFTg5E (RuntimeError); will retry",
-  "Gemini failed for gmp9ium-mVY: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for gmp9ium-mVY: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for gmp9ium-mVY: ERROR: [youtube] gmp9ium-mVY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for gmp9ium-mVY (RuntimeError); will retry",
-  "Gemini failed for NsnimG4dBlI: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for NsnimG4dBlI: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for NsnimG4dBlI: ERROR: [youtube] NsnimG4dBlI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for NsnimG4dBlI (RuntimeError); will retry",
-  "Gemini failed for dogmDx8j2fA: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for dogmDx8j2fA: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for dogmDx8j2fA: ERROR: [youtube] dogmDx8j2fA: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for dogmDx8j2fA (RuntimeError); will retry",
-  "Gemini failed for hS3CqyReHzs: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for hS3CqyReHzs: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for hS3CqyReHzs: ERROR: [youtube] hS3CqyReHzs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for hS3CqyReHzs (RuntimeError); will retry",
+  "Gemini gemini-3.8-flash took 86s; tokens in 51028, out 431, total 53438",
+  "Gemini transcript OK for WJv-1MammyE: 1727 chars",
+  "read WJv-1MammyE: 9 calls",
+  "Gemini gemini-3.8-flash took 39s; tokens in 41514, out 481, total 43718",
+  "Gemini transcript OK for jUlIobFTg5E: 1776 chars",
+  "read jUlIobFTg5E: 14 calls",
+  "Gemini gemini-3.8-flash took 13s; tokens in 36838, out 145, total 38151",
+  "Gemini transcript OK for gmp9ium-mVY: 585 chars",
+  "read gmp9ium-mVY: 3 calls",
+  "Gemini gemini-3.8-flash took 86s; tokens in 28602, out 702, total 31326",
+  "Gemini transcript OK for NsnimG4dBlI: 2849 chars",
+  "read NsnimG4dBlI: 20 calls",
+  "Gemini gemini-3.8-flash took 93s; tokens in 36197, out 210, total 37396",
+  "Gemini transcript OK for dogmDx8j2fA: 873 chars",
+  "read dogmDx8j2fA: 6 calls",
+  "Gemini gemini-3.8-flash took 54s; tokens in 30474, out 378, total 32305",
+  "Gemini transcript OK for OzdQRWazdE4: 1505 chars",
+  "read OzdQRWazdE4: 6 calls",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
