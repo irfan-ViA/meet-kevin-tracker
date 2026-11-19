@@ -1,246 +1,195 @@
 {
- "run_at": "2026-11-19T07:18:17Z",
- "price_date": "2026-11-18",
- "latest_video": "2026-11-18",
+ "run_at": "2026-11-19T20:29:57Z",
+ "price_date": "2026-11-19",
+ "latest_video": "2026-11-19",
  "new_videos": [
   {
-   "title": "Nvidia DISASTER | Jensen *REJECTED*",
-   "video_id": "cXMprxBM7Ug",
-   "calls": 8
+   "title": "Watch Immediately: The Anthropic IPO [Should you Buy]",
+   "video_id": "3ftcmy8Fi2o",
+   "calls": 2
   },
   {
-   "title": "Markets are Nervous.",
-   "video_id": "DhZU6oek9_M",
-   "calls": 15
-  },
-  {
-   "title": "The Stock Market is about to do something UNBELIEVABLE.",
-   "video_id": "Tn8IEhp_iq4",
-   "calls": 20
+   "title": "The Next Jensen of Nvidia is CRASHING the MARKET",
+   "video_id": "5m4AIfW_56U",
+   "calls": 7
   }
  ],
  "new_calls": [
   {
    "ticker": "NVDA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "META",
-   "stance": "Neutral"
+   "stance": "Bullish"
   },
   {
    "ticker": "QQQ",
    "stance": "Neutral"
   },
   {
-   "ticker": "AVGO",
-   "stance": "Bullish"
-  },
-  {
    "ticker": "AMD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "HOOD",
    "stance": "Bullish"
-  },
-  {
-   "ticker": "MSFT",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "TSLA",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "GOOGL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "ORCL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "INTC",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "AMZN",
-   "stance": "Neutral"
   },
   {
    "ticker": "PLTR",
    "stance": "Neutral"
   },
   {
-   "ticker": "CSCO",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MU",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "DIS",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "CAKE",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "TSM",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "UI",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "WYNN",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "TGT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "BABA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "TTWO",
+   "ticker": "COIN",
    "stance": "Neutral"
   }
  ],
  "big_moves": [
   {
    "ticker": "LDI",
-   "day_pct": 0.06511627906976747,
+   "day_pct": -0.06375545851528386,
    "since_pct": null
   },
   {
    "ticker": "AMD",
-   "day_pct": 0.05309787250948528,
+   "day_pct": -0.0790734522956199,
    "since_pct": null
   },
   {
-   "ticker": "FTNT",
-   "day_pct": 0.05871485943775112,
+   "ticker": "CRWV",
+   "day_pct": -0.056031779218064015,
+   "since_pct": null
+  },
+  {
+   "ticker": "NBIS",
+   "day_pct": -0.08199326851159305,
+   "since_pct": null
+  },
+  {
+   "ticker": "TEM",
+   "day_pct": -0.05564287959761083,
+   "since_pct": null
+  },
+  {
+   "ticker": "CVNA",
+   "day_pct": -0.0519643354694902,
    "since_pct": null
   },
   {
    "ticker": "CBRS",
-   "day_pct": -0.09627567671338066,
+   "day_pct": -0.08226234731810944,
    "since_pct": null
   },
   {
    "ticker": "OPEN",
-   "day_pct": 0.07627118644067798,
+   "day_pct": 0.13385826771653542,
    "since_pct": null
   },
   {
-   "ticker": "S",
-   "day_pct": 0.10354609929078018,
+   "ticker": "DUOL",
+   "day_pct": -0.06956141992638343,
+   "since_pct": null
+  },
+  {
+   "ticker": "TOST",
+   "day_pct": -0.06823529411764706,
    "since_pct": null
   },
   {
    "ticker": "ETSY",
-   "day_pct": 0.028564512224642957,
-   "since_pct": -0.11699916874480454
+   "day_pct": -0.07195810779006839,
+   "since_pct": null
   },
   {
    "ticker": "PLAY",
-   "day_pct": 0.0191256830601092,
-   "since_pct": -0.1503416856492027
+   "day_pct": -0.08713136729222526,
+   "since_pct": null
   },
   {
    "ticker": "RRGB",
-   "day_pct": -0.02573529411764708,
-   "since_pct": -0.13961038961038963
+   "day_pct": -0.23710691823899366,
+   "since_pct": null
   },
   {
    "ticker": "CAKE",
-   "day_pct": 0.07225794926759566,
-   "since_pct": 0.0403847820435046
+   "day_pct": -0.06513952519783417,
+   "since_pct": null
   },
   {
    "ticker": "SOXL",
-   "day_pct": 0.0038720195638883848,
-   "since_pct": 0.20528505015904086
+   "day_pct": -0.07269995939910667,
+   "since_pct": 0.11766087594812835
   },
   {
    "ticker": "NET",
-   "day_pct": 0.05656601123595517,
-   "since_pct": 0.23066541245756844
+   "day_pct": 0.00554983217573346,
+   "since_pct": 0.23749539896118765
+  },
+  {
+   "ticker": "MELI",
+   "day_pct": -0.051675625917883994,
+   "since_pct": -0.11808956530830961
   },
   {
    "ticker": "IREN",
-   "day_pct": -0.03574818095539378,
-   "since_pct": -0.1547420965058237
+   "day_pct": -0.052821522309711266,
+   "since_pct": -0.1993899057127011
   },
   {
    "ticker": "INTU",
-   "day_pct": -0.02353564637301664,
-   "since_pct": -0.11723593732386417
+   "day_pct": -0.026752649725450106,
+   "since_pct": -0.14085221508285417
   },
   {
    "ticker": "FUN",
-   "day_pct": 0.07755474452554734,
-   "since_pct": 0.27813852813852824
+   "day_pct": 0.009314140558848383,
+   "since_pct": 0.2900432900432901
   },
   {
    "ticker": "CRWD",
-   "day_pct": 0.07946989707623642,
-   "since_pct": 0.09129834254143643
+   "day_pct": 0.020313884318440723,
+   "since_pct": 0.11346685082872932
   },
   {
    "ticker": "RKLB",
-   "day_pct": -0.03596730245231605,
-   "since_pct": 0.15394651011089366
+   "day_pct": -0.041726022234784166,
+   "since_pct": 0.10579691237225486
   },
   {
    "ticker": "AXON",
-   "day_pct": 0.007033055360192941,
-   "since_pct": -0.21400564617314932
+   "day_pct": 0.013766669992350877,
+   "since_pct": -0.20318512128816402
   },
   {
    "ticker": "TEAM",
-   "day_pct": -0.04206270392963529,
-   "since_pct": -0.2631894811500899
+   "day_pct": -0.01688263606071827,
+   "since_pct": -0.275628784985542
   },
   {
    "ticker": "HTZ",
-   "day_pct": -0.03703703703703709,
-   "since_pct": -0.1333333333333333
+   "day_pct": -0.0376923076923078,
+   "since_pct": -0.16600000000000004
   },
   {
-   "ticker": "RIOT",
-   "day_pct": 0.06979472140762444,
-   "since_pct": 0.06979472140762444
+   "ticker": "BTDR",
+   "day_pct": -0.12982005141388187,
+   "since_pct": -0.15375000000000005
   },
   {
-   "ticker": "TTWO",
-   "day_pct": 0.062178198401412255,
-   "since_pct": 0.0
+   "ticker": "CORZ",
+   "day_pct": -0.051601423487544595,
+   "since_pct": -0.013693560325684695
   }
  ],
  "watchlist": [
   {
    "ticker": "SOFI",
-   "price": 14.11,
-   "day_pct": -0.011904761904761862,
+   "price": 13.605,
+   "day_pct": -0.035790219702338644,
    "stance": "Bullish"
   },
   {
    "ticker": "PLTR",
-   "price": 156.67,
-   "day_pct": 0.0007026060296371206,
+   "price": 153.485,
+   "day_pct": -0.020329354694580748,
    "stance": "Bearish"
   }
  ],
  "errors": [
   "No transcript yet: Nvidia Stock Earnings LIVE 🚨 Holy Moly.",
+  "No transcript yet: Prepare for War.",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -251,19 +200,19 @@
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
   "Gemini failed for hS3CqyReHzs: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for hS3CqyReHzs: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for hS3CqyReHzs: ERROR: [youtube] hS3CqyReHzs: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript-api failed for hS3CqyReHzs: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for hS3CqyReHzs: ERROR: [youtube] hS3CqyReHzs: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
   "transcript not ready for hS3CqyReHzs (RuntimeError); will retry",
-  "Gemini gemini-3.7-flash took 323s; tokens in 40410, out 391, total 42737",
-  "Gemini transcript OK for cXMprxBM7Ug: 1458 chars",
-  "read cXMprxBM7Ug: 8 calls",
-  "Gemini gemini-3.7-flash took 177s; tokens in 76530, out 602, total 77132",
-  "Gemini transcript OK for DhZU6oek9_M: 2486 chars",
-  "read DhZU6oek9_M: 15 calls",
-  "Gemini gemini-3.8-flash took 306s; tokens in 56486, out 820, total 59220",
-  "Gemini transcript OK for Tn8IEhp_iq4: 3047 chars",
-  "read Tn8IEhp_iq4: 20 calls",
-  "time budget used; remaining videos wait for the next run",
+  "Gemini failed for vzGR3e7jkvk: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for vzGR3e7jkvk: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for vzGR3e7jkvk: ERROR: [youtube] vzGR3e7jkvk: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
+  "transcript not ready for vzGR3e7jkvk (RuntimeError); will retry",
+  "Gemini gemini-3.7-flash took 244s; tokens in 26026, out 276, total 29175",
+  "Gemini transcript OK for 3ftcmy8Fi2o: 1066 chars",
+  "read 3ftcmy8Fi2o: 2 calls",
+  "Gemini gemini-3.8-flash took 227s; tokens in 25070, out 445, total 26937",
+  "Gemini transcript OK for 5m4AIfW_56U: 1946 chars",
+  "read 5m4AIfW_56U: 7 calls",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
