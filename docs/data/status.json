@@ -1,202 +1,300 @@
 {
- "run_at": "2026-11-20T07:06:41Z",
- "price_date": "2026-11-19",
+ "run_at": "2026-11-20T20:07:44Z",
+ "price_date": "2026-11-20",
  "latest_video": "2026-11-19",
- "new_videos": [
-  {
-   "title": "Prepare for War.",
-   "video_id": "vzGR3e7jkvk",
-   "calls": 0
-  },
-  {
-   "title": "Stock Up NOW: We're Under Attack.",
-   "video_id": "hdIdY3l96BA",
-   "calls": 6
-  }
- ],
- "new_calls": [
-  {
-   "ticker": "NVDA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MSFT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "JPM",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "V",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "COST",
-   "stance": "Neutral"
-  }
- ],
+ "new_videos": [],
+ "new_calls": [],
  "big_moves": [
   {
+   "ticker": "NVDA",
+   "day_pct": -0.12535963830661723,
+   "since_pct": null
+  },
+  {
+   "ticker": "META",
+   "day_pct": -0.05402368253329315,
+   "since_pct": null
+  },
+  {
    "ticker": "LDI",
-   "day_pct": -0.07423580786026207,
+   "day_pct": -0.08938679245283021,
+   "since_pct": null
+  },
+  {
+   "ticker": "AVGO",
+   "day_pct": -0.12084234818981676,
+   "since_pct": null
+  },
+  {
+   "ticker": "MRVL",
+   "day_pct": -0.11302087094677549,
+   "since_pct": null
+  },
+  {
+   "ticker": "GEV",
+   "day_pct": -0.06912783625112384,
+   "since_pct": null
+  },
+  {
+   "ticker": "BE",
+   "day_pct": -0.1503182440069003,
+   "since_pct": null
+  },
+  {
+   "ticker": "WDC",
+   "day_pct": -0.11643304804905974,
    "since_pct": null
   },
   {
    "ticker": "AMD",
-   "day_pct": -0.07724374693477187,
+   "day_pct": -0.12469592591835488,
+   "since_pct": null
+  },
+  {
+   "ticker": "SOFI",
+   "day_pct": -0.0706134515890613,
    "since_pct": null
   },
   {
    "ticker": "CRWV",
-   "day_pct": -0.061049550491323434,
+   "day_pct": -0.11511912714317518,
    "since_pct": null
   },
   {
    "ticker": "NBIS",
-   "day_pct": -0.09386686611817496,
+   "day_pct": -0.14338113908378047,
+   "since_pct": null
+  },
+  {
+   "ticker": "HOOD",
+   "day_pct": -0.0893663510560816,
+   "since_pct": null
+  },
+  {
+   "ticker": "TSLA",
+   "day_pct": -0.07210010416388457,
+   "since_pct": null
+  },
+  {
+   "ticker": "LITE",
+   "day_pct": -0.12702980472764636,
+   "since_pct": null
+  },
+  {
+   "ticker": "GLW",
+   "day_pct": -0.10682174200245353,
+   "since_pct": null
+  },
+  {
+   "ticker": "DELL",
+   "day_pct": -0.11540922761886474,
+   "since_pct": null
+  },
+  {
+   "ticker": "VRT",
+   "day_pct": -0.10822206605762474,
    "since_pct": null
   },
   {
    "ticker": "TEM",
-   "day_pct": -0.06303049355548562,
+   "day_pct": -0.08991947659788635,
+   "since_pct": null
+  },
+  {
+   "ticker": "ORCL",
+   "day_pct": -0.0804919960206204,
    "since_pct": null
   },
   {
    "ticker": "CVNA",
-   "day_pct": -0.05266090833101145,
+   "day_pct": -0.05499999999999994,
    "since_pct": null
   },
   {
-   "ticker": "CBRS",
-   "day_pct": -0.0763674986723315,
+   "ticker": "STX",
+   "day_pct": -0.11485126297013748,
+   "since_pct": null
+  },
+  {
+   "ticker": "CRCL",
+   "day_pct": -0.06611410948342322,
+   "since_pct": null
+  },
+  {
+   "ticker": "INTC",
+   "day_pct": -0.05141780330222545,
+   "since_pct": null
+  },
+  {
+   "ticker": "APP",
+   "day_pct": -0.0763020421085957,
    "since_pct": null
   },
   {
    "ticker": "OPEN",
-   "day_pct": 0.14960629921259838,
+   "day_pct": -0.09246575342465757,
    "since_pct": null
   },
   {
-   "ticker": "DUOL",
-   "day_pct": -0.06806413375756437,
+   "ticker": "PLTR",
+   "day_pct": -0.056936491410723544,
    "since_pct": null
   },
   {
-   "ticker": "PTON",
-   "day_pct": -0.05233644859813069,
+   "ticker": "MU",
+   "day_pct": -0.1411273970221888,
    "since_pct": null
   },
   {
-   "ticker": "TOST",
-   "day_pct": -0.06323529411764706,
+   "ticker": "ENPH",
+   "day_pct": -0.100090991810737,
    "since_pct": null
   },
   {
-   "ticker": "ETSY",
-   "day_pct": -0.07284066839256298,
+   "ticker": "SMCI",
+   "day_pct": -0.09060402684563762,
+   "since_pct": null
+  },
+  {
+   "ticker": "NVTS",
+   "day_pct": -0.14846582984658296,
+   "since_pct": null
+  },
+  {
+   "ticker": "SNDK",
+   "day_pct": -0.16415064357222298,
    "since_pct": null
   },
   {
    "ticker": "PLAY",
-   "day_pct": -0.09249329758713143,
-   "since_pct": null
-  },
-  {
-   "ticker": "RRGB",
-   "day_pct": -0.21006289308176096,
-   "since_pct": null
-  },
-  {
-   "ticker": "CAKE",
-   "day_pct": -0.06497292794668885,
+   "day_pct": -0.05760709010339726,
    "since_pct": null
   },
   {
    "ticker": "SOXL",
-   "day_pct": -0.08038976857490865,
-   "since_pct": 0.10839246390995849
+   "day_pct": -0.30132450331125826,
+   "since_pct": null
   },
   {
    "ticker": "NET",
-   "day_pct": 0.0092054102555581,
-   "since_pct": 0.24199419246656584
+   "day_pct": -0.09796496311907266,
+   "since_pct": null
   },
   {
-   "ticker": "MELI",
-   "day_pct": -0.047515652338891545,
-   "since_pct": -0.11422092688919672
+   "ticker": "SMH",
+   "day_pct": -0.09976982211495489,
+   "since_pct": null
   },
   {
    "ticker": "IREN",
-   "day_pct": -0.0544619422572179,
-   "since_pct": -0.20077648363838052
+   "day_pct": -0.16377515614156835,
+   "since_pct": null
+  },
+  {
+   "ticker": "QCOM",
+   "day_pct": -0.052033825072526296,
+   "since_pct": null
   },
   {
    "ticker": "INTU",
-   "day_pct": -0.010279657770399742,
-   "since_pct": -0.12631044978018258
+   "day_pct": -0.10963808786529905,
+   "since_pct": null
   },
   {
    "ticker": "FUN",
-   "day_pct": 0.00592718035563089,
-   "since_pct": 0.2857142857142858
+   "day_pct": -0.07323232323232332,
+   "since_pct": null
   },
   {
    "ticker": "CRWD",
-   "day_pct": 0.02712736784373293,
-   "since_pct": 0.12090239410681414
+   "day_pct": -0.05857225006161182,
+   "since_pct": null
   },
   {
    "ticker": "RKLB",
-   "day_pct": -0.039193517995100735,
-   "since_pct": 0.10871928680147858
+   "day_pct": -0.10001961168856643,
+   "since_pct": null
   },
   {
-   "ticker": "AXON",
-   "day_pct": 0.0209185539924841,
-   "since_pct": -0.19756378084483472
-  },
-  {
-   "ticker": "TEAM",
-   "day_pct": -0.01510551647537961,
-   "since_pct": -0.27431938458181027
+   "ticker": "AAL",
+   "day_pct": -0.05306603773584906,
+   "since_pct": -0.08542141230068334
   },
   {
    "ticker": "HTZ",
-   "day_pct": -0.05384615384615388,
-   "since_pct": -0.18000000000000005
+   "day_pct": -0.08536585365853655,
+   "since_pct": -0.25
+  },
+  {
+   "ticker": "ARM",
+   "day_pct": -0.13176610035559067,
+   "since_pct": null
+  },
+  {
+   "ticker": "HPE",
+   "day_pct": -0.09386678390855141,
+   "since_pct": -0.11488082456517079
   },
   {
    "ticker": "CLSK",
-   "day_pct": -0.05958132045088571,
-   "since_pct": -0.05040650406504077
+   "day_pct": -0.15496575342465757,
+   "since_pct": -0.19756097560975616
   },
   {
    "ticker": "BTDR",
-   "day_pct": -0.12339331619537275,
-   "since_pct": -0.14749999999999996
+   "day_pct": -0.12997067448680355,
+   "since_pct": -0.2583
+  },
+  {
+   "ticker": "TSM",
+   "day_pct": -0.09233434633190374,
+   "since_pct": -0.11151269148433374
+  },
+  {
+   "ticker": "CORZ",
+   "day_pct": -0.14109281437125742,
+   "since_pct": -0.15062916358253142
+  },
+  {
+   "ticker": "STM",
+   "day_pct": -0.10824349017816359,
+   "since_pct": -0.11711668928086838
+  },
+  {
+   "ticker": "APLD",
+   "day_pct": -0.17703862660944203,
+   "since_pct": -0.19092827004219404
+  },
+  {
+   "ticker": "RIOT",
+   "day_pct": -0.09249858996051896,
+   "since_pct": -0.056304985337243485
+  },
+  {
+   "ticker": "UI",
+   "day_pct": -0.12299086276047166,
+   "since_pct": -0.11857857251098647
   }
  ],
  "watchlist": [
   {
    "ticker": "SOFI",
-   "price": 13.53,
-   "day_pct": -0.04110559886605247,
+   "price": 12.5746,
+   "day_pct": -0.0706134515890613,
    "stance": "Bullish"
   },
   {
    "ticker": "PLTR",
-   "price": 153.68,
-   "day_pct": -0.019084700325524895,
+   "price": 144.93,
+   "day_pct": -0.056936491410723544,
    "stance": "Bearish"
   }
  ],
  "errors": [
+  "No transcript yet: The Fed is Engineering a Total Stock Market Wipeout.",
+  "No transcript yet: The Collapse...",
+  "No transcript yet: Jensen JUST Crashed the Market: New STARTUP",
+  "No transcript yet: How to Hedge THE CRASH Before It's Too Late.",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -206,12 +304,22 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.8-flash took 132s; tokens in 38366, out 1, total 39123",
-  "Gemini: no stock talk in vzGR3e7jkvk",
-  "read vzGR3e7jkvk: 0 calls",
-  "Gemini gemini-3.8-flash took 138s; tokens in 41558, out 310, total 44141",
-  "Gemini transcript OK for hdIdY3l96BA: 1291 chars",
-  "read hdIdY3l96BA: 6 calls",
+  "Gemini failed for 8GU-V2QEPQ0: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for 8GU-V2QEPQ0: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for 8GU-V2QEPQ0: ERROR: [youtube] 8GU-V2QEPQ0: This content isn’t available.",
+  "transcript not ready for 8GU-V2QEPQ0 (RuntimeError); will retry",
+  "Gemini failed for _wtHypm4eqQ: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for _wtHypm4eqQ: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for _wtHypm4eqQ: ERROR: [youtube] _wtHypm4eqQ: This content isn’t available.",
+  "transcript not ready for _wtHypm4eqQ (RuntimeError); will retry",
+  "Gemini failed for zlvcEuxM5xU: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for zlvcEuxM5xU: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for zlvcEuxM5xU: ERROR: [youtube] zlvcEuxM5xU: This content isn’t available.",
+  "transcript not ready for zlvcEuxM5xU (RuntimeError); will retry",
+  "Gemini failed for dFOLw_CTRPY: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for dFOLw_CTRPY: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for dFOLw_CTRPY: ERROR: [youtube] dFOLw_CTRPY: This content isn’t available.",
+  "transcript not ready for dFOLw_CTRPY (RuntimeError); will retry",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
