@@ -6693,5 +6693,83 @@
   "at_seconds": 780,
   "what_he_said": "Calls the China panic overblown and suggests chip stocks like Nvidia may be a buying opportunity at lower valuations.",
   "link": "https://www.youtube.com/watch?v=5m4AIfW_56U&t=780s"
+ },
+ {
+  "id": "c516",
+  "ticker": "V",
+  "stance": "Neutral",
+  "owns": "Not stated",
+  "video_date": "2026-11-19",
+  "video_title": "Stock Up NOW: We're Under Attack.",
+  "video_id": "hdIdY3l96BA",
+  "at": "0:06",
+  "at_seconds": 6,
+  "what_he_said": "Reports say customer data from Visa was leaked by a ransomware group, though card numbers were reportedly safe.",
+  "link": "https://www.youtube.com/watch?v=hdIdY3l96BA&t=6s"
+ },
+ {
+  "id": "c517",
+  "ticker": "MA",
+  "stance": "Neutral",
+  "owns": "Not stated",
+  "video_date": "2026-11-19",
+  "video_title": "Stock Up NOW: We're Under Attack.",
+  "video_id": "hdIdY3l96BA",
+  "at": "0:06",
+  "at_seconds": 6,
+  "what_he_said": "Reports say customer data from Mastercard was leaked by a ransomware group, though card numbers were reportedly safe.",
+  "link": "https://www.youtube.com/watch?v=hdIdY3l96BA&t=6s"
+ },
+ {
+  "id": "c518",
+  "ticker": "JPM",
+  "stance": "Neutral",
+  "owns": "Not stated",
+  "video_date": "2026-11-19",
+  "video_title": "Stock Up NOW: We're Under Attack.",
+  "video_id": "hdIdY3l96BA",
+  "at": "0:06",
+  "at_seconds": 6,
+  "what_he_said": "Reports say customer data from JPMorgan was leaked by a ransomware group, with only limited contact info affected.",
+  "link": "https://www.youtube.com/watch?v=hdIdY3l96BA&t=6s"
+ },
+ {
+  "id": "c519",
+  "ticker": "COST",
+  "stance": "Neutral",
+  "owns": "Not stated",
+  "video_date": "2026-11-19",
+  "video_title": "Stock Up NOW: We're Under Attack.",
+  "video_id": "hdIdY3l96BA",
+  "at": "1:36",
+  "at_seconds": 96,
+  "what_he_said": "Costco sold out of most large generators after outages, and Mizuho called panic buying great for the stock.",
+  "link": "https://www.youtube.com/watch?v=hdIdY3l96BA&t=96s"
+ },
+ {
+  "id": "c520",
+  "ticker": "NVDA",
+  "stance": "Neutral",
+  "owns": "Not stated",
+  "video_date": "2026-11-19",
+  "video_title": "Stock Up NOW: We're Under Attack.",
+  "video_id": "hdIdY3l96BA",
+  "at": "7:58",
+  "at_seconds": 478,
+  "what_he_said": "Hackers are using local RTX 5090 GPUs for vulnerability hunting, pushing prices far above the $1,999 MSRP.",
+  "link": "https://www.youtube.com/watch?v=hdIdY3l96BA&t=478s"
+ },
+ {
+  "id": "c521",
+  "ticker": "MSFT",
+  "stance": "Neutral",
+  "owns": "Not stated",
+  "video_date": "2026-11-19",
+  "video_title": "Stock Up NOW: We're Under Attack.",
+  "video_id": "hdIdY3l96BA",
+  "at": "11:31",
+  "at_seconds": 691,
+  "what_he_said": "Microsoft's security fixes surged sixteenfold, and a faulty fix triggered a cascading Microsoft 365 outage.",
+  "link": "https://www.youtube.com/watch?v=hdIdY3l96BA&t=691s"
  }
 ]
