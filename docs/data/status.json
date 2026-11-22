@@ -1,40 +1,9 @@
 {
- "run_at": "2026-11-21T19:09:50Z",
+ "run_at": "2026-11-22T06:39:56Z",
  "price_date": "2026-11-20",
  "latest_video": "2026-11-20",
- "new_videos": [
-  {
-   "title": "Jensen JUST Crashed the Market: New STARTUP",
-   "video_id": "zlvcEuxM5xU",
-   "calls": 11
-  }
- ],
- "new_calls": [
-  {
-   "ticker": "NVDA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AVGO",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AMD",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "GOOGL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "BABA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "TCEHY",
-   "stance": "Neutral"
-  }
- ],
+ "new_videos": [],
+ "new_calls": [],
  "big_moves": [
   {
    "ticker": "NVDA",
@@ -363,12 +332,9 @@
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
   "Gemini failed for _wtHypm4eqQ: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for _wtHypm4eqQ: IpBlocked; trying yt-dlp",
-  "yt-dlp failed for _wtHypm4eqQ: ERROR: [youtube] _wtHypm4eqQ: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
+  "transcript-api failed for _wtHypm4eqQ: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for _wtHypm4eqQ: ERROR: [youtube] _wtHypm4eqQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for _wtHypm4eqQ (RuntimeError); will retry",
-  "Gemini gemini-3.7-flash took 274s; tokens in 31908, out 464, total 33985",
-  "Gemini transcript OK for zlvcEuxM5xU: 1850 chars",
-  "read zlvcEuxM5xU: 11 calls",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
