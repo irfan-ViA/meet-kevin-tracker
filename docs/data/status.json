@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-22T19:32:01Z",
+ "run_at": "2026-11-23T07:28:39Z",
  "price_date": "2026-11-20",
  "latest_video": "2026-11-20",
  "new_videos": [],
@@ -322,6 +322,7 @@
  ],
  "errors": [
   "No transcript yet: The Collapse...",
+  "No transcript yet: The Start of Recession.",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -335,6 +336,10 @@
   "transcript-api failed for _wtHypm4eqQ: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for _wtHypm4eqQ: ERROR: [youtube] _wtHypm4eqQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for _wtHypm4eqQ (RuntimeError); will retry",
+  "Gemini failed for SKkiIdfsHGo: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for SKkiIdfsHGo: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for SKkiIdfsHGo: ERROR: [youtube] SKkiIdfsHGo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for SKkiIdfsHGo (RuntimeError); will retry",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
