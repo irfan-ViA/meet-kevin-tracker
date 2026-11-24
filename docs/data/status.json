@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-23T23:49:16Z",
+ "run_at": "2026-11-24T09:48:43Z",
  "price_date": "2026-11-23",
  "latest_video": "2026-11-20",
  "new_videos": [],
@@ -17,7 +17,7 @@
   },
   {
    "ticker": "LDI",
-   "day_pct": 0.07857142857142874,
+   "day_pct": 0.08000000000000007,
    "since_pct": null
   },
   {
@@ -186,11 +186,6 @@
    "since_pct": null
   },
   {
-   "ticker": "SNDK",
-   "day_pct": -0.0708194289951799,
-   "since_pct": null
-  },
-  {
    "ticker": "RRGB",
    "day_pct": 0.07058823529411762,
    "since_pct": null
@@ -351,6 +346,7 @@
   "No transcript yet: Jensen is OFFICIALLY BACK!!! Nvidia!!",
   "No transcript yet: The Recovery Begins.",
   "No transcript yet: What Trump JUST Said!",
+  "Gemini limit reached; more videos will be read on the next runs",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -380,6 +376,8 @@
   "transcript-api failed for R2h713oaklU: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for R2h713oaklU: ERROR: [youtube] R2h713oaklU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for R2h713oaklU (RuntimeError); will retry",
+  "Gemini failed for I2gE6Y7nHWw: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "Gemini daily/minute limit reached; remaining videos wait for the next run",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
