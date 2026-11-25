@@ -1,217 +1,284 @@
 {
- "run_at": "2026-11-25T08:24:09Z",
- "price_date": "2026-11-24",
- "latest_video": "2026-11-23",
- "new_videos": [],
- "new_calls": [],
- "big_moves": [
+ "run_at": "2026-11-25T21:37:43Z",
+ "price_date": "2026-11-25",
+ "latest_video": "2026-11-24",
+ "new_videos": [
   {
-   "ticker": "NVDA",
-   "day_pct": -0.05858830657376557,
-   "since_pct": null
+   "title": "The Start of Recession.",
+   "video_id": "SKkiIdfsHGo",
+   "calls": 5
   },
   {
-   "ticker": "LDI",
-   "day_pct": 0.05555555555555558,
-   "since_pct": null
+   "title": "Jensen is OFFICIALLY BACK!!! Nvidia!!",
+   "video_id": "fCEY_9vg6Xk",
+   "calls": 2
+  },
+  {
+   "title": "The Recovery Begins.",
+   "video_id": "lP9Xja618dY",
+   "calls": 8
+  },
+  {
+   "title": "Beer w/ Kevin Q&A & Jensen Returns.",
+   "video_id": "I2gE6Y7nHWw",
+   "calls": 28
+  },
+  {
+   "title": "Tesla is about to Explode.",
+   "video_id": "9apc5YGrqA4",
+   "calls": 10
+  },
+  {
+   "title": "The Short-Sellers are Back.",
+   "video_id": "SnEd5YAYPG4",
+   "calls": 14
+  }
+ ],
+ "new_calls": [
+  {
+   "ticker": "NVDA",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "META",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "AAPL",
+   "stance": "Bought"
+  },
+  {
+   "ticker": "QQQ",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "AVGO",
+   "stance": "Bullish"
   },
   {
    "ticker": "MRVL",
-   "day_pct": -0.09099074202017421,
-   "since_pct": null
+   "stance": "Bullish"
   },
   {
    "ticker": "BE",
-   "day_pct": -0.0698186143324413,
-   "since_pct": null
+   "stance": "Bullish"
   },
   {
-   "ticker": "WDC",
-   "day_pct": -0.0783851976450799,
-   "since_pct": null
+   "ticker": "RKT",
+   "stance": "Neutral"
   },
   {
    "ticker": "AMD",
-   "day_pct": -0.08862964759846514,
-   "since_pct": null
+   "stance": "Neutral"
   },
   {
    "ticker": "CRWV",
-   "day_pct": -0.11845644527208776,
-   "since_pct": null
+   "stance": "Neutral"
   },
   {
-   "ticker": "NBIS",
-   "day_pct": -0.10725971370143139,
-   "since_pct": null
+   "ticker": "HOOD",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "MSFT",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "TSLA",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "GOOGL",
+   "stance": "Bearish"
   },
   {
    "ticker": "LITE",
-   "day_pct": -0.10518387890811565,
-   "since_pct": null
+   "stance": "Bullish"
   },
   {
    "ticker": "GLW",
-   "day_pct": -0.05945896039146892,
-   "since_pct": null
+   "stance": "Bullish"
   },
   {
    "ticker": "DELL",
-   "day_pct": -0.11833029769191739,
-   "since_pct": null
+   "stance": "Bullish"
   },
   {
-   "ticker": "VRT",
-   "day_pct": -0.06723906627314191,
-   "since_pct": null
-  },
-  {
-   "ticker": "MRNA",
-   "day_pct": 0.0721425877027535,
-   "since_pct": null
-  },
-  {
-   "ticker": "STX",
-   "day_pct": -0.07233224379926939,
-   "since_pct": null
-  },
-  {
-   "ticker": "CRCL",
-   "day_pct": -0.07051032333463192,
-   "since_pct": null
+   "ticker": "LLY",
+   "stance": "Bought"
   },
   {
    "ticker": "INTC",
-   "day_pct": -0.08146161582299694,
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "AMZN",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "ENPH",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "DIS",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "SNDK",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CAKE",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "WMT",
+   "stance": "Bearish"
+  },
+  {
+   "ticker": "IREN",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "CRWD",
+   "stance": "Bearish"
+  },
+  {
+   "ticker": "ARM",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "TGT",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "COST",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "ZS",
+   "stance": "Bearish"
+  },
+  {
+   "ticker": "NVDL",
+   "stance": "Bearish"
+  },
+  {
+   "ticker": "PATH",
+   "stance": "Bearish"
+  },
+  {
+   "ticker": "MGK",
+   "stance": "Bullish"
+  },
+  {
+   "ticker": "SVIX",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "RDDT",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "SNY",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "INSM",
+   "stance": "Neutral"
+  },
+  {
+   "ticker": "MBGAF",
+   "stance": "Neutral"
+  }
+ ],
+ "big_moves": [
+  {
+   "ticker": "LDI",
+   "day_pct": 0.1807017543859648,
    "since_pct": null
   },
   {
-   "ticker": "CBRS",
-   "day_pct": -0.09877169830474064,
+   "ticker": "RKT",
+   "day_pct": 0.0736842105263158,
+   "since_pct": null
+  },
+  {
+   "ticker": "ORCL",
+   "day_pct": -0.05132420091324208,
    "since_pct": null
   },
   {
    "ticker": "OPEN",
-   "day_pct": -0.07086614173228356,
+   "day_pct": 0.06779661016949157,
    "since_pct": null
   },
   {
-   "ticker": "MU",
-   "day_pct": -0.1100890207715135,
+   "ticker": "SNDK",
+   "day_pct": -0.22019174744425019,
    "since_pct": null
   },
   {
-   "ticker": "SMCI",
-   "day_pct": -0.07786384019567871,
-   "since_pct": null
-  },
-  {
-   "ticker": "NVTS",
-   "day_pct": -0.11186903137789905,
-   "since_pct": null
-  },
-  {
-   "ticker": "PTON",
-   "day_pct": 0.05223880597014907,
-   "since_pct": null
-  },
-  {
-   "ticker": "SOXL",
-   "day_pct": -0.24554501272853502,
-   "since_pct": null
-  },
-  {
-   "ticker": "SMH",
-   "day_pct": -0.07264548654874181,
-   "since_pct": null
-  },
-  {
-   "ticker": "IREN",
-   "day_pct": -0.1154371584699454,
-   "since_pct": null
-  },
-  {
-   "ticker": "RKLB",
-   "day_pct": -0.07354422728188603,
+   "ticker": "AXON",
+   "day_pct": 0.07431416760616316,
    "since_pct": null
   },
   {
    "ticker": "HTZ",
-   "day_pct": -0.0803571428571429,
-   "since_pct": -0.31333333333333335
-  },
-  {
-   "ticker": "ARM",
-   "day_pct": -0.08552668817569475,
-   "since_pct": null
+   "day_pct": 0.01941747572815533,
+   "since_pct": -0.29999999999999993
   },
   {
    "ticker": "HPE",
-   "day_pct": -0.16305705955851735,
-   "since_pct": -0.13699806742538123
+   "day_pct": 0.015675541179397845,
+   "since_pct": -0.12347004509340775
   },
   {
    "ticker": "CLSK",
-   "day_pct": -0.07504520795660041,
-   "since_pct": -0.1682926829268293
+   "day_pct": 0.012707722385141729,
+   "since_pct": -0.15772357723577246
   },
   {
    "ticker": "BTDR",
-   "day_pct": -0.1799410029498526,
-   "since_pct": -0.30500000000000005
+   "day_pct": 0.09712230215827344,
+   "since_pct": -0.23750000000000004
   },
   {
    "ticker": "CORZ",
-   "day_pct": -0.11084142394822005,
-   "since_pct": -0.18652849740932642
+   "day_pct": -0.015468607825295688,
+   "since_pct": -0.19911176905995553
   },
   {
    "ticker": "STM",
-   "day_pct": -0.08714647045297763,
-   "since_pct": -0.10221619176843044
+   "day_pct": 0.0007556675062971863,
+   "since_pct": -0.10153776571687023
   },
   {
    "ticker": "APLD",
-   "day_pct": -0.11577424023154848,
-   "since_pct": -0.1406469760900141
+   "day_pct": 0.00572831423895237,
+   "since_pct": -0.13572433192686362
   },
   {
-   "ticker": "TTWO",
-   "day_pct": 0.05277990064959859,
-   "since_pct": 0.01754304972069609
-  },
-  {
-   "ticker": "COIN",
-   "day_pct": -0.059110130538702066,
-   "since_pct": -0.059887939744649676
-  },
-  {
-   "ticker": "MSTR",
-   "day_pct": -0.08116113744075837,
-   "since_pct": -0.0032133676092545027
+   "ticker": "NVDL",
+   "day_pct": -0.07875084860828241,
+   "since_pct": null
   }
  ],
  "watchlist": [
   {
    "ticker": "SOFI",
-   "price": 12.86,
-   "day_pct": -0.017570664629488197,
+   "price": 13.07,
+   "day_pct": 0.016329704510108956,
    "stance": "Bullish"
   },
   {
    "ticker": "PLTR",
-   "price": 161.18,
-   "day_pct": 0.01142068273092356,
+   "price": 163.59,
+   "day_pct": 0.01495222732348922,
    "stance": "Bearish"
   }
  ],
  "errors": [
-  "No transcript yet: The Start of Recession.",
-  "No transcript yet: Jensen is OFFICIALLY BACK!!! Nvidia!!",
-  "No transcript yet: The Recovery Begins.",
-  "No transcript yet: Beer w/ Kevin Q&A & Jensen Returns.",
-  "No transcript yet: Tesla is about to Explode.",
-  "No transcript yet: The Short-Sellers are Back.",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -221,30 +288,24 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini failed for SKkiIdfsHGo: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for SKkiIdfsHGo: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for SKkiIdfsHGo: ERROR: [youtube] SKkiIdfsHGo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for SKkiIdfsHGo (RuntimeError); will retry",
-  "Gemini failed for fCEY_9vg6Xk: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for fCEY_9vg6Xk: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for fCEY_9vg6Xk: ERROR: [youtube] fCEY_9vg6Xk: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for fCEY_9vg6Xk (RuntimeError); will retry",
-  "Gemini failed for lP9Xja618dY: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for lP9Xja618dY: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for lP9Xja618dY: ERROR: [youtube] lP9Xja618dY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for lP9Xja618dY (RuntimeError); will retry",
-  "Gemini failed for I2gE6Y7nHWw: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for I2gE6Y7nHWw: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for I2gE6Y7nHWw: ERROR: [youtube] I2gE6Y7nHWw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for I2gE6Y7nHWw (RuntimeError); will retry",
-  "Gemini failed for 9apc5YGrqA4: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for 9apc5YGrqA4: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for 9apc5YGrqA4: ERROR: [youtube] 9apc5YGrqA4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for 9apc5YGrqA4 (RuntimeError); will retry",
-  "Gemini failed for SnEd5YAYPG4: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for SnEd5YAYPG4: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for SnEd5YAYPG4: ERROR: [youtube] SnEd5YAYPG4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for SnEd5YAYPG4 (RuntimeError); will retry",
+  "Gemini gemini-3.7-flash took 241s; tokens in 51125, out 291, total 52399",
+  "Gemini transcript OK for SKkiIdfsHGo: 1178 chars",
+  "read SKkiIdfsHGo: 5 calls",
+  "Gemini gemini-3.7-flash took 61s; tokens in 16147, out 135, total 17158",
+  "Gemini transcript OK for fCEY_9vg6Xk: 522 chars",
+  "read fCEY_9vg6Xk: 2 calls",
+  "Gemini gemini-3.8-flash took 114s; tokens in 76530, out 342, total 78557",
+  "Gemini transcript OK for lP9Xja618dY: 1362 chars",
+  "read lP9Xja618dY: 8 calls",
+  "Gemini gemini-3.7-flash took 126s; tokens in 76530, out 937, total 79721",
+  "Gemini transcript OK for I2gE6Y7nHWw: 3924 chars",
+  "read I2gE6Y7nHWw: 28 calls",
+  "Gemini gemini-3.8-flash took 77s; tokens in 45594, out 861, total 48594",
+  "Gemini transcript OK for 9apc5YGrqA4: 3267 chars",
+  "read 9apc5YGrqA4: 10 calls",
+  "Gemini gemini-3.7-flash took 176s; tokens in 76530, out 606, total 79183",
+  "Gemini transcript OK for SnEd5YAYPG4: 2262 chars",
+  "read SnEd5YAYPG4: 14 calls",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
