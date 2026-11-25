@@ -1,60 +1,9 @@
 {
- "run_at": "2026-11-24T22:21:41Z",
+ "run_at": "2026-11-25T08:24:09Z",
  "price_date": "2026-11-24",
  "latest_video": "2026-11-23",
- "new_videos": [
-  {
-   "title": "What Trump JUST Said!",
-   "video_id": "R2h713oaklU",
-   "calls": 11
-  }
- ],
- "new_calls": [
-  {
-   "ticker": "NVDA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "QQQ",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MRVL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AMD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "GOOGL",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "LITE",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AMZN",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CAKE",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "CRWD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "PANW",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "ZS",
-   "stance": "Neutral"
-  }
- ],
+ "new_videos": [],
+ "new_calls": [],
  "big_moves": [
   {
    "ticker": "NVDA",
@@ -63,7 +12,7 @@
   },
   {
    "ticker": "LDI",
-   "day_pct": 0.05661375661375656,
+   "day_pct": 0.05555555555555558,
    "since_pct": null
   },
   {
@@ -167,11 +116,6 @@
    "since_pct": null
   },
   {
-   "ticker": "SNDK",
-   "day_pct": -0.17421473594999726,
-   "since_pct": null
-  },
-  {
    "ticker": "SOXL",
    "day_pct": -0.24554501272853502,
    "since_pct": null
@@ -238,8 +182,8 @@
   },
   {
    "ticker": "COIN",
-   "day_pct": -0.05915609487038065,
-   "since_pct": -0.05993386607880968
+   "day_pct": -0.059110130538702066,
+   "since_pct": -0.059887939744649676
   },
   {
    "ticker": "MSTR",
@@ -262,11 +206,12 @@
   }
  ],
  "errors": [
-  "No transcript yet: The Collapse...",
   "No transcript yet: The Start of Recession.",
   "No transcript yet: Jensen is OFFICIALLY BACK!!! Nvidia!!",
   "No transcript yet: The Recovery Begins.",
   "No transcript yet: Beer w/ Kevin Q&A & Jensen Returns.",
+  "No transcript yet: Tesla is about to Explode.",
+  "No transcript yet: The Short-Sellers are Back.",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -276,10 +221,6 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini failed for _wtHypm4eqQ: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
-  "transcript-api failed for _wtHypm4eqQ: RequestBlocked; trying yt-dlp",
-  "yt-dlp failed for _wtHypm4eqQ: ERROR: [youtube] _wtHypm4eqQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
-  "transcript not ready for _wtHypm4eqQ (RuntimeError); will retry",
   "Gemini failed for SKkiIdfsHGo: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
   "transcript-api failed for SKkiIdfsHGo: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for SKkiIdfsHGo: ERROR: [youtube] SKkiIdfsHGo: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
@@ -292,13 +233,18 @@
   "transcript-api failed for lP9Xja618dY: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for lP9Xja618dY: ERROR: [youtube] lP9Xja618dY: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for lP9Xja618dY (RuntimeError); will retry",
-  "Gemini gemini-3.8-flash took 133s; tokens in 66508, out 498, total 68451",
-  "Gemini transcript OK for R2h713oaklU: 1955 chars",
-  "read R2h713oaklU: 11 calls",
   "Gemini failed for I2gE6Y7nHWw: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
   "transcript-api failed for I2gE6Y7nHWw: RequestBlocked; trying yt-dlp",
   "yt-dlp failed for I2gE6Y7nHWw: ERROR: [youtube] I2gE6Y7nHWw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for I2gE6Y7nHWw (RuntimeError); will retry",
+  "Gemini failed for 9apc5YGrqA4: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for 9apc5YGrqA4: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for 9apc5YGrqA4: ERROR: [youtube] 9apc5YGrqA4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for 9apc5YGrqA4 (RuntimeError); will retry",
+  "Gemini failed for SnEd5YAYPG4: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for SnEd5YAYPG4: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for SnEd5YAYPG4: ERROR: [youtube] SnEd5YAYPG4: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for SnEd5YAYPG4 (RuntimeError); will retry",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
