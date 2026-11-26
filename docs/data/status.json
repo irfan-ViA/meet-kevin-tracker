@@ -1,201 +1,13 @@
 {
- "run_at": "2026-11-25T21:37:43Z",
+ "run_at": "2026-11-26T08:09:10Z",
  "price_date": "2026-11-25",
  "latest_video": "2026-11-24",
- "new_videos": [
-  {
-   "title": "The Start of Recession.",
-   "video_id": "SKkiIdfsHGo",
-   "calls": 5
-  },
-  {
-   "title": "Jensen is OFFICIALLY BACK!!! Nvidia!!",
-   "video_id": "fCEY_9vg6Xk",
-   "calls": 2
-  },
-  {
-   "title": "The Recovery Begins.",
-   "video_id": "lP9Xja618dY",
-   "calls": 8
-  },
-  {
-   "title": "Beer w/ Kevin Q&A & Jensen Returns.",
-   "video_id": "I2gE6Y7nHWw",
-   "calls": 28
-  },
-  {
-   "title": "Tesla is about to Explode.",
-   "video_id": "9apc5YGrqA4",
-   "calls": 10
-  },
-  {
-   "title": "The Short-Sellers are Back.",
-   "video_id": "SnEd5YAYPG4",
-   "calls": 14
-  }
- ],
- "new_calls": [
-  {
-   "ticker": "NVDA",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "META",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "AAPL",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "QQQ",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AVGO",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "MRVL",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "BE",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "RKT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AMD",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CRWV",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "HOOD",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "MSFT",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "TSLA",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "GOOGL",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "LITE",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "GLW",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "DELL",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "LLY",
-   "stance": "Bought"
-  },
-  {
-   "ticker": "INTC",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "AMZN",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "ENPH",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "DIS",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "SNDK",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CAKE",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "WMT",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "IREN",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "CRWD",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "ARM",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "TGT",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "COST",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "ZS",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "NVDL",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "PATH",
-   "stance": "Bearish"
-  },
-  {
-   "ticker": "MGK",
-   "stance": "Bullish"
-  },
-  {
-   "ticker": "SVIX",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "RDDT",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "SNY",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "INSM",
-   "stance": "Neutral"
-  },
-  {
-   "ticker": "MBGAF",
-   "stance": "Neutral"
-  }
- ],
+ "new_videos": [],
+ "new_calls": [],
  "big_moves": [
   {
    "ticker": "LDI",
-   "day_pct": 0.1807017543859648,
+   "day_pct": 0.18045112781954864,
    "since_pct": null
   },
   {
@@ -211,11 +23,6 @@
   {
    "ticker": "OPEN",
    "day_pct": 0.06779661016949157,
-   "since_pct": null
-  },
-  {
-   "ticker": "SNDK",
-   "day_pct": -0.22019174744425019,
    "since_pct": null
   },
   {
@@ -279,6 +86,12 @@
   }
  ],
  "errors": [
+  "No transcript yet: Trump is F**KING us Again.",
+  "No transcript yet: The Collapse of Stocks: Bottom & Recession.",
+  "No transcript yet: ooooohhhhh man",
+  "No transcript yet: How R*tarded is Buying the Dip Right NOW?",
+  "No transcript yet: ooooohhhhh man",
+  "No transcript yet: The Coming 2027 Housing Market Disaster.",
   "No price for: HXSCL"
  ],
  "skipped_ids": [
@@ -288,24 +101,30 @@
  "log": [
   "feed: HTTP 200 for channel UCUvvj5lwue7PspotMDjk5UA",
   "feed: 15 videos (channel UCUvvj5lwue7PspotMDjk5UA)",
-  "Gemini gemini-3.7-flash took 241s; tokens in 51125, out 291, total 52399",
-  "Gemini transcript OK for SKkiIdfsHGo: 1178 chars",
-  "read SKkiIdfsHGo: 5 calls",
-  "Gemini gemini-3.7-flash took 61s; tokens in 16147, out 135, total 17158",
-  "Gemini transcript OK for fCEY_9vg6Xk: 522 chars",
-  "read fCEY_9vg6Xk: 2 calls",
-  "Gemini gemini-3.8-flash took 114s; tokens in 76530, out 342, total 78557",
-  "Gemini transcript OK for lP9Xja618dY: 1362 chars",
-  "read lP9Xja618dY: 8 calls",
-  "Gemini gemini-3.7-flash took 126s; tokens in 76530, out 937, total 79721",
-  "Gemini transcript OK for I2gE6Y7nHWw: 3924 chars",
-  "read I2gE6Y7nHWw: 28 calls",
-  "Gemini gemini-3.8-flash took 77s; tokens in 45594, out 861, total 48594",
-  "Gemini transcript OK for 9apc5YGrqA4: 3267 chars",
-  "read 9apc5YGrqA4: 10 calls",
-  "Gemini gemini-3.7-flash took 176s; tokens in 76530, out 606, total 79183",
-  "Gemini transcript OK for SnEd5YAYPG4: 2262 chars",
-  "read SnEd5YAYPG4: 14 calls",
+  "Gemini failed for 6K4aaQQ3fIY: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for 6K4aaQQ3fIY: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for 6K4aaQQ3fIY: ERROR: [youtube] 6K4aaQQ3fIY: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
+  "transcript not ready for 6K4aaQQ3fIY (RuntimeError); will retry",
+  "Gemini failed for zD8aD03pj90: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for zD8aD03pj90: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for zD8aD03pj90: ERROR: [youtube] zD8aD03pj90: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
+  "transcript not ready for zD8aD03pj90 (RuntimeError); will retry",
+  "Gemini failed for uCEKlIMZ328: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for uCEKlIMZ328: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for uCEKlIMZ328: ERROR: [youtube] uCEKlIMZ328: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
+  "transcript not ready for uCEKlIMZ328 (RuntimeError); will retry",
+  "Gemini failed for SecQgkVR1sU: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for SecQgkVR1sU: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for SecQgkVR1sU: ERROR: [youtube] SecQgkVR1sU: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
+  "transcript not ready for SecQgkVR1sU (RuntimeError); will retry",
+  "Gemini failed for fkPAbJuhjfI: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for fkPAbJuhjfI: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for fkPAbJuhjfI: ERROR: [youtube] fkPAbJuhjfI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
+  "transcript not ready for fkPAbJuhjfI (RuntimeError); will retry",
+  "Gemini failed for Imw9-50PJWI: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for Imw9-50PJWI: IpBlocked; trying yt-dlp",
+  "yt-dlp failed for Imw9-50PJWI: ERROR: [youtube] Imw9-50PJWI: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-",
+  "transcript not ready for Imw9-50PJWI (RuntimeError); will retry",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
 }
