@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-26T21:26:49Z",
+ "run_at": "2026-11-27T08:19:56Z",
  "price_date": "2026-11-25",
  "latest_video": "2026-11-24",
  "new_videos": [],
@@ -89,6 +89,7 @@
   "No transcript yet: Trump is F**KING us Again.",
   "No transcript yet: The Collapse of Stocks: Bottom & Recession.",
   "No transcript yet: ooooohhhhh man",
+  "No transcript yet: How R*tarded is Buying the Dip Right NOW?",
   "Gemini limit reached; more videos will be read on the next runs",
   "No price for: HXSCL"
  ],
@@ -112,6 +113,10 @@
   "yt-dlp failed for uCEKlIMZ328: ERROR: [youtube] uCEKlIMZ328: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
   "transcript not ready for uCEKlIMZ328 (RuntimeError); will retry",
   "Gemini failed for SecQgkVR1sU: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
+  "transcript-api failed for SecQgkVR1sU: RequestBlocked; trying yt-dlp",
+  "yt-dlp failed for SecQgkVR1sU: ERROR: [youtube] SecQgkVR1sU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d",
+  "transcript not ready for SecQgkVR1sU (RuntimeError); will retry",
+  "Gemini failed for fkPAbJuhjfI: gemini-3.8-flash-lite HTTP 404: models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of avail; gemini-3.7-flash-lite HTTP 404: models/gemini-3.7-flash-lite is not found for API version v1beta, or is no",
   "Gemini daily/minute limit reached; remaining videos wait for the next run",
   "price HXSCL failed: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HXSCL?range=1mo&interval=1d"
  ]
